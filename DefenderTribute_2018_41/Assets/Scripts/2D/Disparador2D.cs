@@ -7,7 +7,9 @@ public class Disparador2D : MonoBehaviour {
 	public ControladorMisiones controladorMisiones;
 
 
-	
+	[Tooltip("Padre del prefab del disparo")]
+	[SerializeField] GameObject proyectilDad;
+
 	[Tooltip("prefab del disparo")]
 	[SerializeField] GameObject proyectil;
 	
@@ -62,6 +64,7 @@ public class Disparador2D : MonoBehaviour {
 	public void Disparar (float x, float y) {
 
 		if (numDisparos > 0) {
+
 			//decrementa el nº de disparos, los proyectiles lo aumentan al destruirse
 			numDisparos--;
 			spritestiros.Refresh (numDisparos);
@@ -70,7 +73,8 @@ public class Disparador2D : MonoBehaviour {
 			proyDisparadosText.text = proyDisparados.ToString();
 			audioDisparos.Play();
 
-			SimplePool.Spawn(proyectil, new Vector3 (x, y, 1f), transform.rotation);
+			GameObject disparoActual = SimplePool.Spawn(proyectil, new Vector3 (x, y, 1f), transform.rotation);
+			disparoActual.transform.SetParent(proyectilDad.transform);
 
 
 		}

@@ -8,6 +8,7 @@ public class Click : MonoBehaviour {
 
 
 	public void Click2D () {
+
 		mousePos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
 		disparador2D.Disparar (mousePos.x, mousePos.y);
 	}
