@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class CargarNivelSimple : MonoBehaviour {
 	public int escena;
@@ -17,7 +18,8 @@ public class CargarNivelSimple : MonoBehaviour {
 		//Application.LoadLevelAsync(escena);
 		//Debug.Log("Loading start");
 		//Debug.Log("cargada?" );
-		async = Application.LoadLevelAsync(escena);
+		async = SceneManager.LoadSceneAsync(escena);
+		//async = Application.LoadLevelAsync(escena);
 		async.allowSceneActivation = false;
 		Application.backgroundLoadingPriority = ThreadPriority.Low;
 		//Application.backgroundLoadingPriority = ThreadPriority.Low;

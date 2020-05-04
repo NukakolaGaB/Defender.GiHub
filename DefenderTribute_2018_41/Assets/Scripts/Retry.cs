@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Retry : MonoBehaviour {
 
@@ -9,6 +10,7 @@ public class Retry : MonoBehaviour {
 	public void Reintentar () {
 		Time.timeScale = 1;
 		sonidoBoton.enabled=true;
-		Application.LoadLevel (Escenas.start);
+		SceneManager.LoadScene(Escenas.start);
+		//Application.LoadLevel (Escenas.start);
 	}
 }

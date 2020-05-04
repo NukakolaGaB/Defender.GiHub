@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class EventoScoreTactil : MonoBehaviour {
 
@@ -18,8 +19,9 @@ public class EventoScoreTactil : MonoBehaviour {
 	public void Tocando () {
 
 		if (inicializarPuntuaciones.terminado) {
-		
-			Application.LoadLevel (escena);
+
+			SceneManager.LoadScene(escena);
+			//Application.LoadLevel (escena);
 
 		} else {
 

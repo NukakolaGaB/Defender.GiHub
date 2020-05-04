@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ControladorMisiones : MonoBehaviour {
 
@@ -282,45 +283,45 @@ public class ControladorMisiones : MonoBehaviour {
 		case 6:
 			GuardarNivel();
 			Puntuaciones.dchaIzda = !Puntuaciones.dchaIzda;
-			Application.LoadLevel (Escenas.escenapuertas);
+			SceneManager.LoadScene (Escenas.escenapuertas);
 			break;
 		case 11:
 			GuardarNivel();
 			SiguienteScroll();
 			Puntuaciones.dchaIzda = !Puntuaciones.dchaIzda;
-			Application.LoadLevel (Escenas.escenapuertas);
+			SceneManager.LoadScene(Escenas.escenapuertas);
 			break;
 		case 16:
 			GuardarNivel();
 			Puntuaciones.dchaIzda = !Puntuaciones.dchaIzda;
-			Application.LoadLevel (Escenas.escenapuertas);
+			SceneManager.LoadScene(Escenas.escenapuertas);
 			break;
 		case 21:
 			GuardarNivel();
 			Puntuaciones.randomCapa = true; //pasa de lanzar capas progresivamenta a hacerlo al azar
 			SiguienteScroll();
 			Puntuaciones.dchaIzda = !Puntuaciones.dchaIzda;
-			Application.LoadLevel (Escenas.escenapuertas);
+			SceneManager.LoadScene(Escenas.escenapuertas);
 			break;
 		case 26:
 			GuardarNivel();
 			Puntuaciones.dchaIzda = !Puntuaciones.dchaIzda;
-			Application.LoadLevel (Escenas.escenapuertas);
+			SceneManager.LoadScene(Escenas.escenapuertas);
 			break;
 		case 31:
 			GuardarNivel();
 			SiguienteScroll();
 			Puntuaciones.dchaIzda = !Puntuaciones.dchaIzda;
-			Application.LoadLevel (Escenas.escenapuertas);
+			SceneManager.LoadScene(Escenas.escenapuertas);
 			break;
 		case 36:
 			GuardarNivel();
 			Puntuaciones.dchaIzda = !Puntuaciones.dchaIzda;
-			Application.LoadLevel (Escenas.escenapuertas);
+			SceneManager.LoadScene(Escenas.escenapuertas);
 			break;
 		case 41:
 			GuardarNivel();
-			Application.LoadLevel (Escenas.juegoSuperado);
+			SceneManager.LoadScene(Escenas.juegoSuperado);
 			break;
 		default:
 			ActivarLanzador ();

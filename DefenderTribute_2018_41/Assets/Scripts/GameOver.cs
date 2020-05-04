@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour {
 
@@ -13,11 +14,12 @@ public class GameOver : MonoBehaviour {
 	public void Reintentar () {
 
 		Time.timeScale = 1;
-//		if (Puntuaciones.panicMode) {
-//			Application.LoadLevel (Escenas.guardarnombre);
-//		} else {
-//			Application.LoadLevel (Escenas.start);
-//		}
-		Application.LoadLevel (Escenas.guardarnombre);
+		//		if (Puntuaciones.panicMode) {
+		//			Application.LoadLevel (Escenas.guardarnombre);
+		//		} else {
+		//			Application.LoadLevel (Escenas.start);
+		//		}
+		SceneManager.LoadScene(Escenas.guardarnombre);
+		//Application.LoadLevel (Escenas.guardarnombre);
 	}
 }

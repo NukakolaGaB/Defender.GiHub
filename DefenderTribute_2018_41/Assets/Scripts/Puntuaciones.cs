@@ -167,6 +167,7 @@ public static class Guardado {
 
 }
 public static class Escenas {
+
 	public const int carga = 0;
 	public const int start = 1;
 	public const int seleccionModo = 2;

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class CargarNivelStart : MonoBehaviour {
 	public int escena;
@@ -16,7 +17,8 @@ public class CargarNivelStart : MonoBehaviour {
 		if (quit) {
 			Application.Quit();
 		} else {
-			Application.LoadLevel (escena);
+			SceneManager.LoadScene(escena);
+			//Application.LoadLevel (escena);
 		} 
 	}
 	public void SonidoBoton(){

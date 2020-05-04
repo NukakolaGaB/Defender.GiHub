@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class DesactivaActiva : MonoBehaviour {
 
@@ -32,8 +33,8 @@ public class DesactivaActiva : MonoBehaviour {
 	}
 	public void CargarEscena(){
 
-
-		Application.LoadLevel(Escenas.seleccionModo);
+		SceneManager.LoadScene(Escenas.seleccionModo);
+		//Application.LoadLevel(Escenas.seleccionModo);
 
 
 

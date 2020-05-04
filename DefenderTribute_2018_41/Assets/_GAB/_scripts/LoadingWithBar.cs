@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LoadingWithBar : MonoBehaviour {
 
@@ -21,8 +22,9 @@ public class LoadingWithBar : MonoBehaviour {
 	IEnumerator AsynchronousLoad (int scene)
 	{
 		yield return null;
-		
-		AsyncOperation ao = Application.LoadLevelAsync(scene);
+
+		AsyncOperation ao = SceneManager.LoadSceneAsync(scene);
+		//AsyncOperation ao = Application.LoadLevelAsync(scene);
 		ao.allowSceneActivation = false;
 		
 		while (! ao.isDone )

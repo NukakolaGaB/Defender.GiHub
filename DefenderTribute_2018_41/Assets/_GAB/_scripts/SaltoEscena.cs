@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class SaltoEscena : MonoBehaviour {
 
@@ -10,10 +11,11 @@ public class SaltoEscena : MonoBehaviour {
 	void Update () {	
 		
 		
-		if (Input.GetKeyDown(KeyCode.Escape)){ 
+		if (Input.GetKeyDown(KeyCode.Escape)){
 			//int Escena = Application.GetActiveScene().buildIndex;
-			
-			Application.LoadLevel(escena);
+
+			SceneManager.LoadScene(escena);
+			//Application.LoadLevel(escena);
 			
 			
 			
@@ -23,8 +25,9 @@ public class SaltoEscena : MonoBehaviour {
 
 		//Debug.Log ("Hago algo");
 		if (activo) {
-		
-			Application.LoadLevel (escena);
+
+			SceneManager.LoadScene(escena);
+			//Application.LoadLevel (escena);
 		}
 	}
 	public void ActivarVolverStart(){
