@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class CargarNivel : MonoBehaviour {
 
@@ -12,9 +12,9 @@ public class CargarNivel : MonoBehaviour {
 
 	public void Play(){
 
-		//Application.LoadLevelAdditive(3);
-	
-		EditorSceneManager.LoadScene(escena);
+        //Application.LoadLevelAdditive(3);
+
+        SceneManager.LoadScene(escena);
 		//Debug.Log (Puntuaciones.dchaIzda +"de Play");
 	}
 	public void SonidoBoton(){
@@ -35,6 +35,14 @@ public class CargarNivel : MonoBehaviour {
 
 			animador.SetBool("Seguir",true);
 		}
+	}
+#endif
+#if UNITY_EDITOR
+	public void LanzarAnuncio()
+	{
+
+		animador.SetBool("Seguir", true);
+
 	}
 #endif
 	public void SonidoPuertas(){

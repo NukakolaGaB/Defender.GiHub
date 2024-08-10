@@ -53,7 +53,8 @@ public class DanoDeMisiles : MonoBehaviour {
 		controladorMisiones.misilEnVueloMenos ();
 		Accessos.mascaraDanno.Encender();
 		RefreshVida ();
-		
+		Debug.Log("Cuantos impactan = "+Puntuaciones.cuantosImpactan);
+		Debug.Log("Cuantos LimiteImpactos = " + Puntuaciones.limiteImpactos);
 		if (Puntuaciones.cuantosImpactan >= Puntuaciones.limiteImpactos) {
 			GameOver ();
 		} else {
@@ -195,6 +196,7 @@ public class DanoDeMisiles : MonoBehaviour {
 	public void RestarVida () {
 		Puntuaciones.cuantosImpactan++;
 		RefreshVida ();
+		Debug.Log(Puntuaciones.cuantosImpactan);
 		if (Puntuaciones.cuantosImpactan >= Puntuaciones.limiteImpactos) {
 			GameOver ();
 		}

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 
 public class CargarEscenaRecords : MonoBehaviour {
@@ -10,7 +10,7 @@ public class CargarEscenaRecords : MonoBehaviour {
 		
 		//Application.LoadLevelAdditive(3);
 		
-		EditorSceneManager.LoadScene(Escenas.guardarnombre);
+		SceneManager.LoadScene(Escenas.guardarnombre);
 		//Debug.Log (Puntuaciones.dchaIzda +"de Play");
 	}
 
