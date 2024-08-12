@@ -1,0 +1,9575 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <limits>
+
+
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3;
+struct MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct Grayscale_tF98D8CFC23D35B6862ABE46CE9CFABB4AECD4A6D;
+struct ImageEffectBase_t26E89D645DE01104AB3215333E98C6E25979DFE9;
+struct ImageEffects_t6EF7059A26E6EC7E9F21F25B077EAE3B35DAE431;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct MotionBlur_t1666678BAAED9571FB1EBC9F066FC5329AE20BD9;
+struct NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4;
+struct NoiseAndScratches_t5BE24289230217EE45ADA88FE3B5F636043D2845;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24;
+struct PostEffectsHelper_t12213D5AE8FCB54BDC8CF5223A513E4CF16AAC91;
+struct Quads_t77798DC31BD3C663820DAC272857C638FF4AE612;
+struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27;
+struct ScreenOverlay_tF90F923B901EBCD13A07E8051A783EAD85A3E8CD;
+struct ScreenSpaceAmbientObscurance_tE0AE3E1E85695DE5A5071FFC30B42DFE44200042;
+struct ScreenSpaceAmbientOcclusion_t552C68797B11029D91AAF4BAC5CDA1AED7700B69;
+struct SepiaTone_tF6B327627CCB7D927545917D8861BB33DEEA3020;
+struct Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692;
+struct String_t;
+struct SunShafts_t9F34A1A3A457E55BA35670D373B6C2F4A741F399;
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct TiltShift_tE57B9D2E1D4F1F83D8C42180E4176E6518886BC4;
+struct Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675;
+struct Twirl_tB98C5D9A963F521D11830F98F642C71EE75A0DB4;
+struct VignetteAndChromaticAberration_tD4CBD84358850D7C49DE5716AB3E98D997C6CC88;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct Vortex_tE53145EEE4CE6E54EA3322ABDD90D8E8639678EE;
+struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
+
+IL2CPP_EXTERN_C RuntimeClass* AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral02A45D17F0539963CCC2A73C7852303E4420C5D9;
+IL2CPP_EXTERN_C String_t* _stringLiteral0CB3105D1705C78EBC02C2DA0C3FD28BC6CD048E;
+IL2CPP_EXTERN_C String_t* _stringLiteral0CC36A0ACE18A1CFE0ECAF14C22D5B28FAF563BE;
+IL2CPP_EXTERN_C String_t* _stringLiteral0EAAFAB53E130FE2ADD20070CDBD4848DC8582A9;
+IL2CPP_EXTERN_C String_t* _stringLiteral0F78241FF6E78ADA6D1FB6DAA00F25817203ED13;
+IL2CPP_EXTERN_C String_t* _stringLiteral231CACC883018E95B1E6DF7B0EEE86C17170F15C;
+IL2CPP_EXTERN_C String_t* _stringLiteral26E519C4459C9C2AE04CACDA4DCF6450F759B33B;
+IL2CPP_EXTERN_C String_t* _stringLiteral2C3276B6EABA4BB4E3366F0EB502A5F578BE657F;
+IL2CPP_EXTERN_C String_t* _stringLiteral2D6742768888FC128CDBD9DDD8531E7CA8A03C7A;
+IL2CPP_EXTERN_C String_t* _stringLiteral322836504097FF5183FA9B195361CABCA3C9F347;
+IL2CPP_EXTERN_C String_t* _stringLiteral38860340D6399FED72D34E843CC6D18D6E2BCF24;
+IL2CPP_EXTERN_C String_t* _stringLiteral3B2EF676FC8409A6796B815A352B654D2EEC508F;
+IL2CPP_EXTERN_C String_t* _stringLiteral3BF9E690E5CE0ADC3936AAB09EF983C321F1052F;
+IL2CPP_EXTERN_C String_t* _stringLiteral3D45EDE1CD4AD589B6CD45E1ED026A9C161DE69B;
+IL2CPP_EXTERN_C String_t* _stringLiteral3F42ED00D84DBC7A3B4658065DEA62873778201F;
+IL2CPP_EXTERN_C String_t* _stringLiteral43996BC36588CCD5051D9CC5DA131DFBF9706B48;
+IL2CPP_EXTERN_C String_t* _stringLiteral46FDB78170F0875B7786D0DF6CEC4C315A44B763;
+IL2CPP_EXTERN_C String_t* _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21;
+IL2CPP_EXTERN_C String_t* _stringLiteral4DDF2C5EB3B511F16328BFA5E2CCA22E5F941526;
+IL2CPP_EXTERN_C String_t* _stringLiteral4E207A1E776F6188653FF9228A95BFD3A17B492E;
+IL2CPP_EXTERN_C String_t* _stringLiteral5826A90C2A023CEF000FAA3A3456FA3BC3A1BF80;
+IL2CPP_EXTERN_C String_t* _stringLiteral58C07946CE4124292F0094E3A090F13945F38CC0;
+IL2CPP_EXTERN_C String_t* _stringLiteral59E9A90ACEB12BE1578CBAE545691B1979987312;
+IL2CPP_EXTERN_C String_t* _stringLiteral5AD1605C34550256549896A138E6C1D2CC7B7DE4;
+IL2CPP_EXTERN_C String_t* _stringLiteral5EE6B65EB03371A3C0F000406E30369D6F81C2FF;
+IL2CPP_EXTERN_C String_t* _stringLiteral6138D7298AF1D6DEEA54D5934095E08EEEBB8CE7;
+IL2CPP_EXTERN_C String_t* _stringLiteral6238431605E3EDF93423004446032CC82A241F2C;
+IL2CPP_EXTERN_C String_t* _stringLiteral77ADA935540A7CDAEF6D0E543DE29DE18636B2E8;
+IL2CPP_EXTERN_C String_t* _stringLiteral83D3CB22CFCAF6C46B4A2D040B6BAD092671021A;
+IL2CPP_EXTERN_C String_t* _stringLiteral87C43E0C533B5BE7D4EAEA9F762B4B033313B85F;
+IL2CPP_EXTERN_C String_t* _stringLiteral8895E9A4949FFFF38DA777A992C2A4E83B524156;
+IL2CPP_EXTERN_C String_t* _stringLiteral8AD58CDB5A877779756FB284EF557ED8EC4267E4;
+IL2CPP_EXTERN_C String_t* _stringLiteralA467D3C6168371D0FACC829AA2255312BFD50ABA;
+IL2CPP_EXTERN_C String_t* _stringLiteralA621DB6632C8DC8F2861D67FDB77D1DB44D2C0B5;
+IL2CPP_EXTERN_C String_t* _stringLiteralABCF6636EC28EDECA4B8E7E4875D20FC519E25B2;
+IL2CPP_EXTERN_C String_t* _stringLiteralACA83AF7A62BB74E1867497F20E27DDA4AA09286;
+IL2CPP_EXTERN_C String_t* _stringLiteralAD24B96FEF7F6BC453A4D5E2575831BC289660D8;
+IL2CPP_EXTERN_C String_t* _stringLiteralAD6E56B90F7BBA5EEECD7831E48459043EBFCBB5;
+IL2CPP_EXTERN_C String_t* _stringLiteralAD8876816F840CDD275978547DCA00605F5521FA;
+IL2CPP_EXTERN_C String_t* _stringLiteralB81CA1FBB11A9AFA4C716F7CFB099A5AC8E1FD0F;
+IL2CPP_EXTERN_C String_t* _stringLiteralB9695E91A6E8DF407F4DDDDAD91C688E54E31D04;
+IL2CPP_EXTERN_C String_t* _stringLiteralBB6CBCD648C07EAC90B08C00428BA435EC0272BF;
+IL2CPP_EXTERN_C String_t* _stringLiteralBC80DA7614408087FE75EA6806A9CBE62109EF15;
+IL2CPP_EXTERN_C String_t* _stringLiteralC106589373683AEAB4EA765F77169BDAEB4DC540;
+IL2CPP_EXTERN_C String_t* _stringLiteralC17A0B7C5A6724EB8EBCAE232CF6B2E0974F0F64;
+IL2CPP_EXTERN_C String_t* _stringLiteralC2B21A27E1B513F7FA308B3AA95B27A5A9064A78;
+IL2CPP_EXTERN_C String_t* _stringLiteralC36C08270F0656B15564B93B095160EB52C35960;
+IL2CPP_EXTERN_C String_t* _stringLiteralC73E37BE554293C44E2A4E367137D91FC016C4D7;
+IL2CPP_EXTERN_C String_t* _stringLiteralC85CED4FA3BF4FAFA2854F821A7498848B323CD4;
+IL2CPP_EXTERN_C String_t* _stringLiteralC85F8982AABA2A5C2CBC882416B02AAADF5B1FFF;
+IL2CPP_EXTERN_C String_t* _stringLiteralCA358E33682D63809BC819D06A5C119F65140337;
+IL2CPP_EXTERN_C String_t* _stringLiteralCC6DC72C8AD9ACA85E92D38AA3DC649C6AC591BB;
+IL2CPP_EXTERN_C String_t* _stringLiteralD1EC77B5584E15E3EF84D1B53BDA4765F04D8B0C;
+IL2CPP_EXTERN_C String_t* _stringLiteralD8C699F08EF91DEFEBE9FD4314609FE0B62067C9;
+IL2CPP_EXTERN_C String_t* _stringLiteralDB1D70662348A463C6FBE0BBDDCE84C00893D8D0;
+IL2CPP_EXTERN_C String_t* _stringLiteralDCCF60D13A2F5176335F2A450A37F1B544DA4C96;
+IL2CPP_EXTERN_C String_t* _stringLiteralDDBFD1DFE8755B66ED7213250192F581C393B4A2;
+IL2CPP_EXTERN_C String_t* _stringLiteralE2F7A8CE1FA46E6E74F4D250C9E035A039D8FAEA;
+IL2CPP_EXTERN_C String_t* _stringLiteralE30BDB66B244803E7FD5808BE4D10CBB43C3D57F;
+IL2CPP_EXTERN_C String_t* _stringLiteralE5A1D96CE41BD597A30172C890508C2BB5810152;
+IL2CPP_EXTERN_C String_t* _stringLiteralE691C6599F2EFD48FF5D07CCA40BF885CA11AD70;
+IL2CPP_EXTERN_C String_t* _stringLiteralEC50E207386AABAE6EA569D05001E516E9CCA2E6;
+IL2CPP_EXTERN_C String_t* _stringLiteralEE666F21E0039F2BF222FB2B168055BD20FD930D;
+IL2CPP_EXTERN_C String_t* _stringLiteralEEC595EDFCB3DB85E564F4079769C6E189C1810A;
+IL2CPP_EXTERN_C String_t* _stringLiteralEF8206FEC2F38BBF1FE70987DEC5173251678277;
+IL2CPP_EXTERN_C String_t* _stringLiteralF6964931913C0285B81AE3611DBB55AEF6ADC09A;
+IL2CPP_EXTERN_C String_t* _stringLiteralF873D6748545B7516CD56A7A617453AEC82E7C8D;
+IL2CPP_EXTERN_C String_t* _stringLiteralFA1920FD6D98B583E1DDE48CBD6322EFF94B2A2C;
+IL2CPP_EXTERN_C String_t* _stringLiteralFB7478C21D272917F984D2563D604F75AD87D92C;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var;
+
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3;
+struct MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689;
+struct RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121  : public RuntimeObject
+{
+};
+struct ImageEffects_t6EF7059A26E6EC7E9F21F25B077EAE3B35DAE431  : public RuntimeObject
+{
+};
+struct Quads_t77798DC31BD3C663820DAC272857C638FF4AE612  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 
+{
+	float ___m_Time;
+	float ___m_Value;
+	float ___m_InTangent;
+	float ___m_OutTangent;
+	int32_t ___m_WeightedMode;
+	float ___m_InWeight;
+	float ___m_OutWeight;
+};
+struct Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682__padding[1];
+	};
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 
+{
+	float ___m00;
+	float ___m10;
+	float ___m20;
+	float ___m30;
+	float ___m01;
+	float ___m11;
+	float ___m21;
+	float ___m31;
+	float ___m02;
+	float ___m12;
+	float ___m22;
+	float ___m32;
+	float ___m03;
+	float ___m13;
+	float ___m23;
+	float ___m33;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D2367_tEBC086BEE13149FC446DD0D1C42CB6965873668F 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D2367_tEBC086BEE13149FC446DD0D1C42CB6965873668F__padding[2367];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D3563_t07E9BDFB332CA0FC9691314B440A2F19F3FDE4E9 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D3563_t07E9BDFB332CA0FC9691314B440A2F19F3FDE4E9__padding[3563];
+	};
+};
+#pragma pack(pop, tp)
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354  : public RuntimeObject
+{
+	intptr_t ___m_Ptr;
+};
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+};
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_com
+{
+	intptr_t ___m_Ptr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
+{
+};
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct ImageEffectBase_t26E89D645DE01104AB3215333E98C6E25979DFE9  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___shader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+};
+struct NoiseAndScratches_t5BE24289230217EE45ADA88FE3B5F636043D2845  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	bool ___monochrome;
+	bool ___rgbFallback;
+	float ___grainIntensityMin;
+	float ___grainIntensityMax;
+	float ___grainSize;
+	float ___scratchIntensityMin;
+	float ___scratchIntensityMax;
+	float ___scratchFPS;
+	float ___scratchJitter;
+	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___grainTexture;
+	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___scratchTexture;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___shaderRGB;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___shaderYUV;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaterialRGB;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaterialYUV;
+	float ___scratchTimeLeft;
+	float ___scratchX;
+	float ___scratchY;
+};
+struct PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	bool ___supportHDRTextures;
+	bool ___supportDX11;
+	bool ___isSupported;
+};
+struct PostEffectsHelper_t12213D5AE8FCB54BDC8CF5223A513E4CF16AAC91  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct ScreenSpaceAmbientOcclusion_t552C68797B11029D91AAF4BAC5CDA1AED7700B69  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___m_Radius;
+	int32_t ___m_SampleCount;
+	float ___m_OcclusionIntensity;
+	int32_t ___m_Blur;
+	int32_t ___m_Downsampling;
+	float ___m_OcclusionAttenuation;
+	float ___m_MinZ;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___m_SSAOShader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_SSAOMaterial;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___m_RandomTexture;
+	bool ___m_Supported;
+};
+struct Grayscale_tF98D8CFC23D35B6862ABE46CE9CFABB4AECD4A6D  : public ImageEffectBase_t26E89D645DE01104AB3215333E98C6E25979DFE9
+{
+	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___textureRamp;
+	float ___rampOffset;
+};
+struct MotionBlur_t1666678BAAED9571FB1EBC9F066FC5329AE20BD9  : public ImageEffectBase_t26E89D645DE01104AB3215333E98C6E25979DFE9
+{
+	float ___blurAmount;
+	bool ___extraBlur;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___accumTexture;
+};
+struct NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4  : public PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24
+{
+	float ___intensityMultiplier;
+	float ___generalIntensity;
+	float ___blackIntensity;
+	float ___whiteIntensity;
+	float ___midGrey;
+	bool ___dx11Grain;
+	float ___softness;
+	bool ___monochrome;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___intensities;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___tiling;
+	float ___monochromeTiling;
+	int32_t ___filterMode;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___noiseTexture;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___noiseShader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___noiseMaterial;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___dx11NoiseShader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___dx11NoiseMaterial;
+};
+struct ScreenOverlay_tF90F923B901EBCD13A07E8051A783EAD85A3E8CD  : public PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24
+{
+	int32_t ___blendMode;
+	float ___intensity;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___texture;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___overlayShader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___overlayMaterial;
+};
+struct ScreenSpaceAmbientObscurance_tE0AE3E1E85695DE5A5071FFC30B42DFE44200042  : public PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24
+{
+	float ___intensity;
+	float ___radius;
+	int32_t ___blurIterations;
+	float ___blurFilterDistance;
+	int32_t ___downsample;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___rand;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___aoShader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___aoMaterial;
+};
+struct SepiaTone_tF6B327627CCB7D927545917D8861BB33DEEA3020  : public ImageEffectBase_t26E89D645DE01104AB3215333E98C6E25979DFE9
+{
+};
+struct SunShafts_t9F34A1A3A457E55BA35670D373B6C2F4A741F399  : public PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24
+{
+	int32_t ___resolution;
+	int32_t ___screenBlendMode;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___sunTransform;
+	int32_t ___radialBlurIterations;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___sunColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___sunThreshold;
+	float ___sunShaftBlurRadius;
+	float ___sunShaftIntensity;
+	float ___maxRadius;
+	bool ___useDepthTexture;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___sunShaftsShader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___sunShaftsMaterial;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___simpleClearShader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___simpleClearMaterial;
+};
+struct TiltShift_tE57B9D2E1D4F1F83D8C42180E4176E6518886BC4  : public PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24
+{
+	int32_t ___mode;
+	int32_t ___quality;
+	float ___blurArea;
+	float ___maxBlurSize;
+	int32_t ___downsample;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___tiltShiftShader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___tiltShiftMaterial;
+};
+struct Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0  : public PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24
+{
+	int32_t ___type;
+	int32_t ___adaptiveTextureSize;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___remapCurve;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___curveTex;
+	float ___exposureAdjustment;
+	float ___middleGrey;
+	float ___white;
+	float ___adaptionSpeed;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___tonemapper;
+	bool ___validRenderTextureFormat;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___tonemapMaterial;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___rt;
+	int32_t ___rtFormat;
+};
+struct Twirl_tB98C5D9A963F521D11830F98F642C71EE75A0DB4  : public ImageEffectBase_t26E89D645DE01104AB3215333E98C6E25979DFE9
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___radius;
+	float ___angle;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___center;
+};
+struct VignetteAndChromaticAberration_tD4CBD84358850D7C49DE5716AB3E98D997C6CC88  : public PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24
+{
+	int32_t ___mode;
+	float ___intensity;
+	float ___chromaticAberration;
+	float ___axialAberration;
+	float ___blur;
+	float ___blurSpread;
+	float ___luminanceDependency;
+	float ___blurDistance;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___vignetteShader;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___separableBlurShader;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___chromAberrationShader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_VignetteMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_SeparableBlurMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_ChromAberrationMaterial;
+};
+struct Vortex_tE53145EEE4CE6E54EA3322ABDD90D8E8639678EE  : public ImageEffectBase_t26E89D645DE01104AB3215333E98C6E25979DFE9
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___radius;
+	float ___angle;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___center;
+};
+struct U3CPrivateImplementationDetailsU3E_tDF76FE2002958A97429065AC028E0A0C70442121_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D2367_tEBC086BEE13149FC446DD0D1C42CB6965873668F ___27617AC235D7F102D3CADA01ED6ABE4067A6A293A7E794A3B25AEA9FC6513663;
+	__StaticArrayInitTypeSizeU3D3563_t07E9BDFB332CA0FC9691314B440A2F19F3FDE4E9 ___DA1EA428F118BCA2EF636736CCB5463ECEC9EE8F1ACE5CD16767F6352D9985F8;
+};
+struct Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields
+{
+	MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* ___meshes;
+	int32_t ___currentQuads;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields
+{
+	MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* ___meshes;
+	int32_t ___currentTris;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields
+{
+	float ___Epsilon;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
+{
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___zeroMatrix;
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___identityMatrix;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
+{
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
+{
+	int32_t ___GenerateAllMips;
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
+{
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender;
+};
+struct NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4_StaticFields
+{
+	float ___TILE_AMOUNT;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* m_Items[1];
+
+	inline Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 m_Items[1];
+
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 m_Items[1];
+
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 m_Items[1];
+
+	inline Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* m_Items[1];
+
+	inline RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ImageEffectBase_get_material_m6B95881F5E91DDE2489D96668E6ED1247CB4B2D7 (ImageEffectBase_t26E89D645DE01104AB3215333E98C6E25979DFE9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, String_t* ___0_name, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, String_t* ___0_name, float ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Graphics_Blit_m8DFE1C855FA028398E5072592582721D5DA6253F (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_dest, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___2_mat, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageEffectBase__ctor_mEFB34E7312EAA70648BCA4606836A5E4314AFD0D (ImageEffectBase_t26E89D645DE01104AB3215333E98C6E25979DFE9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SystemInfo_get_supportsImageEffects_mA97A693C45A91780EE8E9F2802D6ED58841D52F0 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Shader_get_isSupported_m21C3D0F1819054101DFE0C0C062A24464FA5CAE5 (Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___0_shader, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Texture_get_texelSize_m05CA60DE53EF7CD5D2CBFA68B69B764E4D463359 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_q, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_s, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_SetMatrix_m1F4E20583C898A1C1DBA256868E1F98C539F13FB (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, String_t* ___0_name, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___1_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, String_t* ___0_name, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_dest, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SystemInfo_get_supportsRenderTextures_mAA77A17E5351772E7FE0E5A295448BA64131F105 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageEffectBase_Start_m22BCD2E9ED5B9DE93AF023162041BFD8681E413C (ImageEffectBase_t26E89D645DE01104AB3215333E98C6E25979DFE9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageEffectBase_OnDisable_m9CF77819FE406BA1823C8B3FD123C97233DF7ECE (ImageEffectBase_t26E89D645DE01104AB3215333E98C6E25979DFE9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture__ctor_m45EACC89DDF408948889586516B3CA7AA8B73BFA (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* __this, int32_t ___0_width, int32_t ___1_height, int32_t ___2_depth, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* RenderTexture_GetTemporary_m5B16E03FC6142149BDC336285A5C18D5152CA2C3 (int32_t ___0_width, int32_t ___1_height, int32_t ___2_depthBuffer, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture_MarkRestoreExpected_m185BFFD02FE7149590A252527B18F25A7D4AD830 (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2 (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_temp, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PostEffectsBase_CheckSupport_mD35BCE12C19A6D60AC19A0189F1EB5CD71A1303E (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, bool ___0_needDepth, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* PostEffectsBase_CheckShaderAndCreateMaterial_m9F3512FEF659B04E086E2EC154E789D67401D91A (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___0_s, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___1_m2Create, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsBase_ReportAutoDisable_mFBFE9B4AF859872DA6F4FCAE254F92912B9B6000 (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB (RuntimeObject* ___0_message, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_context, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_op_Implicit_m2ECA73F345A7AD84144133E9E51657204002B12D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* RenderTexture_GetTemporary_m82379FD4C767A36F0677CAF4E68319EAE16ADF7F (int32_t ___0_width, int32_t ___1_height, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NoiseAndGrain_DrawNoiseQuadGrid_mC0BE9BF61D94513978EA754938FC1C6ED984841B (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_dest, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___2_fxMaterial, Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___3_noise, int32_t ___4_passNr, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_dest, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___2_mat, int32_t ___3_pass, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture_set_wrapMode_m1F74A690E3883EC9C5C371D502D09642F15D0F7E (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture_set_filterMode_mE423E58C0C16D059EA62BA87AD70F44AEA50CCC9 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_PushMatrix_mB505DD9B224528266FCADC716A16343838105A09 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_LoadOrtho_mE86AB2DBBC5C2BA67E7B743A2352E61C372CEADC (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Material_SetPass_mBB03542DFF4FAEADFCED332009F9D61B6DED75FE (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, int32_t ___0_pass, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_Begin_m17A70A7A3C161D8A127C11BDC5FC393392AB70C7 (int32_t ___0_mode, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494 (float ___0_minInclusive, float ___1_maxInclusive, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_MultiTexCoord2_m0F08BBA31AD1B9A1C608B2241E9B0FDE1E74EEFB (int32_t ___0_unit, float ___1_x, float ___2_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978 (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_End_m6CE9D562B738075125F901B1D5254520EC30AB36 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_PopMatrix_mCE0D33302104D1168B6382136039E979E8C02855 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsBase__ctor_m4EE3CA780BAAFF694007DD15EDF5CFA7448DB7DF (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NoiseAndScratches_SanitizeParameters_m6A9D4C84F5D429ED8D71E6D9BAC852F4614381D5 (NoiseAndScratches_t5BE24289230217EE45ADA88FE3B5F636043D2845* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* NoiseAndScratches_get_material_mDB13A8DA4A3F134B0F055A1F9F15BA8E6837C4CC (NoiseAndScratches_t5BE24289230217EE45ADA88FE3B5F636043D2845* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* Material_get_shader_m8B0C11AE6F2AD7DE30AF52D3195EB716F7A71983 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsBase_NotSupported_mC2F7B25B622DE7BD92B7919E6D53755D9FA66169 (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_values, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SystemInfo_SupportsRenderTextureFormat_mCCC3C69578A2C5B7367F73999E6938C315A98201 (int32_t ___0_format, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SystemInfo_get_graphicsShaderLevel_m9E6B001FA80EFBFC92EF4E7440AE64828B15070F (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SystemInfo_get_supportsComputeShaders_m4A029D2F8FB9343E65E6F1C6F1C79DA41911F13A (const RuntimeMethod* method) ;
+inline Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Camera_get_depthTextureMode_m998CDEBC055FE2A910F3B650585ADE3E2BB141EE (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_depthTextureMode_mE722389E4DF8B3DF7F6100DB142E4DBAF698F6BF (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB (float ___0_x, float ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Material_get_passCount_m7BA071AFFA34DC3E49B56A16CB8B098566BDE765 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_LoadIdentity_m86FB54921F8F0069E07163B6D35E4B1B6338C264 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Camera_get_projectionMatrix_m9B943EFDD6418528A055321E14F75F1511DD9B4A (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_LoadProjectionMatrix_m4310EBD83BF1858124306A227C18FF52152718BD (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_mat, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Camera_get_fieldOfView_m9A93F17BBF89F496AE231C21817AFD1C1E833FBB (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Camera_get_aspect_m48BF8820EA2D55BE0D154BC5546819FB65BE257D (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Quads_HasMeshes_m161DEE29B7DB84FBC23A3554452DBDD9AC663119 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* Quads_GetMesh_m3DDAA790FDD05C1A18EB29B0CF4C6E5003784307 (int32_t ___0_triCount, int32_t ___1_triOffset, int32_t ___2_totalWidth, int32_t ___3_totalHeight, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_uv2_m37B442C04EBB029C0AD9545C54F95D9BDAD8E9B5 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_get_inverse_m4F4A881CD789281EA90EB68CFD39F36C8A81E6BD (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Matrix4x4_get_Item_m771C2EE3A3BFFBAC9F2AD07FFCAAF6146C1BE92A (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_op_Implicit_mB193CD8DA20DEB9E9F95CFEB5A2B1B9B3B7ECFEB_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceAmbientOcclusion_DestroyMaterial_mA95A7699E7F6DB05C067E0741ADFAC227D53EF0E (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_mat, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceAmbientOcclusion_CreateMaterials_m530158AA1AEC1DF4BDB4A9874D8145C4CA28C68A (ScreenSpaceAmbientOcclusion_t552C68797B11029D91AAF4BAC5CDA1AED7700B69* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ScreenSpaceAmbientOcclusion_CreateMaterial_m95E02EC1AE388A8BF47392B34EB537473C317D4F (Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___0_shader, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Camera_get_farClipPlane_m1D7128B85B5DB866F75FBE8CEBA48335716B67BD (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Camera_WorldToViewportPoint_m285523443225EDA79BBEF9C9EDD76B99CFED054B (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_op_Multiply_m02FE150FD7366546FC19A36B6928512376BF64E8_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Color_op_Implicit_m9B3228DAFA8DC57A75DE00CBBF13ED4F1E7B01FF_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_c, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Camera_get_allowHDR_m3187E9118CB52D5D7F0658D7ECF5E2B00E296A67 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* RenderTexture_GetTemporary_mDAD0D2A673F07BEC3B1A9555863E24A479E9BB11 (int32_t ___0_width, int32_t ___1_height, int32_t ___2_depthBuffer, int32_t ___3_format, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_ClearWithSkybox_mA5C6A1899483E0EF88601E543CF0EDB84F186731 (bool ___0_clearDepth, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___1_camera, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsBase_DrawBorder_mA19B9794EF79DE361BFFBAA78AA84FA6F1AE4BF0 (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_dest, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___1_material, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RenderTexture_get_format_m58556ABB91A1FADA8044BEEA2E8C55280768CF35 (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PostEffectsBase_CheckSupport_m3EA640722B1862B4ECEC88C2939F783878055E6C (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, bool ___0_needDepth, bool ___1_needHdr, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D__ctor_mC3F84195D1DCEFC0536B3FBD40A8F8E865A4F32A (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, int32_t ___0_width, int32_t ___1_height, int32_t ___2_textureFormat, bool ___3_mipChain, bool ___4_linear, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* AnimationCurve_get_keys_m34452C69464AB459C04BFFEA4F541F06B419AC4E (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Keyframe__ctor_mECF144086B28785BE911A22C06194A9E0FBF3C34 (Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0* __this, float ___0_time, float ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationCurve__ctor_mEABC98C03805713354D61E50D9340766BD5B717E (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* __this, KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* ___0_keys, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AnimationCurve_get_length_m259A67BB0870D3A153F6FEDBB06CB0D24089CD81 (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 AnimationCurve_get_Item_mD4E73EE674F7A82673F1A9CEB8E5EF86BA47E64B (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Keyframe_get_time_mB8886F64CBB373936C0C25C4C68397C05779F661 (Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* __this, float ___0_time, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D_SetPixel_m2CCFC5F729135D59DC4A697C2605A3FC5C8574DB (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, int32_t ___0_x, int32_t ___1_y, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___2_color, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D_Apply_mA014182C9EE0BBF6EEE3B286854F29E50EB972DC (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture__ctor_m53215A8EDDE262932758186108347685F6A512C4 (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* __this, int32_t ___0_width, int32_t ___1_height, int32_t ___2_depth, int32_t ___3_format, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tonemapping_UpdateCurve_mEB022A19BA8B068FF173957ACBA0DEDE8B99D7B0 (Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tonemapping_CreateInternalRenderTexture_m824EAA020DFC9A7A7632091D25C3F18110910FC8 (Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Log_m116F062EEBF1C53EC8D18C9B1748E999EF9424EF_inline (float ___0_f, float ___1_p, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Triangles_HasMeshes_mF5BF30E4450E1ECBC6C9BDD462261751B5E4C4BF (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* Triangles_GetMesh_m0BD4D01E1013F4C6B334C5F825223866CC413734 (int32_t ___0_triCount, int32_t ___1_triOffset, int32_t ___2_totalWidth, int32_t ___3_totalHeight, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageEffects_RenderDistortion_m169377AC69ED0177AAA6E4310C102D9240656EF8 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___2_destination, float ___3_angle, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___4_center, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___5_radius, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_FromEulerRad_m66D4475341F53949471E6870FB5C5E4A5E9BA93E (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Log_m5A3BBBF06AB82F25C885812E07D27B473CF43054 (double ___0_a, double ___1_newBase, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44395
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Grayscale_OnRenderImage_m90AD0BB63046F8EA451FBCB51E0356958B2B578D (Grayscale_tF98D8CFC23D35B6862ABE46CE9CFABB4AECD4A6D* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_destination, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2D6742768888FC128CDBD9DDD8531E7CA8A03C7A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDB1D70662348A463C6FBE0BBDDCE84C00893D8D0);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs:14>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
+		L_0 = ImageEffectBase_get_material_m6B95881F5E91DDE2489D96668E6ED1247CB4B2D7(__this, NULL);
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_1 = __this->___textureRamp;
+		NullCheck(L_0);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_0, _stringLiteralDB1D70662348A463C6FBE0BBDDCE84C00893D8D0, L_1, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs:15>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2;
+		L_2 = ImageEffectBase_get_material_m6B95881F5E91DDE2489D96668E6ED1247CB4B2D7(__this, NULL);
+		float L_3 = __this->___rampOffset;
+		NullCheck(L_2);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_2, _stringLiteral2D6742768888FC128CDBD9DDD8531E7CA8A03C7A, L_3, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs:16>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_4 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_5 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6;
+		L_6 = ImageEffectBase_get_material_m6B95881F5E91DDE2489D96668E6ED1247CB4B2D7(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8DFE1C855FA028398E5072592582721D5DA6253F(L_4, L_5, L_6, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs:17>
+		return;
+	}
+}
+// Method Definition Index: 44396
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Grayscale__ctor_m942C37EB61B1EEFC262627F2C930F516C1B5A1D6 (Grayscale_tF98D8CFC23D35B6862ABE46CE9CFABB4AECD4A6D* __this, const RuntimeMethod* method) 
+{
+	{
+		ImageEffectBase__ctor_mEFB34E7312EAA70648BCA4606836A5E4314AFD0D(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44397
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageEffectBase_Start_m22BCD2E9ED5B9DE93AF023162041BFD8681E413C (ImageEffectBase_t26E89D645DE01104AB3215333E98C6E25979DFE9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs:20>
+		bool L_0;
+		L_0 = SystemInfo_get_supportsImageEffects_mA97A693C45A91780EE8E9F2802D6ED58841D52F0(NULL);
+		if (L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs:22>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs:23>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs:28>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_1 = __this->___shader;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_3 = __this->___shader;
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = Shader_get_isSupported_m21C3D0F1819054101DFE0C0C062A24464FA5CAE5(L_3, NULL);
+		if (L_4)
+		{
+			goto IL_0030;
+		}
+	}
+
+IL_0029:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs:29>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+	}
+
+IL_0030:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 44398
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ImageEffectBase_get_material_m6B95881F5E91DDE2489D96668E6ED1247CB4B2D7 (ImageEffectBase_t26E89D645DE01104AB3215333E98C6E25979DFE9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs:37>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___m_Material;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs:39>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_2 = __this->___shader;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
+		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_3, L_2, NULL);
+		__this->___m_Material = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Material), (void*)L_3);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs:40>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = __this->___m_Material;
+		NullCheck(L_4);
+		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_4, ((int32_t)61), NULL);
+	}
+
+IL_002c:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs:42>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = __this->___m_Material;
+		return L_5;
+	}
+}
+// Method Definition Index: 44399
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageEffectBase_OnDisable_m9CF77819FE406BA1823C8B3FD123C97233DF7ECE (ImageEffectBase_t26E89D645DE01104AB3215333E98C6E25979DFE9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs:49>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___m_Material;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs:51>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->___m_Material;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_2, NULL);
+	}
+
+IL_0018:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs:53>
+		return;
+	}
+}
+// Method Definition Index: 44400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageEffectBase__ctor_mEFB34E7312EAA70648BCA4606836A5E4314AFD0D (ImageEffectBase_t26E89D645DE01104AB3215333E98C6E25979DFE9* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44401
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageEffects_RenderDistortion_m169377AC69ED0177AAA6E4310C102D9240656EF8 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___2_destination, float ___3_angle, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___4_center, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___5_radius, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralACA83AF7A62BB74E1867497F20E27DDA4AA09286);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDDBFD1DFE8755B66ED7213250192F581C393B4A2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE30BDB66B244803E7FD5808BE4D10CBB43C3D57F);
+		s_Il2CppMethodInitialized = true;
+	}
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs:12>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = ___1_source;
+		NullCheck(L_0);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
+		L_1 = Texture_get_texelSize_m05CA60DE53EF7CD5D2CBFA68B69B764E4D463359(L_0, NULL);
+		float L_2 = L_1.___y;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs:13>
+		if (!((((float)L_2) < ((float)(0.0f)))? 1 : 0))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs:15>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___4_center;
+		float L_4 = L_3.___y;
+		(&___4_center)->___y = ((float)il2cpp_codegen_subtract((1.0f), L_4));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs:16>
+		float L_5 = ___3_angle;
+		___3_angle = ((-L_5));
+	}
+
+IL_002c:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs:19>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		float L_7 = ___3_angle;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8;
+		L_8 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), (0.0f), L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_10;
+		L_10 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_6, L_8, L_9, NULL);
+		V_0 = L_10;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs:21>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_11 = ___0_material;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_12 = V_0;
+		NullCheck(L_11);
+		Material_SetMatrix_m1F4E20583C898A1C1DBA256868E1F98C539F13FB(L_11, _stringLiteralDDBFD1DFE8755B66ED7213250192F581C393B4A2, L_12, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs:22>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_13 = ___0_material;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14 = ___4_center;
+		float L_15 = L_14.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16 = ___4_center;
+		float L_17 = L_16.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = ___5_radius;
+		float L_19 = L_18.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_20 = ___5_radius;
+		float L_21 = L_20.___y;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_22;
+		memset((&L_22), 0, sizeof(L_22));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_22), L_15, L_17, L_19, L_21, NULL);
+		NullCheck(L_13);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_13, _stringLiteralE30BDB66B244803E7FD5808BE4D10CBB43C3D57F, L_22, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs:23>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_23 = ___0_material;
+		float L_24 = ___3_angle;
+		NullCheck(L_23);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_23, _stringLiteralACA83AF7A62BB74E1867497F20E27DDA4AA09286, ((float)il2cpp_codegen_multiply(L_24, (0.0174532924f))), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs:25>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_25 = ___1_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_26 = ___2_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_27 = ___0_material;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8DFE1C855FA028398E5072592582721D5DA6253F(L_25, L_26, L_27, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs:26>
+		return;
+	}
+}
+// Method Definition Index: 44402
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageEffects_Blit_m5BE931A589F7979E991852FC0E709A67F584FD82 (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_dest, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs:32>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = ___1_dest;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_0, L_1, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs:33>
+		return;
+	}
+}
+// Method Definition Index: 44403
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageEffects_BlitWithMaterial_m2C6F52FE54B44A48B6EDC03C9EE559D81C69899A (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___2_dest, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs:39>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = ___1_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = ___2_dest;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = ___0_material;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8DFE1C855FA028398E5072592582721D5DA6253F(L_0, L_1, L_2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs:40>
+		return;
+	}
+}
+// Method Definition Index: 44404
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageEffects__ctor_m4EEC34E6CD0E12F0BED4DE9C7933440440128F72 (ImageEffects_t6EF7059A26E6EC7E9F21F25B077EAE3B35DAE431* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44405
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MotionBlur_Start_mF8A6A759D6EF6ED0C296AA601F5B02731DF183C4 (MotionBlur_t1666678BAAED9571FB1EBC9F066FC5329AE20BD9* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:23>
+		bool L_0;
+		L_0 = SystemInfo_get_supportsRenderTextures_mAA77A17E5351772E7FE0E5A295448BA64131F105(NULL);
+		if (L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:25>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:26>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:28>
+		ImageEffectBase_Start_m22BCD2E9ED5B9DE93AF023162041BFD8681E413C(__this, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:29>
+		return;
+	}
+}
+// Method Definition Index: 44406
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MotionBlur_OnDisable_m877ABB7716A943844B9DEDEB3D4A40ACBC4DEC77 (MotionBlur_t1666678BAAED9571FB1EBC9F066FC5329AE20BD9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:33>
+		ImageEffectBase_OnDisable_m9CF77819FE406BA1823C8B3FD123C97233DF7ECE(__this, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:34>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = __this->___accumTexture;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:35>
+		return;
+	}
+}
+// Method Definition Index: 44407
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MotionBlur_OnRenderImage_m66686D2FDFE35EF9ABA5A019F2A5296119995570 (MotionBlur_t1666678BAAED9571FB1EBC9F066FC5329AE20BD9* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_destination, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral231CACC883018E95B1E6DF7B0EEE86C17170F15C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21);
+		s_Il2CppMethodInitialized = true;
+	}
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_0 = NULL;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:41>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = __this->___accumTexture;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = __this->___accumTexture;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_2);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_4 = ___0_source;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_4);
+		if ((!(((uint32_t)L_3) == ((uint32_t)L_5))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_6 = __this->___accumTexture;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_6);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_8 = ___0_source;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_8);
+		if ((((int32_t)L_7) == ((int32_t)L_9)))
+		{
+			goto IL_0070;
+		}
+	}
+
+IL_0034:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:43>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_10 = __this->___accumTexture;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_10, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:44>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_11 = ___0_source;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_11);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_13 = ___0_source;
+		NullCheck(L_13);
+		int32_t L_14;
+		L_14 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_13);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_15 = (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)il2cpp_codegen_object_new(RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var);
+		RenderTexture__ctor_m45EACC89DDF408948889586516B3CA7AA8B73BFA(L_15, L_12, L_14, 0, NULL);
+		__this->___accumTexture = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___accumTexture), (void*)L_15);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:45>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_16 = __this->___accumTexture;
+		NullCheck(L_16);
+		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_16, ((int32_t)61), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:46>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_17 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_18 = __this->___accumTexture;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_17, L_18, NULL);
+	}
+
+IL_0070:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:50>
+		bool L_19 = __this->___extraBlur;
+		if (!L_19)
+		{
+			goto IL_00b8;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:52>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_20 = ___0_source;
+		NullCheck(L_20);
+		int32_t L_21;
+		L_21 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_20);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_22 = ___0_source;
+		NullCheck(L_22);
+		int32_t L_23;
+		L_23 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_22);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_24;
+		L_24 = RenderTexture_GetTemporary_m5B16E03FC6142149BDC336285A5C18D5152CA2C3(((int32_t)(L_21/4)), ((int32_t)(L_23/4)), 0, NULL);
+		V_0 = L_24;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:53>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_25 = __this->___accumTexture;
+		NullCheck(L_25);
+		RenderTexture_MarkRestoreExpected_m185BFFD02FE7149590A252527B18F25A7D4AD830(L_25, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:54>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_26 = __this->___accumTexture;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_27 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_26, L_27, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:55>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_28 = V_0;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_29 = __this->___accumTexture;
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_28, L_29, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:56>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_30 = V_0;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_30, NULL);
+	}
+
+IL_00b8:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:60>
+		float L_31 = __this->___blurAmount;
+		float L_32;
+		L_32 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_31, (0.0f), (0.920000017f), NULL);
+		__this->___blurAmount = L_32;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:63>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_33;
+		L_33 = ImageEffectBase_get_material_m6B95881F5E91DDE2489D96668E6ED1247CB4B2D7(__this, NULL);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_34 = __this->___accumTexture;
+		NullCheck(L_33);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_33, _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21, L_34, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:64>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_35;
+		L_35 = ImageEffectBase_get_material_m6B95881F5E91DDE2489D96668E6ED1247CB4B2D7(__this, NULL);
+		float L_36 = __this->___blurAmount;
+		NullCheck(L_35);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_35, _stringLiteral231CACC883018E95B1E6DF7B0EEE86C17170F15C, ((float)il2cpp_codegen_subtract((1.0f), L_36)), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:68>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_37 = __this->___accumTexture;
+		NullCheck(L_37);
+		RenderTexture_MarkRestoreExpected_m185BFFD02FE7149590A252527B18F25A7D4AD830(L_37, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:71>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_38 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_39 = __this->___accumTexture;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_40;
+		L_40 = ImageEffectBase_get_material_m6B95881F5E91DDE2489D96668E6ED1247CB4B2D7(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8DFE1C855FA028398E5072592582721D5DA6253F(L_38, L_39, L_40, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:72>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_41 = __this->___accumTexture;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_42 = ___1_destination;
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_41, L_42, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:73>
+		return;
+	}
+}
+// Method Definition Index: 44408
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MotionBlur__ctor_mF5AF0A358CCDBAAC1D31D8F84D1501EA17308C21 (MotionBlur_t1666678BAAED9571FB1EBC9F066FC5329AE20BD9* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs:16>
+		__this->___blurAmount = (0.800000012f);
+		ImageEffectBase__ctor_mEFB34E7312EAA70648BCA4606836A5E4314AFD0D(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44409
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NoiseAndGrain_CheckResources_m4AC827E9C340ACAACBAF764B296D2432CB535278 (NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:43>
+		bool L_0;
+		L_0 = PostEffectsBase_CheckSupport_mD35BCE12C19A6D60AC19A0189F1EB5CD71A1303E(__this, (bool)0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:45>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_1 = __this->___noiseShader;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->___noiseMaterial;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3;
+		L_3 = PostEffectsBase_CheckShaderAndCreateMaterial_m9F3512FEF659B04E086E2EC154E789D67401D91A(__this, L_1, L_2, NULL);
+		__this->___noiseMaterial = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___noiseMaterial), (void*)L_3);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:47>
+		bool L_4 = __this->___dx11Grain;
+		if (!L_4)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		bool L_5 = ((PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24*)__this)->___supportDX11;
+		if (!L_5)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:52>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_6 = __this->___dx11NoiseShader;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = __this->___dx11NoiseMaterial;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8;
+		L_8 = PostEffectsBase_CheckShaderAndCreateMaterial_m9F3512FEF659B04E086E2EC154E789D67401D91A(__this, L_6, L_7, NULL);
+		__this->___dx11NoiseMaterial = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___dx11NoiseMaterial), (void*)L_8);
+	}
+
+IL_0048:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:55>
+		bool L_9 = ((PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24*)__this)->___isSupported;
+		if (L_9)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:56>
+		PostEffectsBase_ReportAutoDisable_mFBFE9B4AF859872DA6F4FCAE254F92912B9B6000(__this, NULL);
+	}
+
+IL_0056:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:57>
+		bool L_10 = ((PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24*)__this)->___isSupported;
+		return L_10;
+	}
+}
+// Method Definition Index: 44410
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NoiseAndGrain_OnRenderImage_mD5CAEF94470ED6AB2AF253D2604210534F18D87F (NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_destination, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3B2EF676FC8409A6796B815A352B654D2EEC508F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5AD1605C34550256549896A138E6C1D2CC7B7DE4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral77ADA935540A7CDAEF6D0E543DE29DE18636B2E8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8895E9A4949FFFF38DA777A992C2A4E83B524156);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralABCF6636EC28EDECA4B8E7E4875D20FC519E25B2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB81CA1FBB11A9AFA4C716F7CFB099A5AC8E1FD0F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC85F8982AABA2A5C2CBC882416B02AAADF5B1FFF);
+		s_Il2CppMethodInitialized = true;
+	}
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_0 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_1 = NULL;
+	String_t* G_B9_0 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B9_1 = NULL;
+	String_t* G_B8_0 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B8_1 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B10_0;
+	memset((&G_B10_0), 0, sizeof(G_B10_0));
+	String_t* G_B10_1 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B10_2 = NULL;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* G_B13_0 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B13_1 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B13_2 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B13_3 = NULL;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* G_B12_0 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B12_1 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B12_2 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B12_3 = NULL;
+	int32_t G_B14_0 = 0;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* G_B14_1 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B14_2 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B14_3 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B14_4 = NULL;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* G_B17_0 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B17_1 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B17_2 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B17_3 = NULL;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* G_B16_0 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B16_1 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B16_2 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B16_3 = NULL;
+	int32_t G_B18_0 = 0;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* G_B18_1 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B18_2 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B18_3 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B18_4 = NULL;
+	String_t* G_B23_0 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B23_1 = NULL;
+	String_t* G_B22_0 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B22_1 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B24_0;
+	memset((&G_B24_0), 0, sizeof(G_B24_0));
+	String_t* G_B24_1 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B24_2 = NULL;
+	String_t* G_B26_0 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B26_1 = NULL;
+	String_t* G_B25_0 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B25_1 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B27_0;
+	memset((&G_B27_0), 0, sizeof(G_B27_0));
+	String_t* G_B27_1 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B27_2 = NULL;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:62>
+		bool L_0;
+		L_0 = VirtualFuncInvoker0< bool >::Invoke(4, __this);
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_1 = __this->___noiseTexture;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_003c;
+		}
+	}
+
+IL_0016:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:64>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_3 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_4 = ___1_destination;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_3, L_4, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:65>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_5 = __this->___noiseTexture;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:66>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
+		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(_stringLiteral5AD1605C34550256549896A138E6C1D2CC7B7DE4, L_7, NULL);
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:68>
+		return;
+	}
+
+IL_003c:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:71>
+		float L_8 = __this->___softness;
+		float L_9;
+		L_9 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_8, (0.0f), (0.99000001f), NULL);
+		__this->___softness = L_9;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:73>
+		bool L_10 = __this->___dx11Grain;
+		if (!L_10)
+		{
+			goto IL_01da;
+		}
+	}
+	{
+		bool L_11 = ((PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24*)__this)->___supportDX11;
+		if (!L_11)
+		{
+			goto IL_01da;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:77>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_12 = __this->___dx11NoiseMaterial;
+		int32_t L_13;
+		L_13 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
+		NullCheck(L_12);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_12, _stringLiteralABCF6636EC28EDECA4B8E7E4875D20FC519E25B2, ((float)L_13), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:78>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = __this->___dx11NoiseMaterial;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_15 = __this->___noiseTexture;
+		NullCheck(L_14);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_14, _stringLiteral8895E9A4949FFFF38DA777A992C2A4E83B524156, L_15, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:79>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_16 = __this->___dx11NoiseMaterial;
+		bool L_17 = __this->___monochrome;
+		if (L_17)
+		{
+			G_B9_0 = _stringLiteralB81CA1FBB11A9AFA4C716F7CFB099A5AC8E1FD0F;
+			G_B9_1 = L_16;
+			goto IL_00b4;
+		}
+		G_B8_0 = _stringLiteralB81CA1FBB11A9AFA4C716F7CFB099A5AC8E1FD0F;
+		G_B8_1 = L_16;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = __this->___intensities;
+		G_B10_0 = L_18;
+		G_B10_1 = G_B8_0;
+		G_B10_2 = G_B8_1;
+		goto IL_00b9;
+	}
+
+IL_00b4:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		L_19 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		G_B10_0 = L_19;
+		G_B10_1 = G_B9_0;
+		G_B10_2 = G_B9_1;
+	}
+
+IL_00b9:
+	{
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_20;
+		L_20 = Vector4_op_Implicit_m2ECA73F345A7AD84144133E9E51657204002B12D_inline(G_B10_0, NULL);
+		NullCheck(G_B10_2);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(G_B10_2, G_B10_1, L_20, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:80>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_21 = __this->___dx11NoiseMaterial;
+		float L_22 = __this->___midGrey;
+		float L_23 = __this->___midGrey;
+		float L_24 = __this->___midGrey;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
+		memset((&L_25), 0, sizeof(L_25));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_25), L_22, ((float)((1.0f)/((float)il2cpp_codegen_subtract((1.0f), L_23)))), ((float)((-1.0f)/L_24)), NULL);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_26;
+		L_26 = Vector4_op_Implicit_m2ECA73F345A7AD84144133E9E51657204002B12D_inline(L_25, NULL);
+		NullCheck(L_21);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_21, _stringLiteralC85F8982AABA2A5C2CBC882416B02AAADF5B1FFF, L_26, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:81>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_27 = __this->___dx11NoiseMaterial;
+		float L_28 = __this->___generalIntensity;
+		float L_29 = __this->___blackIntensity;
+		float L_30 = __this->___whiteIntensity;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
+		memset((&L_31), 0, sizeof(L_31));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_31), L_28, L_29, L_30, NULL);
+		float L_32 = __this->___intensityMultiplier;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
+		L_33 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_31, L_32, NULL);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_34;
+		L_34 = Vector4_op_Implicit_m2ECA73F345A7AD84144133E9E51657204002B12D_inline(L_33, NULL);
+		NullCheck(L_27);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_27, _stringLiteral3B2EF676FC8409A6796B815A352B654D2EEC508F, L_34, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:83>
+		float L_35 = __this->___softness;
+		float L_36 = ((Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields*)il2cpp_codegen_static_fields_for(Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var))->___Epsilon;
+		if ((!(((float)L_35) > ((float)L_36))))
+		{
+			goto IL_01ba;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:85>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_37 = ___0_source;
+		NullCheck(L_37);
+		int32_t L_38;
+		L_38 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_37);
+		float L_39 = __this->___softness;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_40 = ___0_source;
+		NullCheck(L_40);
+		int32_t L_41;
+		L_41 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_40);
+		float L_42 = __this->___softness;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_43;
+		L_43 = RenderTexture_GetTemporary_m82379FD4C767A36F0677CAF4E68319EAE16ADF7F(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(((float)L_38), ((float)il2cpp_codegen_subtract((1.0f), L_39))))), il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(((float)L_41), ((float)il2cpp_codegen_subtract((1.0f), L_42))))), NULL);
+		V_0 = L_43;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:86>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_44 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_45 = V_0;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_46 = __this->___dx11NoiseMaterial;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_47 = __this->___noiseTexture;
+		bool L_48 = __this->___monochrome;
+		if (L_48)
+		{
+			G_B13_0 = L_47;
+			G_B13_1 = L_46;
+			G_B13_2 = L_45;
+			G_B13_3 = L_44;
+			goto IL_018e;
+		}
+		G_B12_0 = L_47;
+		G_B12_1 = L_46;
+		G_B12_2 = L_45;
+		G_B12_3 = L_44;
+	}
+	{
+		G_B14_0 = 2;
+		G_B14_1 = G_B12_0;
+		G_B14_2 = G_B12_1;
+		G_B14_3 = G_B12_2;
+		G_B14_4 = G_B12_3;
+		goto IL_018f;
+	}
+
+IL_018e:
+	{
+		G_B14_0 = 3;
+		G_B14_1 = G_B13_0;
+		G_B14_2 = G_B13_1;
+		G_B14_3 = G_B13_2;
+		G_B14_4 = G_B13_3;
+	}
+
+IL_018f:
+	{
+		il2cpp_codegen_runtime_class_init_inline(NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4_il2cpp_TypeInfo_var);
+		NoiseAndGrain_DrawNoiseQuadGrid_mC0BE9BF61D94513978EA754938FC1C6ED984841B(G_B14_4, G_B14_3, G_B14_2, G_B14_1, G_B14_0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:87>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_49 = __this->___dx11NoiseMaterial;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_50 = V_0;
+		NullCheck(L_49);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_49, _stringLiteral8895E9A4949FFFF38DA777A992C2A4E83B524156, L_50, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:88>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_51 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_52 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_53 = __this->___dx11NoiseMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_51, L_52, L_53, 4, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:89>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_54 = V_0;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_54, NULL);
+		return;
+	}
+
+IL_01ba:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:92>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_55 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_56 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_57 = __this->___dx11NoiseMaterial;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_58 = __this->___noiseTexture;
+		bool L_59 = __this->___monochrome;
+		if (L_59)
+		{
+			G_B17_0 = L_58;
+			G_B17_1 = L_57;
+			G_B17_2 = L_56;
+			G_B17_3 = L_55;
+			goto IL_01d3;
+		}
+		G_B16_0 = L_58;
+		G_B16_1 = L_57;
+		G_B16_2 = L_56;
+		G_B16_3 = L_55;
+	}
+	{
+		G_B18_0 = 0;
+		G_B18_1 = G_B16_0;
+		G_B18_2 = G_B16_1;
+		G_B18_3 = G_B16_2;
+		G_B18_4 = G_B16_3;
+		goto IL_01d4;
+	}
+
+IL_01d3:
+	{
+		G_B18_0 = 1;
+		G_B18_1 = G_B17_0;
+		G_B18_2 = G_B17_1;
+		G_B18_3 = G_B17_2;
+		G_B18_4 = G_B17_3;
+	}
+
+IL_01d4:
+	{
+		il2cpp_codegen_runtime_class_init_inline(NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4_il2cpp_TypeInfo_var);
+		NoiseAndGrain_DrawNoiseQuadGrid_mC0BE9BF61D94513978EA754938FC1C6ED984841B(G_B18_4, G_B18_3, G_B18_2, G_B18_1, G_B18_0, NULL);
+		return;
+	}
+
+IL_01da:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:98>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_60 = __this->___noiseTexture;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_61;
+		L_61 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_60, NULL);
+		if (!L_61)
+		{
+			goto IL_0204;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:99>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_62 = __this->___noiseTexture;
+		NullCheck(L_62);
+		Texture_set_wrapMode_m1F74A690E3883EC9C5C371D502D09642F15D0F7E(L_62, 0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:100>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_63 = __this->___noiseTexture;
+		int32_t L_64 = __this->___filterMode;
+		NullCheck(L_63);
+		Texture_set_filterMode_mE423E58C0C16D059EA62BA87AD70F44AEA50CCC9(L_63, L_64, NULL);
+	}
+
+IL_0204:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:103>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_65 = __this->___noiseMaterial;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_66 = __this->___noiseTexture;
+		NullCheck(L_65);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_65, _stringLiteral8895E9A4949FFFF38DA777A992C2A4E83B524156, L_66, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:104>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_67 = __this->___noiseMaterial;
+		bool L_68 = __this->___monochrome;
+		if (L_68)
+		{
+			G_B23_0 = _stringLiteralB81CA1FBB11A9AFA4C716F7CFB099A5AC8E1FD0F;
+			G_B23_1 = L_67;
+			goto IL_0235;
+		}
+		G_B22_0 = _stringLiteralB81CA1FBB11A9AFA4C716F7CFB099A5AC8E1FD0F;
+		G_B22_1 = L_67;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_69 = __this->___intensities;
+		G_B24_0 = L_69;
+		G_B24_1 = G_B22_0;
+		G_B24_2 = G_B22_1;
+		goto IL_023a;
+	}
+
+IL_0235:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_70;
+		L_70 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		G_B24_0 = L_70;
+		G_B24_1 = G_B23_0;
+		G_B24_2 = G_B23_1;
+	}
+
+IL_023a:
+	{
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_71;
+		L_71 = Vector4_op_Implicit_m2ECA73F345A7AD84144133E9E51657204002B12D_inline(G_B24_0, NULL);
+		NullCheck(G_B24_2);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(G_B24_2, G_B24_1, L_71, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:105>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_72 = __this->___noiseMaterial;
+		bool L_73 = __this->___monochrome;
+		if (L_73)
+		{
+			G_B26_0 = _stringLiteral77ADA935540A7CDAEF6D0E543DE29DE18636B2E8;
+			G_B26_1 = L_72;
+			goto IL_025f;
+		}
+		G_B25_0 = _stringLiteral77ADA935540A7CDAEF6D0E543DE29DE18636B2E8;
+		G_B25_1 = L_72;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_74 = __this->___tiling;
+		G_B27_0 = L_74;
+		G_B27_1 = G_B25_0;
+		G_B27_2 = G_B25_1;
+		goto IL_026f;
+	}
+
+IL_025f:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_75;
+		L_75 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		float L_76 = __this->___monochromeTiling;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_77;
+		L_77 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_75, L_76, NULL);
+		G_B27_0 = L_77;
+		G_B27_1 = G_B26_0;
+		G_B27_2 = G_B26_1;
+	}
+
+IL_026f:
+	{
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_78;
+		L_78 = Vector4_op_Implicit_m2ECA73F345A7AD84144133E9E51657204002B12D_inline(G_B27_0, NULL);
+		NullCheck(G_B27_2);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(G_B27_2, G_B27_1, L_78, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:106>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_79 = __this->___noiseMaterial;
+		float L_80 = __this->___midGrey;
+		float L_81 = __this->___midGrey;
+		float L_82 = __this->___midGrey;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_83;
+		memset((&L_83), 0, sizeof(L_83));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_83), L_80, ((float)((1.0f)/((float)il2cpp_codegen_subtract((1.0f), L_81)))), ((float)((-1.0f)/L_82)), NULL);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_84;
+		L_84 = Vector4_op_Implicit_m2ECA73F345A7AD84144133E9E51657204002B12D_inline(L_83, NULL);
+		NullCheck(L_79);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_79, _stringLiteralC85F8982AABA2A5C2CBC882416B02AAADF5B1FFF, L_84, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:107>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_85 = __this->___noiseMaterial;
+		float L_86 = __this->___generalIntensity;
+		float L_87 = __this->___blackIntensity;
+		float L_88 = __this->___whiteIntensity;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_89;
+		memset((&L_89), 0, sizeof(L_89));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_89), L_86, L_87, L_88, NULL);
+		float L_90 = __this->___intensityMultiplier;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_91;
+		L_91 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_89, L_90, NULL);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_92;
+		L_92 = Vector4_op_Implicit_m2ECA73F345A7AD84144133E9E51657204002B12D_inline(L_91, NULL);
+		NullCheck(L_85);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_85, _stringLiteral3B2EF676FC8409A6796B815A352B654D2EEC508F, L_92, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:109>
+		float L_93 = __this->___softness;
+		float L_94 = ((Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields*)il2cpp_codegen_static_fields_for(Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var))->___Epsilon;
+		if ((!(((float)L_93) > ((float)L_94))))
+		{
+			goto IL_0365;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:111>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_95 = ___0_source;
+		NullCheck(L_95);
+		int32_t L_96;
+		L_96 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_95);
+		float L_97 = __this->___softness;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_98 = ___0_source;
+		NullCheck(L_98);
+		int32_t L_99;
+		L_99 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_98);
+		float L_100 = __this->___softness;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_101;
+		L_101 = RenderTexture_GetTemporary_m82379FD4C767A36F0677CAF4E68319EAE16ADF7F(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(((float)L_96), ((float)il2cpp_codegen_subtract((1.0f), L_97))))), il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(((float)L_99), ((float)il2cpp_codegen_subtract((1.0f), L_100))))), NULL);
+		V_1 = L_101;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:112>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_102 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_103 = V_1;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_104 = __this->___noiseMaterial;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_105 = __this->___noiseTexture;
+		il2cpp_codegen_runtime_class_init_inline(NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4_il2cpp_TypeInfo_var);
+		NoiseAndGrain_DrawNoiseQuadGrid_mC0BE9BF61D94513978EA754938FC1C6ED984841B(L_102, L_103, L_104, L_105, 2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:113>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_106 = __this->___noiseMaterial;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_107 = V_1;
+		NullCheck(L_106);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_106, _stringLiteral8895E9A4949FFFF38DA777A992C2A4E83B524156, L_107, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:114>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_108 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_109 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_110 = __this->___noiseMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_108, L_109, L_110, 1, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:115>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_111 = V_1;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_111, NULL);
+		return;
+	}
+
+IL_0365:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:118>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_112 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_113 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_114 = __this->___noiseMaterial;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_115 = __this->___noiseTexture;
+		il2cpp_codegen_runtime_class_init_inline(NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4_il2cpp_TypeInfo_var);
+		NoiseAndGrain_DrawNoiseQuadGrid_mC0BE9BF61D94513978EA754938FC1C6ED984841B(L_112, L_113, L_114, L_115, 0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:120>
+		return;
+	}
+}
+// Method Definition Index: 44411
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NoiseAndGrain_DrawNoiseQuadGrid_mC0BE9BF61D94513978EA754938FC1C6ED984841B (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_dest, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___2_fxMaterial, Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___3_noise, int32_t ___4_passNr, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	float V_10 = 0.0f;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:124>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = ___1_dest;
+		RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:126>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_1 = ___3_noise;
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_1);
+		V_0 = ((float)il2cpp_codegen_multiply(((float)L_2), (1.0f)));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:127>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_3 = ___0_source;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_3);
+		il2cpp_codegen_runtime_class_init_inline(NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4_il2cpp_TypeInfo_var);
+		float L_5 = ((NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4_StaticFields*)il2cpp_codegen_static_fields_for(NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4_il2cpp_TypeInfo_var))->___TILE_AMOUNT;
+		V_1 = ((float)(((float)il2cpp_codegen_multiply((1.0f), ((float)L_4)))/L_5));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:129>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___2_fxMaterial;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_7 = ___0_source;
+		NullCheck(L_6);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_6, _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21, L_7, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:131>
+		GL_PushMatrix_mB505DD9B224528266FCADC716A16343838105A09(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:132>
+		GL_LoadOrtho_mE86AB2DBBC5C2BA67E7B743A2352E61C372CEADC(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:134>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_8 = ___0_source;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_8);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_10 = ___0_source;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_10);
+		V_2 = ((float)(((float)il2cpp_codegen_multiply((1.0f), ((float)L_9)))/((float)il2cpp_codegen_multiply((1.0f), ((float)L_11)))));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:135>
+		float L_12 = V_1;
+		V_3 = ((float)((1.0f)/L_12));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:136>
+		float L_13 = V_3;
+		float L_14 = V_2;
+		V_4 = ((float)il2cpp_codegen_multiply(L_13, L_14));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:137>
+		float L_15 = V_0;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_16 = ___3_noise;
+		NullCheck(L_16);
+		int32_t L_17;
+		L_17 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_16);
+		V_5 = ((float)(L_15/((float)il2cpp_codegen_multiply(((float)L_17), (1.0f)))));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:139>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_18 = ___2_fxMaterial;
+		int32_t L_19 = ___4_passNr;
+		NullCheck(L_18);
+		bool L_20;
+		L_20 = Material_SetPass_mBB03542DFF4FAEADFCED332009F9D61B6DED75FE(L_18, L_19, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:141>
+		GL_Begin_m17A70A7A3C161D8A127C11BDC5FC393392AB70C7(7, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:143>
+		V_6 = (0.0f);
+		goto IL_01bf;
+	}
+
+IL_0093:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:145>
+		V_7 = (0.0f);
+		goto IL_01ad;
+	}
+
+IL_009f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:147>
+		float L_21;
+		L_21 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((0.0f), (1.0f), NULL);
+		V_8 = L_21;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:148>
+		float L_22;
+		L_22 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((0.0f), (1.0f), NULL);
+		V_9 = L_22;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:153>
+		float L_23 = V_8;
+		float L_24 = V_0;
+		float L_25;
+		L_25 = floorf(((float)il2cpp_codegen_multiply(L_23, L_24)));
+		float L_26 = V_0;
+		V_8 = ((float)(L_25/L_26));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:154>
+		float L_27 = V_9;
+		float L_28 = V_0;
+		float L_29;
+		L_29 = floorf(((float)il2cpp_codegen_multiply(L_27, L_28)));
+		float L_30 = V_0;
+		V_9 = ((float)(L_29/L_30));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:156>
+		float L_31 = V_0;
+		V_10 = ((float)((1.0f)/L_31));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:158>
+		float L_32 = V_8;
+		float L_33 = V_9;
+		GL_MultiTexCoord2_m0F08BBA31AD1B9A1C608B2241E9B0FDE1E74EEFB(0, L_32, L_33, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:159>
+		GL_MultiTexCoord2_m0F08BBA31AD1B9A1C608B2241E9B0FDE1E74EEFB(1, (0.0f), (0.0f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:161>
+		float L_34 = V_6;
+		float L_35 = V_7;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_34, L_35, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:162>
+		float L_36 = V_8;
+		float L_37 = V_5;
+		float L_38 = V_10;
+		float L_39 = V_9;
+		GL_MultiTexCoord2_m0F08BBA31AD1B9A1C608B2241E9B0FDE1E74EEFB(0, ((float)il2cpp_codegen_add(L_36, ((float)il2cpp_codegen_multiply(L_37, L_38)))), L_39, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:163>
+		GL_MultiTexCoord2_m0F08BBA31AD1B9A1C608B2241E9B0FDE1E74EEFB(1, (1.0f), (0.0f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:165>
+		float L_40 = V_6;
+		float L_41 = V_3;
+		float L_42 = V_7;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(((float)il2cpp_codegen_add(L_40, L_41)), L_42, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:166>
+		float L_43 = V_8;
+		float L_44 = V_5;
+		float L_45 = V_10;
+		float L_46 = V_9;
+		float L_47 = V_5;
+		float L_48 = V_10;
+		GL_MultiTexCoord2_m0F08BBA31AD1B9A1C608B2241E9B0FDE1E74EEFB(0, ((float)il2cpp_codegen_add(L_43, ((float)il2cpp_codegen_multiply(L_44, L_45)))), ((float)il2cpp_codegen_add(L_46, ((float)il2cpp_codegen_multiply(L_47, L_48)))), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:167>
+		GL_MultiTexCoord2_m0F08BBA31AD1B9A1C608B2241E9B0FDE1E74EEFB(1, (1.0f), (1.0f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:169>
+		float L_49 = V_6;
+		float L_50 = V_3;
+		float L_51 = V_7;
+		float L_52 = V_4;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(((float)il2cpp_codegen_add(L_49, L_50)), ((float)il2cpp_codegen_add(L_51, L_52)), (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:170>
+		float L_53 = V_8;
+		float L_54 = V_9;
+		float L_55 = V_5;
+		float L_56 = V_10;
+		GL_MultiTexCoord2_m0F08BBA31AD1B9A1C608B2241E9B0FDE1E74EEFB(0, L_53, ((float)il2cpp_codegen_add(L_54, ((float)il2cpp_codegen_multiply(L_55, L_56)))), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:171>
+		GL_MultiTexCoord2_m0F08BBA31AD1B9A1C608B2241E9B0FDE1E74EEFB(1, (0.0f), (1.0f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:173>
+		float L_57 = V_6;
+		float L_58 = V_7;
+		float L_59 = V_4;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_57, ((float)il2cpp_codegen_add(L_58, L_59)), (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:145>
+		float L_60 = V_7;
+		float L_61 = V_4;
+		V_7 = ((float)il2cpp_codegen_add(L_60, L_61));
+	}
+
+IL_01ad:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:145>
+		float L_62 = V_7;
+		if ((((float)L_62) < ((float)(1.0f))))
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:143>
+		float L_63 = V_6;
+		float L_64 = V_3;
+		V_6 = ((float)il2cpp_codegen_add(L_63, L_64));
+	}
+
+IL_01bf:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:143>
+		float L_65 = V_6;
+		if ((((float)L_65) < ((float)(1.0f))))
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:177>
+		GL_End_m6CE9D562B738075125F901B1D5254520EC30AB36(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:178>
+		GL_PopMatrix_mCE0D33302104D1168B6382136039E979E8C02855(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:179>
+		return;
+	}
+}
+// Method Definition Index: 44412
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NoiseAndGrain__ctor_m0286E24667028CCEB7FE836D9143EBB005546AEF (NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:13>
+		__this->___intensityMultiplier = (0.25f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:15>
+		__this->___generalIntensity = (0.5f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:16>
+		__this->___blackIntensity = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:17>
+		__this->___whiteIntensity = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:18>
+		__this->___midGrey = (0.200000003f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:24>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (1.0f), (1.0f), (1.0f), NULL);
+		__this->___intensities = L_0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:25>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_1), (64.0f), (64.0f), (64.0f), NULL);
+		__this->___tiling = L_1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:26>
+		__this->___monochromeTiling = (64.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:28>
+		__this->___filterMode = 1;
+		PostEffectsBase__ctor_m4EE3CA780BAAFF694007DD15EDF5CFA7448DB7DF(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 44413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NoiseAndGrain__cctor_m9F2094E5653CA0C1B260C6DBF6EB66B8ECCAB295 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs:38>
+		((NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4_StaticFields*)il2cpp_codegen_static_fields_for(NoiseAndGrain_tA8789791377CBFFA277D84E6BF6593E7802638E4_il2cpp_TypeInfo_var))->___TILE_AMOUNT = (64.0f);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44414
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NoiseAndScratches_Start_mD9E991F106A67FCCA544B80F26164F93E8152289 (NoiseAndScratches_t5BE24289230217EE45ADA88FE3B5F636043D2845* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFA1920FD6D98B583E1DDE48CBD6322EFF94B2A2C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:47>
+		bool L_0;
+		L_0 = SystemInfo_get_supportsImageEffects_mA97A693C45A91780EE8E9F2802D6ED58841D52F0(NULL);
+		if (L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:48>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:49>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:52>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_1 = __this->___shaderRGB;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_2)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_3 = __this->___shaderYUV;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_003d;
+		}
+	}
+
+IL_002b:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:54>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralFA1920FD6D98B583E1DDE48CBD6322EFF94B2A2C, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:55>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		return;
+	}
+
+IL_003d:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:59>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_5 = __this->___shaderRGB;
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = Shader_get_isSupported_m21C3D0F1819054101DFE0C0C062A24464FA5CAE5(L_5, NULL);
+		if (L_6)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:60>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		return;
+	}
+
+IL_0052:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:61>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_7 = __this->___shaderYUV;
+		NullCheck(L_7);
+		bool L_8;
+		L_8 = Shader_get_isSupported_m21C3D0F1819054101DFE0C0C062A24464FA5CAE5(L_7, NULL);
+		if (L_8)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:62>
+		__this->___rgbFallback = (bool)1;
+	}
+
+IL_0066:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:64>
+		return;
+	}
+}
+// Method Definition Index: 44415
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* NoiseAndScratches_get_material_mDB13A8DA4A3F134B0F055A1F9F15BA8E6837C4CC (NoiseAndScratches_t5BE24289230217EE45ADA88FE3B5F636043D2845* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:68>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___m_MaterialRGB;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:69>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_2 = __this->___shaderRGB;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
+		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_3, L_2, NULL);
+		__this->___m_MaterialRGB = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaterialRGB), (void*)L_3);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:70>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = __this->___m_MaterialRGB;
+		NullCheck(L_4);
+		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_4, ((int32_t)61), NULL);
+	}
+
+IL_002c:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:72>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = __this->___m_MaterialYUV;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		bool L_7 = __this->___rgbFallback;
+		if (L_7)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:73>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_8 = __this->___shaderYUV;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
+		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_9, L_8, NULL);
+		__this->___m_MaterialYUV = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaterialYUV), (void*)L_9);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:74>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_10 = __this->___m_MaterialYUV;
+		NullCheck(L_10);
+		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_10, ((int32_t)61), NULL);
+	}
+
+IL_0060:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:76>
+		bool L_11 = __this->___rgbFallback;
+		if (L_11)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		bool L_12 = __this->___monochrome;
+		if (!L_12)
+		{
+			goto IL_0077;
+		}
+	}
+
+IL_0070:
+	{
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_13 = __this->___m_MaterialRGB;
+		return L_13;
+	}
+
+IL_0077:
+	{
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = __this->___m_MaterialYUV;
+		return L_14;
+	}
+}
+// Method Definition Index: 44416
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NoiseAndScratches_OnDisable_mE47852563BD986D1DE0475ACA3FF49A676955839 (NoiseAndScratches_t5BE24289230217EE45ADA88FE3B5F636043D2845* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:81>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___m_MaterialRGB;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:82>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->___m_MaterialRGB;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_2, NULL);
+	}
+
+IL_0018:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:83>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = __this->___m_MaterialYUV;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:84>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = __this->___m_MaterialYUV;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_5, NULL);
+	}
+
+IL_0030:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:85>
+		return;
+	}
+}
+// Method Definition Index: 44417
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NoiseAndScratches_SanitizeParameters_m6A9D4C84F5D429ED8D71E6D9BAC852F4614381D5 (NoiseAndScratches_t5BE24289230217EE45ADA88FE3B5F636043D2845* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:89>
+		float L_0 = __this->___grainIntensityMin;
+		float L_1;
+		L_1 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_0, (0.0f), (5.0f), NULL);
+		__this->___grainIntensityMin = L_1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:90>
+		float L_2 = __this->___grainIntensityMax;
+		float L_3;
+		L_3 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_2, (0.0f), (5.0f), NULL);
+		__this->___grainIntensityMax = L_3;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:91>
+		float L_4 = __this->___scratchIntensityMin;
+		float L_5;
+		L_5 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_4, (0.0f), (5.0f), NULL);
+		__this->___scratchIntensityMin = L_5;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:92>
+		float L_6 = __this->___scratchIntensityMax;
+		float L_7;
+		L_7 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_6, (0.0f), (5.0f), NULL);
+		__this->___scratchIntensityMax = L_7;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:93>
+		float L_8 = __this->___scratchFPS;
+		float L_9;
+		L_9 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_8, (1.0f), (30.0f), NULL);
+		__this->___scratchFPS = L_9;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:94>
+		float L_10 = __this->___scratchJitter;
+		float L_11;
+		L_11 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_10, (0.0f), (1.0f), NULL);
+		__this->___scratchJitter = L_11;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:95>
+		float L_12 = __this->___grainSize;
+		float L_13;
+		L_13 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_12, (0.100000001f), (50.0f), NULL);
+		__this->___grainSize = L_13;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:96>
+		return;
+	}
+}
+// Method Definition Index: 44418
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NoiseAndScratches_OnRenderImage_m9BA74E4A313A460D00852E28E404FBB75586F634 (NoiseAndScratches_t5BE24289230217EE45ADA88FE3B5F636043D2845* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_destination, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4DDF2C5EB3B511F16328BFA5E2CCA22E5F941526);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4E207A1E776F6188653FF9228A95BFD3A17B492E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAD8876816F840CDD275978547DCA00605F5521FA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCA358E33682D63809BC819D06A5C119F65140337);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD8C699F08EF91DEFEBE9FD4314609FE0B62067C9);
+		s_Il2CppMethodInitialized = true;
+	}
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* V_0 = NULL;
+	float V_1 = 0.0f;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:101>
+		NoiseAndScratches_SanitizeParameters_m6A9D4C84F5D429ED8D71E6D9BAC852F4614381D5(__this, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:103>
+		float L_0 = __this->___scratchTimeLeft;
+		if ((!(((float)L_0) <= ((float)(0.0f)))))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:105>
+		float L_1;
+		L_1 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+		float L_2 = __this->___scratchFPS;
+		__this->___scratchTimeLeft = ((float)(((float)il2cpp_codegen_multiply(L_1, (2.0f)))/L_2));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:106>
+		float L_3;
+		L_3 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+		__this->___scratchX = L_3;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:107>
+		float L_4;
+		L_4 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+		__this->___scratchY = L_4;
+	}
+
+IL_0041:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:109>
+		float L_5 = __this->___scratchTimeLeft;
+		float L_6;
+		L_6 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___scratchTimeLeft = ((float)il2cpp_codegen_subtract(L_5, L_6));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:111>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7;
+		L_7 = NoiseAndScratches_get_material_mDB13A8DA4A3F134B0F055A1F9F15BA8E6837C4CC(__this, NULL);
+		V_0 = L_7;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:113>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8 = V_0;
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_9 = __this->___grainTexture;
+		NullCheck(L_8);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_8, _stringLiteralAD8876816F840CDD275978547DCA00605F5521FA, L_9, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:114>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_10 = V_0;
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_11 = __this->___scratchTexture;
+		NullCheck(L_10);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_10, _stringLiteralCA358E33682D63809BC819D06A5C119F65140337, L_11, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:115>
+		float L_12 = __this->___grainSize;
+		V_1 = ((float)((1.0f)/L_12));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:116>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:117>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:118>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:119>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:120>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:121>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_13 = V_0;
+		float L_14;
+		L_14 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+		float L_15;
+		L_15 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+		int32_t L_16;
+		L_16 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_17 = __this->___grainTexture;
+		NullCheck(L_17);
+		int32_t L_18;
+		L_18 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_17);
+		float L_19 = V_1;
+		int32_t L_20;
+		L_20 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_21 = __this->___grainTexture;
+		NullCheck(L_21);
+		int32_t L_22;
+		L_22 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_21);
+		float L_23 = V_1;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_24;
+		memset((&L_24), 0, sizeof(L_24));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_24), L_14, L_15, ((float)il2cpp_codegen_multiply(((float)(((float)L_16)/((float)L_18))), L_19)), ((float)il2cpp_codegen_multiply(((float)(((float)L_20)/((float)L_22))), L_23)), NULL);
+		NullCheck(L_13);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_13, _stringLiteral4DDF2C5EB3B511F16328BFA5E2CCA22E5F941526, L_24, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:122>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:123>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:124>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:125>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:126>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:127>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_25 = V_0;
+		float L_26 = __this->___scratchX;
+		float L_27;
+		L_27 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+		float L_28 = __this->___scratchJitter;
+		float L_29 = __this->___scratchY;
+		float L_30;
+		L_30 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+		float L_31 = __this->___scratchJitter;
+		int32_t L_32;
+		L_32 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_33 = __this->___scratchTexture;
+		NullCheck(L_33);
+		int32_t L_34;
+		L_34 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_33);
+		int32_t L_35;
+		L_35 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_36 = __this->___scratchTexture;
+		NullCheck(L_36);
+		int32_t L_37;
+		L_37 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_36);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_38;
+		memset((&L_38), 0, sizeof(L_38));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_38), ((float)il2cpp_codegen_add(L_26, ((float)il2cpp_codegen_multiply(L_27, L_28)))), ((float)il2cpp_codegen_add(L_29, ((float)il2cpp_codegen_multiply(L_30, L_31)))), ((float)(((float)L_32)/((float)L_34))), ((float)(((float)L_35)/((float)L_37))), NULL);
+		NullCheck(L_25);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_25, _stringLiteralD8C699F08EF91DEFEBE9FD4314609FE0B62067C9, L_38, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:128>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:129>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:130>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:131>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_39 = V_0;
+		float L_40 = __this->___grainIntensityMin;
+		float L_41 = __this->___grainIntensityMax;
+		float L_42;
+		L_42 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_40, L_41, NULL);
+		float L_43 = __this->___scratchIntensityMin;
+		float L_44 = __this->___scratchIntensityMax;
+		float L_45;
+		L_45 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_43, L_44, NULL);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_46;
+		memset((&L_46), 0, sizeof(L_46));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_46), L_42, L_45, (0.0f), (0.0f), NULL);
+		NullCheck(L_39);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_39, _stringLiteral4E207A1E776F6188653FF9228A95BFD3A17B492E, L_46, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:132>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_47 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_48 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_49 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8DFE1C855FA028398E5072592582721D5DA6253F(L_47, L_48, L_49, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:133>
+		return;
+	}
+}
+// Method Definition Index: 44419
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NoiseAndScratches__ctor_m96074830F060AD06A704EB53E191FB4115FBC61C (NoiseAndScratches_t5BE24289230217EE45ADA88FE3B5F636043D2845* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:15>
+		__this->___monochrome = (bool)1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:19>
+		__this->___grainIntensityMin = (0.100000001f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:20>
+		__this->___grainIntensityMax = (0.200000003f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:23>
+		__this->___grainSize = (2.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:26>
+		__this->___scratchIntensityMin = (0.0500000007f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:27>
+		__this->___scratchIntensityMax = (0.25f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:30>
+		__this->___scratchFPS = (10.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs:32>
+		__this->___scratchJitter = (0.00999999978f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44420
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* PostEffectsBase_CheckShaderAndCreateMaterial_m9F3512FEF659B04E086E2EC154E789D67401D91A (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___0_s, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___1_m2Create, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46FDB78170F0875B7786D0DF6CEC4C315A44B763);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8AD58CDB5A877779756FB284EF557ED8EC4267E4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAD24B96FEF7F6BC453A4D5E2575831BC289660D8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC106589373683AEAB4EA765F77169BDAEB4DC540);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:16>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_0 = ___0_s;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:18>
+		String_t* L_2;
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(3, __this);
+		String_t* L_3;
+		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral8AD58CDB5A877779756FB284EF557ED8EC4267E4, L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:19>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:20>
+		return (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL;
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:23>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_4 = ___0_s;
+		NullCheck(L_4);
+		bool L_5;
+		L_5 = Shader_get_isSupported_m21C3D0F1819054101DFE0C0C062A24464FA5CAE5(L_4, NULL);
+		if (!L_5)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___1_m2Create;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8 = ___1_m2Create;
+		NullCheck(L_8);
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_9;
+		L_9 = Material_get_shader_m8B0C11AE6F2AD7DE30AF52D3195EB716F7A71983(L_8, NULL);
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_10 = ___0_s;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_9, L_10, NULL);
+		if (!L_11)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:24>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_12 = ___1_m2Create;
+		return L_12;
+	}
+
+IL_0046:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:26>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_13 = ___0_s;
+		NullCheck(L_13);
+		bool L_14;
+		L_14 = Shader_get_isSupported_m21C3D0F1819054101DFE0C0C062A24464FA5CAE5(L_13, NULL);
+		if (L_14)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:28>
+		PostEffectsBase_NotSupported_mC2F7B25B622DE7BD92B7919E6D53755D9FA66169(__this, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:29>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = L_15;
+		NullCheck(L_16);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralC106589373683AEAB4EA765F77169BDAEB4DC540);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = L_16;
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_18 = ___0_s;
+		NullCheck(L_18);
+		String_t* L_19;
+		L_19 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_18);
+		NullCheck(L_17);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_19);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_20 = L_17;
+		NullCheck(L_20);
+		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral46FDB78170F0875B7786D0DF6CEC4C315A44B763);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_21 = L_20;
+		String_t* L_22;
+		L_22 = VirtualFuncInvoker0< String_t* >::Invoke(3, __this);
+		NullCheck(L_21);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_22);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_23 = L_21;
+		NullCheck(L_23);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralAD24B96FEF7F6BC453A4D5E2575831BC289660D8);
+		String_t* L_24;
+		L_24 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_23, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_24, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:30>
+		return (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL;
+	}
+
+IL_0090:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:34>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_25 = ___0_s;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_26 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
+		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_26, L_25, NULL);
+		___1_m2Create = L_26;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:35>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_27 = ___1_m2Create;
+		NullCheck(L_27);
+		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_27, ((int32_t)52), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:36>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_28 = ___1_m2Create;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_29;
+		L_29 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_28, NULL);
+		if (!L_29)
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:37>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_30 = ___1_m2Create;
+		return L_30;
+	}
+
+IL_00aa:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:38>
+		return (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL;
+	}
+}
+// Method Definition Index: 44421
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* PostEffectsBase_CreateMaterial_m1A4B82193A5C47A4A0C89033A5D8AC105D1F371F (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___0_s, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___1_m2Create, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8AD58CDB5A877779756FB284EF557ED8EC4267E4);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:45>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_0 = ___0_s;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:47>
+		String_t* L_2;
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(3, __this);
+		String_t* L_3;
+		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral8AD58CDB5A877779756FB284EF557ED8EC4267E4, L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:48>
+		return (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL;
+	}
+
+IL_001f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:51>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___1_m2Create;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_4, NULL);
+		if (!L_5)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___1_m2Create;
+		NullCheck(L_6);
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_7;
+		L_7 = Material_get_shader_m8B0C11AE6F2AD7DE30AF52D3195EB716F7A71983(L_6, NULL);
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_8 = ___0_s;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_7, L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_10 = ___0_s;
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = Shader_get_isSupported_m21C3D0F1819054101DFE0C0C062A24464FA5CAE5(L_10, NULL);
+		if (!L_11)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:52>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_12 = ___1_m2Create;
+		return L_12;
+	}
+
+IL_003f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:54>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_13 = ___0_s;
+		NullCheck(L_13);
+		bool L_14;
+		L_14 = Shader_get_isSupported_m21C3D0F1819054101DFE0C0C062A24464FA5CAE5(L_13, NULL);
+		if (L_14)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:56>
+		return (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL;
+	}
+
+IL_0049:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:60>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_15 = ___0_s;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_16 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
+		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_16, L_15, NULL);
+		___1_m2Create = L_16;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:61>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_17 = ___1_m2Create;
+		NullCheck(L_17);
+		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_17, ((int32_t)52), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:62>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_18 = ___1_m2Create;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_19;
+		L_19 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_18, NULL);
+		if (!L_19)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:63>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_20 = ___1_m2Create;
+		return L_20;
+	}
+
+IL_0063:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:64>
+		return (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL;
+	}
+}
+// Method Definition Index: 44422
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsBase_OnEnable_mD9B2A924C9F3F3CA0D400DD2C394194137ECD4F0 (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:70>
+		__this->___isSupported = (bool)1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:71>
+		return;
+	}
+}
+// Method Definition Index: 44423
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PostEffectsBase_CheckSupport_m9473BC99296E7AF85EC8E0B96B8E3CAD68B3E46E (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:75>
+		bool L_0;
+		L_0 = PostEffectsBase_CheckSupport_mD35BCE12C19A6D60AC19A0189F1EB5CD71A1303E(__this, (bool)0, NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 44424
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PostEffectsBase_CheckResources_m17B419D5C12B55535F36B4C3E703C3E46A36CA64 (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral38860340D6399FED72D34E843CC6D18D6E2BCF24);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE691C6599F2EFD48FF5D07CCA40BF885CA11AD70);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:81>
+		String_t* L_0;
+		L_0 = VirtualFuncInvoker0< String_t* >::Invoke(3, __this);
+		String_t* L_1;
+		L_1 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralE691C6599F2EFD48FF5D07CCA40BF885CA11AD70, L_0, _stringLiteral38860340D6399FED72D34E843CC6D18D6E2BCF24, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_1, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:82>
+		bool L_2 = __this->___isSupported;
+		return L_2;
+	}
+}
+// Method Definition Index: 44425
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsBase_Start_m2189DFDADA6A50171C983B2477B5BBB957E40EAD (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:88>
+		bool L_0;
+		L_0 = VirtualFuncInvoker0< bool >::Invoke(4, __this);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:89>
+		return;
+	}
+}
+// Method Definition Index: 44426
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PostEffectsBase_CheckSupport_mD35BCE12C19A6D60AC19A0189F1EB5CD71A1303E (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, bool ___0_needDepth, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* G_B2_0 = NULL;
+	PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* G_B1_0 = NULL;
+	int32_t G_B3_0 = 0;
+	PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* G_B3_1 = NULL;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:93>
+		__this->___isSupported = (bool)1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:94>
+		bool L_0;
+		L_0 = SystemInfo_SupportsRenderTextureFormat_mCCC3C69578A2C5B7367F73999E6938C315A98201(2, NULL);
+		__this->___supportHDRTextures = L_0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:95>
+		int32_t L_1;
+		L_1 = SystemInfo_get_graphicsShaderLevel_m9E6B001FA80EFBFC92EF4E7440AE64828B15070F(NULL);
+		if ((((int32_t)L_1) < ((int32_t)((int32_t)50))))
+		{
+			G_B2_0 = __this;
+			goto IL_0024;
+		}
+		G_B1_0 = __this;
+	}
+	{
+		bool L_2;
+		L_2 = SystemInfo_get_supportsComputeShaders_m4A029D2F8FB9343E65E6F1C6F1C79DA41911F13A(NULL);
+		G_B3_0 = ((int32_t)(L_2));
+		G_B3_1 = G_B1_0;
+		goto IL_0025;
+	}
+
+IL_0024:
+	{
+		G_B3_0 = 0;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0025:
+	{
+		NullCheck(G_B3_1);
+		G_B3_1->___supportDX11 = (bool)G_B3_0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:97>
+		bool L_3;
+		L_3 = SystemInfo_get_supportsImageEffects_mA97A693C45A91780EE8E9F2802D6ED58841D52F0(NULL);
+		if (!L_3)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		bool L_4;
+		L_4 = SystemInfo_get_supportsRenderTextures_mAA77A17E5351772E7FE0E5A295448BA64131F105(NULL);
+		if (L_4)
+		{
+			goto IL_0040;
+		}
+	}
+
+IL_0038:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:99>
+		PostEffectsBase_NotSupported_mC2F7B25B622DE7BD92B7919E6D53755D9FA66169(__this, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:100>
+		return (bool)0;
+	}
+
+IL_0040:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:103>
+		bool L_5 = ___0_needDepth;
+		if (!L_5)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		bool L_6;
+		L_6 = SystemInfo_SupportsRenderTextureFormat_mCCC3C69578A2C5B7367F73999E6938C315A98201(1, NULL);
+		if (L_6)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:105>
+		PostEffectsBase_NotSupported_mC2F7B25B622DE7BD92B7919E6D53755D9FA66169(__this, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:106>
+		return (bool)0;
+	}
+
+IL_0053:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:109>
+		bool L_7 = ___0_needDepth;
+		if (!L_7)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:110>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_8;
+		L_8 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(__this, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_9 = L_8;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = Camera_get_depthTextureMode_m998CDEBC055FE2A910F3B650585ADE3E2BB141EE(L_9, NULL);
+		NullCheck(L_9);
+		Camera_set_depthTextureMode_mE722389E4DF8B3DF7F6100DB142E4DBAF698F6BF(L_9, ((int32_t)((int32_t)L_10|1)), NULL);
+	}
+
+IL_0069:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:112>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 44427
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PostEffectsBase_CheckSupport_m3EA640722B1862B4ECEC88C2939F783878055E6C (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, bool ___0_needDepth, bool ___1_needHdr, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:117>
+		bool L_0 = ___0_needDepth;
+		bool L_1;
+		L_1 = PostEffectsBase_CheckSupport_mD35BCE12C19A6D60AC19A0189F1EB5CD71A1303E(__this, L_0, NULL);
+		if (L_1)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:118>
+		return (bool)0;
+	}
+
+IL_000b:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:120>
+		bool L_2 = ___1_needHdr;
+		if (!L_2)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		bool L_3 = __this->___supportHDRTextures;
+		if (L_3)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:122>
+		PostEffectsBase_NotSupported_mC2F7B25B622DE7BD92B7919E6D53755D9FA66169(__this, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:123>
+		return (bool)0;
+	}
+
+IL_001e:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:126>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 44428
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PostEffectsBase_Dx11Support_m5DB90C5559711290CAE9BA007CA929E5258E4022 (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:132>
+		bool L_0 = __this->___supportDX11;
+		return L_0;
+	}
+}
+// Method Definition Index: 44429
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsBase_ReportAutoDisable_mFBFE9B4AF859872DA6F4FCAE254F92912B9B6000 (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral26E519C4459C9C2AE04CACDA4DCF6450F759B33B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBC80DA7614408087FE75EA6806A9CBE62109EF15);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:138>
+		String_t* L_0;
+		L_0 = VirtualFuncInvoker0< String_t* >::Invoke(3, __this);
+		String_t* L_1;
+		L_1 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralBC80DA7614408087FE75EA6806A9CBE62109EF15, L_0, _stringLiteral26E519C4459C9C2AE04CACDA4DCF6450F759B33B, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_1, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:139>
+		return;
+	}
+}
+// Method Definition Index: 44430
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PostEffectsBase_CheckShader_m7B232EA7F558C2595C46C1D2783EBB9D61E544CE (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___0_s, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46FDB78170F0875B7786D0DF6CEC4C315A44B763);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC106589373683AEAB4EA765F77169BDAEB4DC540);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDCCF60D13A2F5176335F2A450A37F1B544DA4C96);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:144>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralC106589373683AEAB4EA765F77169BDAEB4DC540);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = L_1;
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_3 = ___0_s;
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_3);
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_4);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_2;
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral46FDB78170F0875B7786D0DF6CEC4C315A44B763);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = L_5;
+		String_t* L_7;
+		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(3, __this);
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_7);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = L_6;
+		NullCheck(L_8);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralDCCF60D13A2F5176335F2A450A37F1B544DA4C96);
+		String_t* L_9;
+		L_9 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_8, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_9, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:145>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_10 = ___0_s;
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = Shader_get_isSupported_m21C3D0F1819054101DFE0C0C062A24464FA5CAE5(L_10, NULL);
+		if (L_11)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:147>
+		PostEffectsBase_NotSupported_mC2F7B25B622DE7BD92B7919E6D53755D9FA66169(__this, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:148>
+		return (bool)0;
+	}
+
+IL_004a:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:152>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 44431
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsBase_NotSupported_mC2F7B25B622DE7BD92B7919E6D53755D9FA66169 (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:159>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:160>
+		__this->___isSupported = (bool)0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:161>
+		return;
+	}
+}
+// Method Definition Index: 44432
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsBase_DrawBorder_mA19B9794EF79DE361BFFBAA78AA84FA6F1AE4BF0 (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_dest, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___1_material, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	bool V_3 = false;
+	int32_t V_4 = 0;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:172>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = ___0_dest;
+		RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:173>
+		V_3 = (bool)1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:175>
+		GL_PushMatrix_mB505DD9B224528266FCADC716A16343838105A09(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:176>
+		GL_LoadOrtho_mE86AB2DBBC5C2BA67E7B743A2352E61C372CEADC(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:178>
+		V_4 = 0;
+		goto IL_027d;
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:180>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = ___1_material;
+		int32_t L_2 = V_4;
+		NullCheck(L_1);
+		bool L_3;
+		L_3 = Material_SetPass_mBB03542DFF4FAEADFCED332009F9D61B6DED75FE(L_1, L_2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:183>
+		bool L_4 = V_3;
+		if (!L_4)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:185>
+		V_5 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:185>
+		V_6 = (0.0f);
+		goto IL_0044;
+	}
+
+IL_0036:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:189>
+		V_5 = (0.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:189>
+		V_6 = (1.0f);
+	}
+
+IL_0044:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:193>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:194>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_5 = ___0_dest;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_5);
+		V_0 = ((float)il2cpp_codegen_add((0.0f), ((float)((1.0f)/((float)il2cpp_codegen_multiply(((float)L_6), (1.0f)))))));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:195>
+		V_1 = (0.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:196>
+		V_2 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:197>
+		GL_Begin_m17A70A7A3C161D8A127C11BDC5FC393392AB70C7(7, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:199>
+		float L_7 = V_5;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_7, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:199>
+		float L_8 = (0.0f);
+		float L_9 = V_1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_8, L_9, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:200>
+		float L_10 = V_5;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_10, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:200>
+		float L_11 = V_0;
+		float L_12 = V_1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_11, L_12, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:201>
+		float L_13 = V_6;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_13, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:201>
+		float L_14 = V_0;
+		float L_15 = V_2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_14, L_15, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:202>
+		float L_16 = V_6;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_16, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:202>
+		float L_17 = V_2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_8, L_17, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:205>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_18 = ___0_dest;
+		NullCheck(L_18);
+		int32_t L_19;
+		L_19 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_18);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:206>
+		V_0 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:207>
+		V_1 = (0.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:208>
+		V_2 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:210>
+		float L_20 = V_5;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_20, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:210>
+		float L_21 = ((float)il2cpp_codegen_subtract((1.0f), ((float)((1.0f)/((float)il2cpp_codegen_multiply(((float)L_19), (1.0f)))))));
+		float L_22 = V_1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_21, L_22, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:211>
+		float L_23 = V_5;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_23, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:211>
+		float L_24 = V_0;
+		float L_25 = V_1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_24, L_25, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:212>
+		float L_26 = V_6;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_26, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:212>
+		float L_27 = V_0;
+		float L_28 = V_2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_27, L_28, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:213>
+		float L_29 = V_6;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_29, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:213>
+		float L_30 = V_2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_21, L_30, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:216>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:217>
+		V_0 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:218>
+		V_1 = (0.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:219>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_31 = ___0_dest;
+		NullCheck(L_31);
+		int32_t L_32;
+		L_32 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_31);
+		V_2 = ((float)il2cpp_codegen_add((0.0f), ((float)((1.0f)/((float)il2cpp_codegen_multiply(((float)L_32), (1.0f)))))));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:221>
+		float L_33 = V_5;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_33, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:221>
+		float L_34 = (0.0f);
+		float L_35 = V_1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_34, L_35, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:222>
+		float L_36 = V_5;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_36, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:222>
+		float L_37 = V_0;
+		float L_38 = V_1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_37, L_38, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:223>
+		float L_39 = V_6;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_39, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:223>
+		float L_40 = V_0;
+		float L_41 = V_2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_40, L_41, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:224>
+		float L_42 = V_6;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_42, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:224>
+		float L_43 = V_2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_34, L_43, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:227>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:228>
+		V_0 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:229>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_44 = ___0_dest;
+		NullCheck(L_44);
+		int32_t L_45;
+		L_45 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_44);
+		V_1 = ((float)il2cpp_codegen_subtract((1.0f), ((float)((1.0f)/((float)il2cpp_codegen_multiply(((float)L_45), (1.0f)))))));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:230>
+		V_2 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:232>
+		float L_46 = V_5;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_46, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:232>
+		float L_47 = (0.0f);
+		float L_48 = V_1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_47, L_48, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:233>
+		float L_49 = V_5;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_49, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:233>
+		float L_50 = V_0;
+		float L_51 = V_1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_50, L_51, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:234>
+		float L_52 = V_6;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_52, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:234>
+		float L_53 = V_0;
+		float L_54 = V_2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_53, L_54, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:235>
+		float L_55 = V_6;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_55, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:235>
+		float L_56 = V_2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_47, L_56, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:237>
+		GL_End_m6CE9D562B738075125F901B1D5254520EC30AB36(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:178>
+		int32_t L_57 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_57, 1));
+	}
+
+IL_027d:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:178>
+		int32_t L_58 = V_4;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_59 = ___1_material;
+		NullCheck(L_59);
+		int32_t L_60;
+		L_60 = Material_get_passCount_m7BA071AFFA34DC3E49B56A16CB8B098566BDE765(L_59, NULL);
+		if ((((int32_t)L_58) < ((int32_t)L_60)))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:240>
+		GL_PopMatrix_mCE0D33302104D1168B6382136039E979E8C02855(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:241>
+		return;
+	}
+}
+// Method Definition Index: 44433
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsBase__ctor_m4EE3CA780BAAFF694007DD15EDF5CFA7448DB7DF (PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:10>
+		__this->___supportHDRTextures = (bool)1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs:12>
+		__this->___isSupported = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44434
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsHelper_OnRenderImage_m6F007DC8123CC28A1802E0CD05B293B2DDC86432 (PostEffectsHelper_t12213D5AE8FCB54BDC8CF5223A513E4CF16AAC91* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_destination, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5EE6B65EB03371A3C0F000406E30369D6F81C2FF);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:12>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral5EE6B65EB03371A3C0F000406E30369D6F81C2FF, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:13>
+		return;
+	}
+}
+// Method Definition Index: 44435
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsHelper_DrawLowLevelPlaneAlignedWithCamera_m13B7B97A4A8C5856B075A2B16CC7F4C71B5943DB (float ___0_dist, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___2_dest, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___3_material, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___4_cameraForProjectionMatrix, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	int32_t V_9 = 0;
+	float V_10 = 0.0f;
+	float V_11 = 0.0f;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:22>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = ___2_dest;
+		RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:24>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = ___3_material;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = ___1_source;
+		NullCheck(L_1);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_1, _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21, L_2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:25>
+		V_0 = (bool)1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:27>
+		GL_PushMatrix_mB505DD9B224528266FCADC716A16343838105A09(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:28>
+		GL_LoadIdentity_m86FB54921F8F0069E07163B6D35E4B1B6338C264(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:29>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3 = ___4_cameraForProjectionMatrix;
+		NullCheck(L_3);
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_4;
+		L_4 = Camera_get_projectionMatrix_m9B943EFDD6418528A055321E14F75F1511DD9B4A(L_3, NULL);
+		GL_LoadProjectionMatrix_m4310EBD83BF1858124306A227C18FF52152718BD(L_4, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:31>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_5 = ___4_cameraForProjectionMatrix;
+		NullCheck(L_5);
+		float L_6;
+		L_6 = Camera_get_fieldOfView_m9A93F17BBF89F496AE231C21817AFD1C1E833FBB(L_5, NULL);
+		V_1 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_6, (0.5f))), (0.0174532924f)));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:32>
+		float L_7 = V_1;
+		float L_8;
+		L_8 = cosf(L_7);
+		float L_9 = V_1;
+		float L_10;
+		L_10 = sinf(L_9);
+		V_2 = ((float)(L_8/L_10));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:33>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_11 = ___4_cameraForProjectionMatrix;
+		NullCheck(L_11);
+		float L_12;
+		L_12 = Camera_get_aspect_m48BF8820EA2D55BE0D154BC5546819FB65BE257D(L_11, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:35>
+		float L_13 = L_12;
+		float L_14 = V_2;
+		V_3 = ((float)(L_13/((-L_14))));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:36>
+		float L_15 = V_2;
+		V_4 = ((float)(L_13/L_15));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:37>
+		float L_16 = V_2;
+		V_5 = ((float)((1.0f)/((-L_16))));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:38>
+		float L_17 = V_2;
+		V_6 = ((float)((1.0f)/L_17));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:40>
+		V_7 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:42>
+		float L_18 = V_3;
+		float L_19 = ___0_dist;
+		float L_20 = V_7;
+		V_3 = ((float)il2cpp_codegen_multiply(L_18, ((float)il2cpp_codegen_multiply(L_19, L_20))));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:43>
+		float L_21 = V_4;
+		float L_22 = ___0_dist;
+		float L_23 = V_7;
+		V_4 = ((float)il2cpp_codegen_multiply(L_21, ((float)il2cpp_codegen_multiply(L_22, L_23))));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:44>
+		float L_24 = V_5;
+		float L_25 = ___0_dist;
+		float L_26 = V_7;
+		V_5 = ((float)il2cpp_codegen_multiply(L_24, ((float)il2cpp_codegen_multiply(L_25, L_26))));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:45>
+		float L_27 = V_6;
+		float L_28 = ___0_dist;
+		float L_29 = V_7;
+		V_6 = ((float)il2cpp_codegen_multiply(L_27, ((float)il2cpp_codegen_multiply(L_28, L_29))));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:47>
+		float L_30 = ___0_dist;
+		V_8 = ((-L_30));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:49>
+		V_9 = 0;
+		goto IL_0139;
+	}
+
+IL_00a4:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:51>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_31 = ___3_material;
+		int32_t L_32 = V_9;
+		NullCheck(L_31);
+		bool L_33;
+		L_33 = Material_SetPass_mBB03542DFF4FAEADFCED332009F9D61B6DED75FE(L_31, L_32, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:53>
+		GL_Begin_m17A70A7A3C161D8A127C11BDC5FC393392AB70C7(7, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:55>
+		bool L_34 = V_0;
+		if (!L_34)
+		{
+			goto IL_00c6;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:57>
+		V_10 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:57>
+		V_11 = (0.0f);
+		goto IL_00d4;
+	}
+
+IL_00c6:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:61>
+		V_10 = (0.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:61>
+		V_11 = (1.0f);
+	}
+
+IL_00d4:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:63>
+		float L_35 = V_10;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_35, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:63>
+		float L_36 = V_3;
+		float L_37 = V_5;
+		float L_38 = V_8;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_36, L_37, L_38, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:64>
+		float L_39 = V_10;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_39, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:64>
+		float L_40 = V_4;
+		float L_41 = V_5;
+		float L_42 = V_8;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_40, L_41, L_42, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:65>
+		float L_43 = V_11;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_43, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:65>
+		float L_44 = V_4;
+		float L_45 = V_6;
+		float L_46 = V_8;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_44, L_45, L_46, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:66>
+		float L_47 = V_11;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_47, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:66>
+		float L_48 = V_3;
+		float L_49 = V_6;
+		float L_50 = V_8;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_48, L_49, L_50, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:67>
+		GL_End_m6CE9D562B738075125F901B1D5254520EC30AB36(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:49>
+		int32_t L_51 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_51, 1));
+	}
+
+IL_0139:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:49>
+		int32_t L_52 = V_9;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_53 = ___3_material;
+		NullCheck(L_53);
+		int32_t L_54;
+		L_54 = Material_get_passCount_m7BA071AFFA34DC3E49B56A16CB8B098566BDE765(L_53, NULL);
+		if ((((int32_t)L_52) < ((int32_t)L_54)))
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:70>
+		GL_PopMatrix_mCE0D33302104D1168B6382136039E979E8C02855(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:71>
+		return;
+	}
+}
+// Method Definition Index: 44436
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsHelper_DrawBorder_m71CD9F4E129990610918A0A6CDB9DBAD9F5D8BF9 (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_dest, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___1_material, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	bool V_3 = false;
+	int32_t V_4 = 0;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:82>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = ___0_dest;
+		RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:83>
+		V_3 = (bool)1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:85>
+		GL_PushMatrix_mB505DD9B224528266FCADC716A16343838105A09(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:86>
+		GL_LoadOrtho_mE86AB2DBBC5C2BA67E7B743A2352E61C372CEADC(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:88>
+		V_4 = 0;
+		goto IL_027d;
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:90>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = ___1_material;
+		int32_t L_2 = V_4;
+		NullCheck(L_1);
+		bool L_3;
+		L_3 = Material_SetPass_mBB03542DFF4FAEADFCED332009F9D61B6DED75FE(L_1, L_2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:93>
+		bool L_4 = V_3;
+		if (!L_4)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:95>
+		V_5 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:95>
+		V_6 = (0.0f);
+		goto IL_0044;
+	}
+
+IL_0036:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:99>
+		V_5 = (0.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:99>
+		V_6 = (1.0f);
+	}
+
+IL_0044:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:103>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:104>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_5 = ___0_dest;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_5);
+		V_0 = ((float)il2cpp_codegen_add((0.0f), ((float)((1.0f)/((float)il2cpp_codegen_multiply(((float)L_6), (1.0f)))))));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:105>
+		V_1 = (0.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:106>
+		V_2 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:107>
+		GL_Begin_m17A70A7A3C161D8A127C11BDC5FC393392AB70C7(7, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:109>
+		float L_7 = V_5;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_7, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:109>
+		float L_8 = (0.0f);
+		float L_9 = V_1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_8, L_9, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:110>
+		float L_10 = V_5;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_10, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:110>
+		float L_11 = V_0;
+		float L_12 = V_1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_11, L_12, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:111>
+		float L_13 = V_6;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_13, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:111>
+		float L_14 = V_0;
+		float L_15 = V_2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_14, L_15, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:112>
+		float L_16 = V_6;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_16, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:112>
+		float L_17 = V_2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_8, L_17, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:115>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_18 = ___0_dest;
+		NullCheck(L_18);
+		int32_t L_19;
+		L_19 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_18);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:116>
+		V_0 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:117>
+		V_1 = (0.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:118>
+		V_2 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:120>
+		float L_20 = V_5;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_20, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:120>
+		float L_21 = ((float)il2cpp_codegen_subtract((1.0f), ((float)((1.0f)/((float)il2cpp_codegen_multiply(((float)L_19), (1.0f)))))));
+		float L_22 = V_1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_21, L_22, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:121>
+		float L_23 = V_5;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_23, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:121>
+		float L_24 = V_0;
+		float L_25 = V_1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_24, L_25, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:122>
+		float L_26 = V_6;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_26, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:122>
+		float L_27 = V_0;
+		float L_28 = V_2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_27, L_28, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:123>
+		float L_29 = V_6;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_29, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:123>
+		float L_30 = V_2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_21, L_30, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:126>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:127>
+		V_0 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:128>
+		V_1 = (0.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:129>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_31 = ___0_dest;
+		NullCheck(L_31);
+		int32_t L_32;
+		L_32 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_31);
+		V_2 = ((float)il2cpp_codegen_add((0.0f), ((float)((1.0f)/((float)il2cpp_codegen_multiply(((float)L_32), (1.0f)))))));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:131>
+		float L_33 = V_5;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_33, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:131>
+		float L_34 = (0.0f);
+		float L_35 = V_1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_34, L_35, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:132>
+		float L_36 = V_5;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_36, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:132>
+		float L_37 = V_0;
+		float L_38 = V_1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_37, L_38, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:133>
+		float L_39 = V_6;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_39, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:133>
+		float L_40 = V_0;
+		float L_41 = V_2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_40, L_41, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:134>
+		float L_42 = V_6;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_42, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:134>
+		float L_43 = V_2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_34, L_43, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:137>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:138>
+		V_0 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:139>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_44 = ___0_dest;
+		NullCheck(L_44);
+		int32_t L_45;
+		L_45 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_44);
+		V_1 = ((float)il2cpp_codegen_subtract((1.0f), ((float)((1.0f)/((float)il2cpp_codegen_multiply(((float)L_45), (1.0f)))))));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:140>
+		V_2 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:142>
+		float L_46 = V_5;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_46, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:142>
+		float L_47 = (0.0f);
+		float L_48 = V_1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_47, L_48, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:143>
+		float L_49 = V_5;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_49, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:143>
+		float L_50 = V_0;
+		float L_51 = V_1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_50, L_51, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:144>
+		float L_52 = V_6;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_52, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:144>
+		float L_53 = V_0;
+		float L_54 = V_2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_53, L_54, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:145>
+		float L_55 = V_6;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_55, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:145>
+		float L_56 = V_2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_47, L_56, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:147>
+		GL_End_m6CE9D562B738075125F901B1D5254520EC30AB36(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:88>
+		int32_t L_57 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_57, 1));
+	}
+
+IL_027d:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:88>
+		int32_t L_58 = V_4;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_59 = ___1_material;
+		NullCheck(L_59);
+		int32_t L_60;
+		L_60 = Material_get_passCount_m7BA071AFFA34DC3E49B56A16CB8B098566BDE765(L_59, NULL);
+		if ((((int32_t)L_58) < ((int32_t)L_60)))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:150>
+		GL_PopMatrix_mCE0D33302104D1168B6382136039E979E8C02855(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:151>
+		return;
+	}
+}
+// Method Definition Index: 44437
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsHelper_DrawLowLevelQuad_m47DF45DADA5F4E760A761173480FEF78598AFAD8 (float ___0_x1, float ___1_x2, float ___2_y1, float ___3_y2, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___4_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___5_dest, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___6_material, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:156>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = ___5_dest;
+		RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:158>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = ___6_material;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = ___4_source;
+		NullCheck(L_1);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_1, _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21, L_2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:159>
+		V_0 = (bool)1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:161>
+		GL_PushMatrix_mB505DD9B224528266FCADC716A16343838105A09(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:162>
+		GL_LoadOrtho_mE86AB2DBBC5C2BA67E7B743A2352E61C372CEADC(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:164>
+		V_1 = 0;
+		goto IL_00b9;
+	}
+
+IL_0028:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:166>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___6_material;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = Material_SetPass_mBB03542DFF4FAEADFCED332009F9D61B6DED75FE(L_3, L_4, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:168>
+		GL_Begin_m17A70A7A3C161D8A127C11BDC5FC393392AB70C7(7, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:170>
+		bool L_6 = V_0;
+		if (!L_6)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:172>
+		V_2 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:172>
+		V_3 = (0.0f);
+		goto IL_0054;
+	}
+
+IL_0048:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:176>
+		V_2 = (0.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:176>
+		V_3 = (1.0f);
+	}
+
+IL_0054:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:178>
+		float L_7 = V_2;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_7, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:178>
+		float L_8 = ___0_x1;
+		float L_9 = ___2_y1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_8, L_9, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:179>
+		float L_10 = V_2;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_10, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:179>
+		float L_11 = ___1_x2;
+		float L_12 = ___2_y1;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_11, L_12, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:180>
+		float L_13 = V_3;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((1.0f), L_13, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:180>
+		float L_14 = ___1_x2;
+		float L_15 = ___3_y2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_14, L_15, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:181>
+		float L_16 = V_3;
+		GL_TexCoord2_mBD9A9E6D397F8669FAE40DA950AB1FD7D674D1FB((0.0f), L_16, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:181>
+		float L_17 = ___0_x1;
+		float L_18 = ___3_y2;
+		GL_Vertex3_mEA9925548F447556F7899E69604B787EE57F6978(L_17, L_18, (0.100000001f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:182>
+		GL_End_m6CE9D562B738075125F901B1D5254520EC30AB36(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:164>
+		int32_t L_19 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+	}
+
+IL_00b9:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:164>
+		int32_t L_20 = V_1;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_21 = ___6_material;
+		NullCheck(L_21);
+		int32_t L_22;
+		L_22 = Material_get_passCount_m7BA071AFFA34DC3E49B56A16CB8B098566BDE765(L_21, NULL);
+		if ((((int32_t)L_20) < ((int32_t)L_22)))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:185>
+		GL_PopMatrix_mCE0D33302104D1168B6382136039E979E8C02855(NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs:186>
+		return;
+	}
+}
+// Method Definition Index: 44438
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsHelper__ctor_m5C779A7F29B45B27E2868CE04DFB61BAD46B5AB0 (PostEffectsHelper_t12213D5AE8FCB54BDC8CF5223A513E4CF16AAC91* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44439
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Quads_HasMeshes_m161DEE29B7DB84FBC23A3554452DBDD9AC663119 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* V_0 = NULL;
+	int32_t V_1 = 0;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* V_2 = NULL;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:16>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_0 = ((Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields*)il2cpp_codegen_static_fields_for(Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var))->___meshes;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:17>
+		return (bool)0;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:18>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_1 = ((Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields*)il2cpp_codegen_static_fields_for(Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var))->___meshes;
+		V_0 = L_1;
+		V_1 = 0;
+		goto IL_0026;
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:18>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_2 = V_0;
+		int32_t L_3 = V_1;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_2 = L_5;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:19>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_6 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:20>
+		return (bool)0;
+	}
+
+IL_0022:
+	{
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_8, 1));
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:18>
+		int32_t L_9 = V_1;
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_10 = V_0;
+		NullCheck(L_10);
+		if ((((int32_t)L_9) < ((int32_t)((int32_t)(((RuntimeArray*)L_10)->max_length)))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:21>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 44440
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Quads_Cleanup_m247E1C0C88468C2C52F5CE5E9CC3B16F92A37D69 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:27>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_0 = ((Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields*)il2cpp_codegen_static_fields_for(Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var))->___meshes;
+		if (L_0)
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:28>
+		return;
+	}
+
+IL_0008:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:30>
+		V_0 = 0;
+		goto IL_0033;
+	}
+
+IL_000c:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:32>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_1 = ((Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields*)il2cpp_codegen_static_fields_for(Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var))->___meshes;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, L_4, NULL);
+		if (!L_5)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:34>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_6 = ((Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields*)il2cpp_codegen_static_fields_for(Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var))->___meshes;
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_9, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:35>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_10 = ((Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields*)il2cpp_codegen_static_fields_for(Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var))->___meshes;
+		int32_t L_11 = V_0;
+		NullCheck(L_10);
+		ArrayElementTypeCheck (L_10, NULL);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL);
+	}
+
+IL_002f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:30>
+		int32_t L_12 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0033:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:30>
+		int32_t L_13 = V_0;
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_14 = ((Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields*)il2cpp_codegen_static_fields_for(Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var))->___meshes;
+		NullCheck(L_14);
+		if ((((int32_t)L_13) < ((int32_t)((int32_t)(((RuntimeArray*)L_14)->max_length)))))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:38>
+		((Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields*)il2cpp_codegen_static_fields_for(Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var))->___meshes = (MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&((Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields*)il2cpp_codegen_static_fields_for(Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var))->___meshes), (void*)(MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689*)NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:39>
+		return;
+	}
+}
+// Method Definition Index: 44441
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* Quads_GetMeshes_m59088B68A7965C651F38B5F686046BA8E9F74A41 (int32_t ___0_totalWidth, int32_t ___1_totalHeight, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:44>
+		bool L_0;
+		L_0 = Quads_HasMeshes_m161DEE29B7DB84FBC23A3554452DBDD9AC663119(NULL);
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_1 = ((Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields*)il2cpp_codegen_static_fields_for(Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var))->___currentQuads;
+		int32_t L_2 = ___0_totalWidth;
+		int32_t L_3 = ___1_totalHeight;
+		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)il2cpp_codegen_multiply(L_2, L_3))))))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:45>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_4 = ((Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields*)il2cpp_codegen_static_fields_for(Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var))->___meshes;
+		return L_4;
+	}
+
+IL_0017:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:48>
+		V_0 = ((int32_t)10833);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:49>
+		int32_t L_5 = ___0_totalWidth;
+		int32_t L_6 = ___1_totalHeight;
+		V_1 = ((int32_t)il2cpp_codegen_multiply(L_5, L_6));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:50>
+		int32_t L_7 = V_1;
+		((Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields*)il2cpp_codegen_static_fields_for(Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var))->___currentQuads = L_7;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:52>
+		int32_t L_8 = V_1;
+		int32_t L_9 = V_0;
+		int32_t L_10;
+		L_10 = Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline(((float)(((float)il2cpp_codegen_multiply((1.0f), ((float)L_8)))/((float)il2cpp_codegen_multiply((1.0f), ((float)L_9))))), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:54>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_11 = (MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689*)(MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689*)SZArrayNew(MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689_il2cpp_TypeInfo_var, (uint32_t)L_10);
+		((Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields*)il2cpp_codegen_static_fields_for(Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var))->___meshes = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&((Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields*)il2cpp_codegen_static_fields_for(Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var))->___meshes), (void*)L_11);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:56>
+		V_2 = 0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:57>
+		V_3 = 0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:58>
+		V_2 = 0;
+		goto IL_007a;
+	}
+
+IL_004f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:60>
+		int32_t L_12 = V_1;
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_0;
+		int32_t L_15;
+		L_15 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(((int32_t)il2cpp_codegen_subtract(L_12, L_13)), 0, L_14, NULL);
+		int32_t L_16;
+		L_16 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)L_15), NULL);
+		V_4 = L_16;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:62>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_17 = ((Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields*)il2cpp_codegen_static_fields_for(Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var))->___meshes;
+		int32_t L_18 = V_3;
+		int32_t L_19 = V_4;
+		int32_t L_20 = V_2;
+		int32_t L_21 = ___0_totalWidth;
+		int32_t L_22 = ___1_totalHeight;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_23;
+		L_23 = Quads_GetMesh_m3DDAA790FDD05C1A18EB29B0CF4C6E5003784307(L_19, L_20, L_21, L_22, NULL);
+		NullCheck(L_17);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(L_18), (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)L_23);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:63>
+		int32_t L_24 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_24, 1));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:58>
+		int32_t L_25 = V_2;
+		int32_t L_26 = V_0;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_25, L_26));
+	}
+
+IL_007a:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:58>
+		int32_t L_27 = V_2;
+		int32_t L_28 = V_1;
+		if ((((int32_t)L_27) < ((int32_t)L_28)))
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:66>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_29 = ((Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_StaticFields*)il2cpp_codegen_static_fields_for(Quads_t77798DC31BD3C663820DAC272857C638FF4AE612_il2cpp_TypeInfo_var))->___meshes;
+		return L_29;
+	}
+}
+// Method Definition Index: 44442
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* Quads_GetMesh_m3DDAA790FDD05C1A18EB29B0CF4C6E5003784307 (int32_t ___0_triCount, int32_t ___1_triOffset, int32_t ___2_totalWidth, int32_t ___3_totalHeight, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* V_0 = NULL;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* V_1 = NULL;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* V_2 = NULL;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* V_3 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_4 = NULL;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:71>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
+		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_0, NULL);
+		V_0 = L_0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:72>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_1 = V_0;
+		NullCheck(L_1);
+		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_1, ((int32_t)52), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:74>
+		int32_t L_2 = ___0_triCount;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_3 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_2, 4)));
+		V_1 = L_3;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:75>
+		int32_t L_4 = ___0_triCount;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_5 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_4, 4)));
+		V_2 = L_5;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:76>
+		int32_t L_6 = ___0_triCount;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_7 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_6, 4)));
+		V_3 = L_7;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:77>
+		int32_t L_8 = ___0_triCount;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_8, 6)));
+		V_4 = L_9;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:79>
+		V_5 = 0;
+		goto IL_01ac;
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:81>
+		int32_t L_10 = V_5;
+		V_6 = ((int32_t)il2cpp_codegen_multiply(L_10, 4));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:82>
+		int32_t L_11 = V_5;
+		V_7 = ((int32_t)il2cpp_codegen_multiply(L_11, 6));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:84>
+		int32_t L_12 = ___1_triOffset;
+		int32_t L_13 = V_5;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:86>
+		int32_t L_14 = ((int32_t)il2cpp_codegen_add(L_12, L_13));
+		int32_t L_15 = ___2_totalWidth;
+		float L_16;
+		L_16 = floorf(((float)((int32_t)(L_14%L_15))));
+		int32_t L_17 = ___2_totalWidth;
+		V_8 = ((float)(L_16/((float)L_17)));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:87>
+		int32_t L_18 = ___2_totalWidth;
+		float L_19;
+		L_19 = floorf(((float)((int32_t)(L_14/L_18))));
+		int32_t L_20 = ___3_totalHeight;
+		V_9 = ((float)(L_19/((float)L_20)));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:89>
+		float L_21 = V_8;
+		float L_22 = V_9;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_10), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_21, (2.0f))), (1.0f))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_22, (2.0f))), (1.0f))), (1.0f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:91>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_23 = V_1;
+		int32_t L_24 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = V_10;
+		NullCheck(L_23);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(L_24), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_25);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:92>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_26 = V_1;
+		int32_t L_27 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = V_10;
+		NullCheck(L_26);
+		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_27, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_28);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:93>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_29 = V_1;
+		int32_t L_30 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = V_10;
+		NullCheck(L_29);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_30, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_31);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:94>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_32 = V_1;
+		int32_t L_33 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = V_10;
+		NullCheck(L_32);
+		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_33, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_34);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:96>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_35 = V_2;
+		int32_t L_36 = V_6;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_37;
+		memset((&L_37), 0, sizeof(L_37));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_37), (0.0f), (0.0f), NULL);
+		NullCheck(L_35);
+		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(L_36), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_37);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:97>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_38 = V_2;
+		int32_t L_39 = V_6;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_40;
+		memset((&L_40), 0, sizeof(L_40));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_40), (1.0f), (0.0f), NULL);
+		NullCheck(L_38);
+		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_39, 1))), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_40);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:98>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_41 = V_2;
+		int32_t L_42 = V_6;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_43;
+		memset((&L_43), 0, sizeof(L_43));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_43), (0.0f), (1.0f), NULL);
+		NullCheck(L_41);
+		(L_41)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_42, 2))), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_43);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:99>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_44 = V_2;
+		int32_t L_45 = V_6;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_46;
+		memset((&L_46), 0, sizeof(L_46));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_46), (1.0f), (1.0f), NULL);
+		NullCheck(L_44);
+		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_45, 3))), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_46);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:101>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_47 = V_3;
+		int32_t L_48 = V_6;
+		float L_49 = V_8;
+		float L_50 = V_9;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_51;
+		memset((&L_51), 0, sizeof(L_51));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_51), L_49, L_50, NULL);
+		NullCheck(L_47);
+		(L_47)->SetAt(static_cast<il2cpp_array_size_t>(L_48), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_51);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:102>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_52 = V_3;
+		int32_t L_53 = V_6;
+		float L_54 = V_8;
+		float L_55 = V_9;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_56;
+		memset((&L_56), 0, sizeof(L_56));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_56), L_54, L_55, NULL);
+		NullCheck(L_52);
+		(L_52)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_53, 1))), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_56);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:103>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_57 = V_3;
+		int32_t L_58 = V_6;
+		float L_59 = V_8;
+		float L_60 = V_9;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_61;
+		memset((&L_61), 0, sizeof(L_61));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_61), L_59, L_60, NULL);
+		NullCheck(L_57);
+		(L_57)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_58, 2))), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_61);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:104>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_62 = V_3;
+		int32_t L_63 = V_6;
+		float L_64 = V_8;
+		float L_65 = V_9;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_66;
+		memset((&L_66), 0, sizeof(L_66));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_66), L_64, L_65, NULL);
+		NullCheck(L_62);
+		(L_62)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_63, 3))), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_66);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:106>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_67 = V_4;
+		int32_t L_68 = V_7;
+		int32_t L_69 = V_6;
+		NullCheck(L_67);
+		(L_67)->SetAt(static_cast<il2cpp_array_size_t>(L_68), (int32_t)L_69);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:107>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_70 = V_4;
+		int32_t L_71 = V_7;
+		int32_t L_72 = V_6;
+		NullCheck(L_70);
+		(L_70)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_71, 1))), (int32_t)((int32_t)il2cpp_codegen_add(L_72, 1)));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:108>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_73 = V_4;
+		int32_t L_74 = V_7;
+		int32_t L_75 = V_6;
+		NullCheck(L_73);
+		(L_73)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_74, 2))), (int32_t)((int32_t)il2cpp_codegen_add(L_75, 2)));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:110>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_76 = V_4;
+		int32_t L_77 = V_7;
+		int32_t L_78 = V_6;
+		NullCheck(L_76);
+		(L_76)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_77, 3))), (int32_t)((int32_t)il2cpp_codegen_add(L_78, 1)));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:111>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_79 = V_4;
+		int32_t L_80 = V_7;
+		int32_t L_81 = V_6;
+		NullCheck(L_79);
+		(L_79)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_80, 4))), (int32_t)((int32_t)il2cpp_codegen_add(L_81, 2)));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:112>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_82 = V_4;
+		int32_t L_83 = V_7;
+		int32_t L_84 = V_6;
+		NullCheck(L_82);
+		(L_82)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_83, 5))), (int32_t)((int32_t)il2cpp_codegen_add(L_84, 3)));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:79>
+		int32_t L_85 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_85, 1));
+	}
+
+IL_01ac:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:79>
+		int32_t L_86 = V_5;
+		int32_t L_87 = ___0_triCount;
+		if ((((int32_t)L_86) < ((int32_t)L_87)))
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:116>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_88 = V_0;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_89 = V_1;
+		NullCheck(L_88);
+		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_88, L_89, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:117>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_90 = V_0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_91 = V_4;
+		NullCheck(L_90);
+		Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B(L_90, L_91, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:118>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_92 = V_0;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_93 = V_2;
+		NullCheck(L_92);
+		Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617(L_92, L_93, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:119>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_94 = V_0;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_95 = V_3;
+		NullCheck(L_94);
+		Mesh_set_uv2_m37B442C04EBB029C0AD9545C54F95D9BDAD8E9B5(L_94, L_95, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs:121>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_96 = V_0;
+		return L_96;
+	}
+}
+// Method Definition Index: 44443
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Quads__ctor_mE041AF34751F33F61538B486A7B941F3B6F44330 (Quads_t77798DC31BD3C663820DAC272857C638FF4AE612* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ScreenOverlay_CheckResources_m3DA2AE76CDCFC408C2D99735F25F60D47F73783A (ScreenOverlay_tF90F923B901EBCD13A07E8051A783EAD85A3E8CD* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs:30>
+		bool L_0;
+		L_0 = PostEffectsBase_CheckSupport_mD35BCE12C19A6D60AC19A0189F1EB5CD71A1303E(__this, (bool)0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs:32>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_1 = __this->___overlayShader;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->___overlayMaterial;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3;
+		L_3 = PostEffectsBase_CheckShaderAndCreateMaterial_m9F3512FEF659B04E086E2EC154E789D67401D91A(__this, L_1, L_2, NULL);
+		__this->___overlayMaterial = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___overlayMaterial), (void*)L_3);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs:34>
+		bool L_4 = ((PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24*)__this)->___isSupported;
+		if (L_4)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs:35>
+		PostEffectsBase_ReportAutoDisable_mFBFE9B4AF859872DA6F4FCAE254F92912B9B6000(__this, NULL);
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs:36>
+		bool L_5 = ((PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24*)__this)->___isSupported;
+		return L_5;
+	}
+}
+// Method Definition Index: 44445
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenOverlay_OnRenderImage_m960E8F9279F589614799648999899C97696D32F3 (ScreenOverlay_tF90F923B901EBCD13A07E8051A783EAD85A3E8CD* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_destination, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4E207A1E776F6188653FF9228A95BFD3A17B492E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC36C08270F0656B15564B93B095160EB52C35960);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE2F7A8CE1FA46E6E74F4D250C9E035A039D8FAEA);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs:41>
+		bool L_0;
+		L_0 = VirtualFuncInvoker0< bool >::Invoke(4, __this);
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs:43>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = ___1_destination;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_1, L_2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs:44>
+		return;
+	}
+
+IL_0010:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs:47>
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&V_0), (1.0f), (0.0f), (0.0f), (1.0f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs:63>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = __this->___overlayMaterial;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_4 = V_0;
+		NullCheck(L_3);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_3, _stringLiteralE2F7A8CE1FA46E6E74F4D250C9E035A039D8FAEA, L_4, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs:64>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = __this->___overlayMaterial;
+		float L_6 = __this->___intensity;
+		NullCheck(L_5);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_5, _stringLiteral4E207A1E776F6188653FF9228A95BFD3A17B492E, L_6, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs:65>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = __this->___overlayMaterial;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_8 = __this->___texture;
+		NullCheck(L_7);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_7, _stringLiteralC36C08270F0656B15564B93B095160EB52C35960, L_8, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs:66>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_9 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_10 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_11 = __this->___overlayMaterial;
+		int32_t L_12 = __this->___blendMode;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_9, L_10, L_11, L_12, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs:67>
+		return;
+	}
+}
+// Method Definition Index: 44446
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenOverlay__ctor_m8196B58FC35769BE892E25B3A6972E9A7308166E (ScreenOverlay_tF90F923B901EBCD13A07E8051A783EAD85A3E8CD* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs:20>
+		__this->___blendMode = 3;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs:21>
+		__this->___intensity = (1.0f);
+		PostEffectsBase__ctor_m4EE3CA780BAAFF694007DD15EDF5CFA7448DB7DF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44447
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ScreenSpaceAmbientObscurance_CheckResources_mF8FE58E891F425F52E01BD4F2838D4EDBEB73C1B (ScreenSpaceAmbientObscurance_tE0AE3E1E85695DE5A5071FFC30B42DFE44200042* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:27>
+		bool L_0;
+		L_0 = PostEffectsBase_CheckSupport_mD35BCE12C19A6D60AC19A0189F1EB5CD71A1303E(__this, (bool)1, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:29>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_1 = __this->___aoShader;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->___aoMaterial;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3;
+		L_3 = PostEffectsBase_CheckShaderAndCreateMaterial_m9F3512FEF659B04E086E2EC154E789D67401D91A(__this, L_1, L_2, NULL);
+		__this->___aoMaterial = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___aoMaterial), (void*)L_3);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:31>
+		bool L_4 = ((PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24*)__this)->___isSupported;
+		if (L_4)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:32>
+		PostEffectsBase_ReportAutoDisable_mFBFE9B4AF859872DA6F4FCAE254F92912B9B6000(__this, NULL);
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:33>
+		bool L_5 = ((PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24*)__this)->___isSupported;
+		return L_5;
+	}
+}
+// Method Definition Index: 44448
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceAmbientObscurance_OnDisable_mEF83638A871CEC8241275C14D212B07D3C98B0B6 (ScreenSpaceAmbientObscurance_tE0AE3E1E85695DE5A5071FFC30B42DFE44200042* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:37>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___aoMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:38>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->___aoMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_2, NULL);
+	}
+
+IL_0018:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:39>
+		__this->___aoMaterial = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___aoMaterial), (void*)(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:40>
+		return;
+	}
+}
+// Method Definition Index: 44449
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceAmbientObscurance_OnRenderImage_m5F50F470E4CDF8C877ED9CB509224486C399379E (ScreenSpaceAmbientObscurance_tE0AE3E1E85695DE5A5071FFC30B42DFE44200042* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_destination, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0EAAFAB53E130FE2ADD20070CDBD4848DC8582A9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0F78241FF6E78ADA6D1FB6DAA00F25817203ED13);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral43996BC36588CCD5051D9CC5DA131DFBF9706B48);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4E207A1E776F6188653FF9228A95BFD3A17B492E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral58C07946CE4124292F0094E3A090F13945F38CC0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAD6E56B90F7BBA5EEECD7831E48459043EBFCBB5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBB6CBCD648C07EAC90B08C00428BA435EC0272BF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE5A1D96CE41BD597A30172C890508C2BB5810152);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEC50E207386AABAE6EA569D05001E516E9CCA2E6);
+		s_Il2CppMethodInitialized = true;
+	}
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_5 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_6 = NULL;
+	int32_t V_7 = 0;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:44>
+		bool L_0;
+		L_0 = VirtualFuncInvoker0< bool >::Invoke(4, __this);
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:45>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = ___1_destination;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_1, L_2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:46>
+		return;
+	}
+
+IL_0010:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:49>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3;
+		L_3 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(__this, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		NullCheck(L_3);
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_4;
+		L_4 = Camera_get_projectionMatrix_m9B943EFDD6418528A055321E14F75F1511DD9B4A(L_3, NULL);
+		V_0 = L_4;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:50>
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_5;
+		L_5 = Matrix4x4_get_inverse_m4F4A881CD789281EA90EB68CFD39F36C8A81E6BD((&V_0), NULL);
+		V_1 = L_5;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:51>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:52>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:53>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:54>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:55>
+		int32_t L_6;
+		L_6 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		float L_7;
+		L_7 = Matrix4x4_get_Item_m771C2EE3A3BFFBAC9F2AD07FFCAAF6146C1BE92A((&V_0), 0, NULL);
+		int32_t L_8;
+		L_8 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		float L_9;
+		L_9 = Matrix4x4_get_Item_m771C2EE3A3BFFBAC9F2AD07FFCAAF6146C1BE92A((&V_0), 5, NULL);
+		float L_10;
+		L_10 = Matrix4x4_get_Item_m771C2EE3A3BFFBAC9F2AD07FFCAAF6146C1BE92A((&V_0), 2, NULL);
+		float L_11;
+		L_11 = Matrix4x4_get_Item_m771C2EE3A3BFFBAC9F2AD07FFCAAF6146C1BE92A((&V_0), 0, NULL);
+		float L_12;
+		L_12 = Matrix4x4_get_Item_m771C2EE3A3BFFBAC9F2AD07FFCAAF6146C1BE92A((&V_0), 6, NULL);
+		float L_13;
+		L_13 = Matrix4x4_get_Item_m771C2EE3A3BFFBAC9F2AD07FFCAAF6146C1BE92A((&V_0), 5, NULL);
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&V_2), ((float)((-2.0f)/((float)il2cpp_codegen_multiply(((float)L_6), L_7)))), ((float)((-2.0f)/((float)il2cpp_codegen_multiply(((float)L_8), L_9)))), ((float)(((float)il2cpp_codegen_subtract((1.0f), L_10))/L_11)), ((float)(((float)il2cpp_codegen_add((1.0f), L_12))/L_13)), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:57>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = __this->___aoMaterial;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_15 = V_2;
+		NullCheck(L_14);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_14, _stringLiteral0F78241FF6E78ADA6D1FB6DAA00F25817203ED13, L_15, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:58>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_16 = __this->___aoMaterial;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_17 = V_1;
+		NullCheck(L_16);
+		Material_SetMatrix_m1F4E20583C898A1C1DBA256868E1F98C539F13FB(L_16, _stringLiteralBB6CBCD648C07EAC90B08C00428BA435EC0272BF, L_17, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:59>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_18 = __this->___aoMaterial;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_19 = __this->___rand;
+		NullCheck(L_18);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_18, _stringLiteral0EAAFAB53E130FE2ADD20070CDBD4848DC8582A9, L_19, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:60>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_20 = __this->___aoMaterial;
+		float L_21 = __this->___radius;
+		NullCheck(L_20);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_20, _stringLiteralE5A1D96CE41BD597A30172C890508C2BB5810152, L_21, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:61>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_22 = __this->___aoMaterial;
+		float L_23 = __this->___radius;
+		float L_24 = __this->___radius;
+		NullCheck(L_22);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_22, _stringLiteralAD6E56B90F7BBA5EEECD7831E48459043EBFCBB5, ((float)il2cpp_codegen_multiply(L_23, L_24)), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:62>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_25 = __this->___aoMaterial;
+		float L_26 = __this->___intensity;
+		NullCheck(L_25);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_25, _stringLiteral4E207A1E776F6188653FF9228A95BFD3A17B492E, L_26, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:63>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_27 = __this->___aoMaterial;
+		float L_28 = __this->___blurFilterDistance;
+		NullCheck(L_27);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_27, _stringLiteralEC50E207386AABAE6EA569D05001E516E9CCA2E6, L_28, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:65>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_29 = ___0_source;
+		NullCheck(L_29);
+		int32_t L_30;
+		L_30 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_29);
+		V_3 = L_30;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:66>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_31 = ___0_source;
+		NullCheck(L_31);
+		int32_t L_32;
+		L_32 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_31);
+		V_4 = L_32;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:68>
+		int32_t L_33 = V_3;
+		int32_t L_34 = __this->___downsample;
+		int32_t L_35 = V_4;
+		int32_t L_36 = __this->___downsample;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_37;
+		L_37 = RenderTexture_GetTemporary_m82379FD4C767A36F0677CAF4E68319EAE16ADF7F(((int32_t)(L_33>>((int32_t)(L_34&((int32_t)31))))), ((int32_t)(L_35>>((int32_t)(L_36&((int32_t)31))))), NULL);
+		V_5 = L_37;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:71>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_38 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_39 = V_5;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_40 = __this->___aoMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_38, L_39, L_40, 0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:73>
+		int32_t L_41 = __this->___downsample;
+		if ((((int32_t)L_41) <= ((int32_t)0)))
+		{
+			goto IL_0184;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:74>
+		int32_t L_42 = V_3;
+		int32_t L_43 = V_4;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_44;
+		L_44 = RenderTexture_GetTemporary_m82379FD4C767A36F0677CAF4E68319EAE16ADF7F(L_42, L_43, NULL);
+		V_6 = L_44;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:75>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_45 = V_5;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_46 = V_6;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_47 = __this->___aoMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_45, L_46, L_47, 4, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:76>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_48 = V_5;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_48, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:77>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_49 = V_6;
+		V_5 = L_49;
+	}
+
+IL_0184:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:83>
+		V_7 = 0;
+		goto IL_021c;
+	}
+
+IL_018c:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:84>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_50 = __this->___aoMaterial;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_51;
+		memset((&L_51), 0, sizeof(L_51));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_51), (1.0f), (0.0f), NULL);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_52;
+		L_52 = Vector4_op_Implicit_mB193CD8DA20DEB9E9F95CFEB5A2B1B9B3B7ECFEB_inline(L_51, NULL);
+		NullCheck(L_50);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_50, _stringLiteral43996BC36588CCD5051D9CC5DA131DFBF9706B48, L_52, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:85>
+		int32_t L_53 = V_3;
+		int32_t L_54 = V_4;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_55;
+		L_55 = RenderTexture_GetTemporary_m82379FD4C767A36F0677CAF4E68319EAE16ADF7F(L_53, L_54, NULL);
+		V_6 = L_55;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:86>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_56 = V_5;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_57 = V_6;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_58 = __this->___aoMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_56, L_57, L_58, 1, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:87>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_59 = V_5;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_59, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:89>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_60 = __this->___aoMaterial;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_61;
+		memset((&L_61), 0, sizeof(L_61));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_61), (0.0f), (1.0f), NULL);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_62;
+		L_62 = Vector4_op_Implicit_mB193CD8DA20DEB9E9F95CFEB5A2B1B9B3B7ECFEB_inline(L_61, NULL);
+		NullCheck(L_60);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_60, _stringLiteral43996BC36588CCD5051D9CC5DA131DFBF9706B48, L_62, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:90>
+		int32_t L_63 = V_3;
+		int32_t L_64 = V_4;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_65;
+		L_65 = RenderTexture_GetTemporary_m82379FD4C767A36F0677CAF4E68319EAE16ADF7F(L_63, L_64, NULL);
+		V_5 = L_65;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:91>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_66 = V_6;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_67 = V_5;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_68 = __this->___aoMaterial;
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_66, L_67, L_68, 1, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:92>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_69 = V_6;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_69, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:83>
+		int32_t L_70 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_70, 1));
+	}
+
+IL_021c:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:83>
+		int32_t L_71 = V_7;
+		int32_t L_72 = __this->___blurIterations;
+		if ((((int32_t)L_71) < ((int32_t)L_72)))
+		{
+			goto IL_018c;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:95>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_73 = __this->___aoMaterial;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_74 = V_5;
+		NullCheck(L_73);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_73, _stringLiteral58C07946CE4124292F0094E3A090F13945F38CC0, L_74, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:96>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_75 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_76 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_77 = __this->___aoMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_75, L_76, L_77, 2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:98>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_78 = V_5;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_78, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:99>
+		return;
+	}
+}
+// Method Definition Index: 44450
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceAmbientObscurance__ctor_mC197411C6AD97657F3E7AA72D9368514359F5600 (ScreenSpaceAmbientObscurance_tE0AE3E1E85695DE5A5071FFC30B42DFE44200042* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:11>
+		__this->___intensity = (0.5f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:13>
+		__this->___radius = (0.200000003f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:15>
+		__this->___blurIterations = 1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs:17>
+		__this->___blurFilterDistance = (1.25f);
+		PostEffectsBase__ctor_m4EE3CA780BAAFF694007DD15EDF5CFA7448DB7DF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44451
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ScreenSpaceAmbientOcclusion_CreateMaterial_m95E02EC1AE388A8BF47392B34EB537473C317D4F (Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___0_shader, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:35>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_0 = ___0_shader;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:36>
+		return (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:37>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_2 = ___0_shader;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
+		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_3, L_2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:38>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = L_3;
+		NullCheck(L_4);
+		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_4, ((int32_t)61), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:39>
+		return L_4;
+	}
+}
+// Method Definition Index: 44452
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceAmbientOcclusion_DestroyMaterial_mA95A7699E7F6DB05C067E0741ADFAC227D53EF0E (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_mat, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:43>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_mat;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:45>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = ___0_mat;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:46>
+		___0_mat = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL;
+	}
+
+IL_0011:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:48>
+		return;
+	}
+}
+// Method Definition Index: 44453
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceAmbientOcclusion_OnDisable_mBA5E62CDB679627C974E0BE92F3CD56166ED500D (ScreenSpaceAmbientOcclusion_t552C68797B11029D91AAF4BAC5CDA1AED7700B69* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:53>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___m_SSAOMaterial;
+		ScreenSpaceAmbientOcclusion_DestroyMaterial_mA95A7699E7F6DB05C067E0741ADFAC227D53EF0E(L_0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:54>
+		return;
+	}
+}
+// Method Definition Index: 44454
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceAmbientOcclusion_Start_m66A767D9A995940530EA814BFF63506177B6A8F7 (ScreenSpaceAmbientOcclusion_t552C68797B11029D91AAF4BAC5CDA1AED7700B69* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:58>
+		bool L_0;
+		L_0 = SystemInfo_get_supportsImageEffects_mA97A693C45A91780EE8E9F2802D6ED58841D52F0(NULL);
+		if (!L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		bool L_1;
+		L_1 = SystemInfo_SupportsRenderTextureFormat_mCCC3C69578A2C5B7367F73999E6938C315A98201(1, NULL);
+		if (L_1)
+		{
+			goto IL_001e;
+		}
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:60>
+		__this->___m_Supported = (bool)0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:61>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:62>
+		return;
+	}
+
+IL_001e:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:65>
+		ScreenSpaceAmbientOcclusion_CreateMaterials_m530158AA1AEC1DF4BDB4A9874D8145C4CA28C68A(__this, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:66>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->___m_SSAOMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = __this->___m_SSAOMaterial;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = Material_get_passCount_m7BA071AFFA34DC3E49B56A16CB8B098566BDE765(L_4, NULL);
+		if ((((int32_t)L_5) == ((int32_t)5)))
+		{
+			goto IL_004e;
+		}
+	}
+
+IL_003f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:68>
+		__this->___m_Supported = (bool)0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:69>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:70>
+		return;
+	}
+
+IL_004e:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:75>
+		__this->___m_Supported = (bool)1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:76>
+		return;
+	}
+}
+// Method Definition Index: 44455
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceAmbientOcclusion_OnEnable_m6EF98CD428F0D410DB332958598210A34498746A (ScreenSpaceAmbientOcclusion_t552C68797B11029D91AAF4BAC5CDA1AED7700B69* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:79>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
+		L_0 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(__this, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_1 = L_0;
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = Camera_get_depthTextureMode_m998CDEBC055FE2A910F3B650585ADE3E2BB141EE(L_1, NULL);
+		NullCheck(L_1);
+		Camera_set_depthTextureMode_mE722389E4DF8B3DF7F6100DB142E4DBAF698F6BF(L_1, ((int32_t)((int32_t)L_2|2)), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:80>
+		return;
+	}
+}
+// Method Definition Index: 44456
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceAmbientOcclusion_CreateMaterials_m530158AA1AEC1DF4BDB4A9874D8145C4CA28C68A (ScreenSpaceAmbientOcclusion_t552C68797B11029D91AAF4BAC5CDA1AED7700B69* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5826A90C2A023CEF000FAA3A3456FA3BC3A1BF80);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:84>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___m_SSAOMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_2 = __this->___m_SSAOShader;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = Shader_get_isSupported_m21C3D0F1819054101DFE0C0C062A24464FA5CAE5(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:86>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_4 = __this->___m_SSAOShader;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5;
+		L_5 = ScreenSpaceAmbientOcclusion_CreateMaterial_m95E02EC1AE388A8BF47392B34EB537473C317D4F(L_4, NULL);
+		__this->___m_SSAOMaterial = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SSAOMaterial), (void*)L_5);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:87>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = __this->___m_SSAOMaterial;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_7 = __this->___m_RandomTexture;
+		NullCheck(L_6);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_6, _stringLiteral5826A90C2A023CEF000FAA3A3456FA3BC3A1BF80, L_7, NULL);
+	}
+
+IL_0041:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:89>
+		return;
+	}
+}
+// Method Definition Index: 44457
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceAmbientOcclusion_OnRenderImage_mA2A5B806D9011F1C2DAF4CB775D2C7B253DEB38D (ScreenSpaceAmbientOcclusion_t552C68797B11029D91AAF4BAC5CDA1AED7700B69* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_destination, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6238431605E3EDF93423004446032CC82A241F2C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral83D3CB22CFCAF6C46B4A2D040B6BAD092671021A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF6964931913C0285B81AE3611DBB55AEF6ADC09A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF873D6748545B7516CD56A7A617453AEC82E7C8D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFB7478C21D272917F984D2563D604F75AD87D92C);
+		s_Il2CppMethodInitialized = true;
+	}
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_0 = NULL;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_6 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_7 = NULL;
+	int32_t G_B8_0 = 0;
+	int32_t G_B7_0 = 0;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B9_0 = NULL;
+	int32_t G_B9_1 = 0;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:94>
+		bool L_0 = __this->___m_Supported;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_1 = __this->___m_SSAOShader;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = Shader_get_isSupported_m21C3D0F1819054101DFE0C0C062A24464FA5CAE5(L_1, NULL);
+		if (L_2)
+		{
+			goto IL_001d;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:95>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:96>
+		return;
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:98>
+		ScreenSpaceAmbientOcclusion_CreateMaterials_m530158AA1AEC1DF4BDB4A9874D8145C4CA28C68A(__this, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:100>
+		int32_t L_3 = __this->___m_Downsampling;
+		int32_t L_4;
+		L_4 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_3, 1, 6, NULL);
+		__this->___m_Downsampling = L_4;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:101>
+		float L_5 = __this->___m_Radius;
+		float L_6;
+		L_6 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_5, (0.0500000007f), (1.0f), NULL);
+		__this->___m_Radius = L_6;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:102>
+		float L_7 = __this->___m_MinZ;
+		float L_8;
+		L_8 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_7, (9.99999975E-06f), (0.5f), NULL);
+		__this->___m_MinZ = L_8;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:103>
+		float L_9 = __this->___m_OcclusionIntensity;
+		float L_10;
+		L_10 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_9, (0.5f), (4.0f), NULL);
+		__this->___m_OcclusionIntensity = L_10;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:104>
+		float L_11 = __this->___m_OcclusionAttenuation;
+		float L_12;
+		L_12 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_11, (0.200000003f), (2.0f), NULL);
+		__this->___m_OcclusionAttenuation = L_12;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:105>
+		int32_t L_13 = __this->___m_Blur;
+		int32_t L_14;
+		L_14 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_13, 0, 4, NULL);
+		__this->___m_Blur = L_14;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:108>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_15 = ___0_source;
+		NullCheck(L_15);
+		int32_t L_16;
+		L_16 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_15);
+		int32_t L_17 = __this->___m_Downsampling;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_18 = ___0_source;
+		NullCheck(L_18);
+		int32_t L_19;
+		L_19 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_18);
+		int32_t L_20 = __this->___m_Downsampling;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_21;
+		L_21 = RenderTexture_GetTemporary_m5B16E03FC6142149BDC336285A5C18D5152CA2C3(((int32_t)(L_16/L_17)), ((int32_t)(L_19/L_20)), 0, NULL);
+		V_0 = L_21;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:109>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_22;
+		L_22 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(__this, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		NullCheck(L_22);
+		float L_23;
+		L_23 = Camera_get_fieldOfView_m9A93F17BBF89F496AE231C21817AFD1C1E833FBB(L_22, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:110>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_24;
+		L_24 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(__this, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		NullCheck(L_24);
+		float L_25;
+		L_25 = Camera_get_farClipPlane_m1D7128B85B5DB866F75FBE8CEBA48335716B67BD(L_24, NULL);
+		V_1 = L_25;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:111>
+		float L_26;
+		L_26 = tanf(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_23, (0.0174532924f))), (0.5f))));
+		float L_27 = V_1;
+		V_2 = ((float)il2cpp_codegen_multiply(L_26, L_27));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:112>
+		float L_28 = V_2;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_29;
+		L_29 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(__this, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		NullCheck(L_29);
+		float L_30;
+		L_30 = Camera_get_aspect_m48BF8820EA2D55BE0D154BC5546819FB65BE257D(L_29, NULL);
+		V_3 = ((float)il2cpp_codegen_multiply(L_28, L_30));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:113>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_31 = __this->___m_SSAOMaterial;
+		float L_32 = V_3;
+		float L_33 = V_2;
+		float L_34 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
+		memset((&L_35), 0, sizeof(L_35));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_35), L_32, L_33, L_34, NULL);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_36;
+		L_36 = Vector4_op_Implicit_m2ECA73F345A7AD84144133E9E51657204002B12D_inline(L_35, NULL);
+		NullCheck(L_31);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_31, _stringLiteral6238431605E3EDF93423004446032CC82A241F2C, L_36, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:115>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_37 = __this->___m_RandomTexture;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_38;
+		L_38 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_37, NULL);
+		if (!L_38)
+		{
+			goto IL_0155;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:116>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_39 = __this->___m_RandomTexture;
+		NullCheck(L_39);
+		int32_t L_40;
+		L_40 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_39);
+		V_4 = L_40;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:117>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_41 = __this->___m_RandomTexture;
+		NullCheck(L_41);
+		int32_t L_42;
+		L_42 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_41);
+		V_5 = L_42;
+		goto IL_015b;
+	}
+
+IL_0155:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:119>
+		V_4 = 1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:119>
+		V_5 = 1;
+	}
+
+IL_015b:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:121>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_43 = __this->___m_SSAOMaterial;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_44 = V_0;
+		NullCheck(L_44);
+		int32_t L_45;
+		L_45 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_44);
+		int32_t L_46 = V_4;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_47 = V_0;
+		NullCheck(L_47);
+		int32_t L_48;
+		L_48 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_47);
+		int32_t L_49 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50;
+		memset((&L_50), 0, sizeof(L_50));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_50), ((float)(((float)L_45)/((float)L_46))), ((float)(((float)L_48)/((float)L_49))), (0.0f), NULL);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_51;
+		L_51 = Vector4_op_Implicit_m2ECA73F345A7AD84144133E9E51657204002B12D_inline(L_50, NULL);
+		NullCheck(L_43);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_43, _stringLiteral83D3CB22CFCAF6C46B4A2D040B6BAD092671021A, L_51, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:122>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:123>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:124>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:125>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:126>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_52 = __this->___m_SSAOMaterial;
+		float L_53 = __this->___m_Radius;
+		float L_54 = __this->___m_MinZ;
+		float L_55 = __this->___m_OcclusionAttenuation;
+		float L_56 = __this->___m_OcclusionIntensity;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_57;
+		memset((&L_57), 0, sizeof(L_57));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_57), L_53, L_54, ((float)((1.0f)/L_55)), L_56, NULL);
+		NullCheck(L_52);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_52, _stringLiteralF873D6748545B7516CD56A7A617453AEC82E7C8D, L_57, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:128>
+		int32_t L_58 = __this->___m_Blur;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:129>
+		int32_t L_59 = ((((int32_t)L_58) > ((int32_t)0))? 1 : 0);
+		if (L_59)
+		{
+			G_B8_0 = L_59;
+			goto IL_01d2;
+		}
+		G_B7_0 = L_59;
+	}
+	{
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_60 = ___0_source;
+		G_B9_0 = L_60;
+		G_B9_1 = G_B7_0;
+		goto IL_01d3;
+	}
+
+IL_01d2:
+	{
+		G_B9_0 = ((RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)(NULL));
+		G_B9_1 = G_B8_0;
+	}
+
+IL_01d3:
+	{
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_61 = V_0;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_62 = __this->___m_SSAOMaterial;
+		int32_t L_63 = __this->___m_SampleCount;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(G_B9_0, L_61, L_62, L_63, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:131>
+		if (!G_B9_1)
+		{
+			goto IL_02c9;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:134>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_64 = ___0_source;
+		NullCheck(L_64);
+		int32_t L_65;
+		L_65 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_64);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_66 = ___0_source;
+		NullCheck(L_66);
+		int32_t L_67;
+		L_67 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_66);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_68;
+		L_68 = RenderTexture_GetTemporary_m5B16E03FC6142149BDC336285A5C18D5152CA2C3(L_65, L_67, 0, NULL);
+		V_6 = L_68;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:135>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:136>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_69 = __this->___m_SSAOMaterial;
+		int32_t L_70 = __this->___m_Blur;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_71 = ___0_source;
+		NullCheck(L_71);
+		int32_t L_72;
+		L_72 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_71);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_73;
+		memset((&L_73), 0, sizeof(L_73));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_73), ((float)(((float)L_70)/((float)L_72))), (0.0f), (0.0f), (0.0f), NULL);
+		NullCheck(L_69);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_69, _stringLiteralF6964931913C0285B81AE3611DBB55AEF6ADC09A, L_73, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:137>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_74 = __this->___m_SSAOMaterial;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_75 = V_0;
+		NullCheck(L_74);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_74, _stringLiteralFB7478C21D272917F984D2563D604F75AD87D92C, L_75, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:138>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_76 = V_6;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_77 = __this->___m_SSAOMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779((Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700*)NULL, L_76, L_77, 3, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:139>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_78 = V_0;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_78, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:142>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_79 = ___0_source;
+		NullCheck(L_79);
+		int32_t L_80;
+		L_80 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_79);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_81 = ___0_source;
+		NullCheck(L_81);
+		int32_t L_82;
+		L_82 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_81);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_83;
+		L_83 = RenderTexture_GetTemporary_m5B16E03FC6142149BDC336285A5C18D5152CA2C3(L_80, L_82, 0, NULL);
+		V_7 = L_83;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:143>
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:144>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_84 = __this->___m_SSAOMaterial;
+		int32_t L_85 = __this->___m_Blur;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_86 = ___0_source;
+		NullCheck(L_86);
+		int32_t L_87;
+		L_87 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_86);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_88;
+		memset((&L_88), 0, sizeof(L_88));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_88), (0.0f), ((float)(((float)L_85)/((float)L_87))), (0.0f), (0.0f), NULL);
+		NullCheck(L_84);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_84, _stringLiteralF6964931913C0285B81AE3611DBB55AEF6ADC09A, L_88, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:145>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_89 = __this->___m_SSAOMaterial;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_90 = V_6;
+		NullCheck(L_89);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_89, _stringLiteralFB7478C21D272917F984D2563D604F75AD87D92C, L_90, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:146>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_91 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_92 = V_7;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_93 = __this->___m_SSAOMaterial;
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_91, L_92, L_93, 3, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:147>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_94 = V_6;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_94, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:149>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_95 = V_7;
+		V_0 = L_95;
+	}
+
+IL_02c9:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:153>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_96 = __this->___m_SSAOMaterial;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_97 = V_0;
+		NullCheck(L_96);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_96, _stringLiteralFB7478C21D272917F984D2563D604F75AD87D92C, L_97, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:154>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_98 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_99 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_100 = __this->___m_SSAOMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_98, L_99, L_100, 4, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:156>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_101 = V_0;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_101, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:157>
+		return;
+	}
+}
+// Method Definition Index: 44458
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScreenSpaceAmbientOcclusion__ctor_m4286F49F2CB7FF88544EBECA951164AC70008BFD (ScreenSpaceAmbientOcclusion_t552C68797B11029D91AAF4BAC5CDA1AED7700B69* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:18>
+		__this->___m_Radius = (0.400000006f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:19>
+		__this->___m_SampleCount = 1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:20>
+		__this->___m_OcclusionIntensity = (1.5f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:21>
+		__this->___m_Blur = 2;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:22>
+		__this->___m_Downsampling = 2;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:23>
+		__this->___m_OcclusionAttenuation = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs:24>
+		__this->___m_MinZ = (0.00999999978f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44459
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SepiaTone_OnRenderImage_m34AEA8558701E5BEC790A7705AB328AC2037334E (SepiaTone_tF6B327627CCB7D927545917D8861BB33DEEA3020* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_destination, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs:13>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2;
+		L_2 = ImageEffectBase_get_material_m6B95881F5E91DDE2489D96668E6ED1247CB4B2D7(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8DFE1C855FA028398E5072592582721D5DA6253F(L_0, L_1, L_2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs:14>
+		return;
+	}
+}
+// Method Definition Index: 44460
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SepiaTone__ctor_mC24ED56316A48D6F4ECC2CD796FDD659D9426F9F (SepiaTone_tF6B327627CCB7D927545917D8861BB33DEEA3020* __this, const RuntimeMethod* method) 
+{
+	{
+		ImageEffectBase__ctor_mEFB34E7312EAA70648BCA4606836A5E4314AFD0D(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44461
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SunShafts_CheckResources_m324F0E28E33F1C7EB7FF4C41BBAF78CFA1EF04AE (SunShafts_t9F34A1A3A457E55BA35670D373B6C2F4A741F399* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:47>
+		bool L_0 = __this->___useDepthTexture;
+		bool L_1;
+		L_1 = PostEffectsBase_CheckSupport_mD35BCE12C19A6D60AC19A0189F1EB5CD71A1303E(__this, L_0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:49>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_2 = __this->___sunShaftsShader;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = __this->___sunShaftsMaterial;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4;
+		L_4 = PostEffectsBase_CheckShaderAndCreateMaterial_m9F3512FEF659B04E086E2EC154E789D67401D91A(__this, L_2, L_3, NULL);
+		__this->___sunShaftsMaterial = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___sunShaftsMaterial), (void*)L_4);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:50>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_5 = __this->___simpleClearShader;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = __this->___simpleClearMaterial;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7;
+		L_7 = PostEffectsBase_CheckShaderAndCreateMaterial_m9F3512FEF659B04E086E2EC154E789D67401D91A(__this, L_5, L_6, NULL);
+		__this->___simpleClearMaterial = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___simpleClearMaterial), (void*)L_7);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:52>
+		bool L_8 = ((PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24*)__this)->___isSupported;
+		if (L_8)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:53>
+		PostEffectsBase_ReportAutoDisable_mFBFE9B4AF859872DA6F4FCAE254F92912B9B6000(__this, NULL);
+	}
+
+IL_004b:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:54>
+		bool L_9 = ((PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24*)__this)->___isSupported;
+		return L_9;
+	}
+}
+// Method Definition Index: 44462
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SunShafts_OnRenderImage_m4267FD1A20A2FFE1E5B1D1186B0CB5954030E3BF (SunShafts_t9F34A1A3A457E55BA35670D373B6C2F4A741F399* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_destination, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0CC36A0ACE18A1CFE0ECAF14C22D5B28FAF563BE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3F42ED00D84DBC7A3B4658065DEA62873778201F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral59E9A90ACEB12BE1578CBAE545691B1979987312);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA467D3C6168371D0FACC829AA2255312BFD50ABA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB9695E91A6E8DF407F4DDDDAD91C688E54E31D04);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCC6DC72C8AD9ACA85E92D38AA3DC649C6AC591BB);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_4 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_5 = NULL;
+	float V_6 = 0.0f;
+	int32_t V_7 = 0;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_8 = NULL;
+	int32_t V_9 = 0;
+	int32_t G_B15_0 = 0;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B25_0 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B25_1 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B25_2 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B24_0 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B24_1 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B24_2 = NULL;
+	int32_t G_B26_0 = 0;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B26_1 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B26_2 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B26_3 = NULL;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:58>
+		bool L_0;
+		L_0 = VirtualFuncInvoker0< bool >::Invoke(4, __this);
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:59>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = ___1_destination;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_1, L_2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:60>
+		return;
+	}
+
+IL_0010:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:64>
+		bool L_3 = __this->___useDepthTexture;
+		if (!L_3)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:65>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_4;
+		L_4 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(__this, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_5 = L_4;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = Camera_get_depthTextureMode_m998CDEBC055FE2A910F3B650585ADE3E2BB141EE(L_5, NULL);
+		NullCheck(L_5);
+		Camera_set_depthTextureMode_mE722389E4DF8B3DF7F6100DB142E4DBAF698F6BF(L_5, ((int32_t)((int32_t)L_6|1)), NULL);
+	}
+
+IL_002b:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:67>
+		V_0 = 4;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:68>
+		int32_t L_7 = __this->___resolution;
+		if ((!(((uint32_t)L_7) == ((uint32_t)1))))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:69>
+		V_0 = 2;
+		goto IL_0045;
+	}
+
+IL_003a:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:70>
+		int32_t L_8 = __this->___resolution;
+		if ((!(((uint32_t)L_8) == ((uint32_t)2))))
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:71>
+		V_0 = 1;
+	}
+
+IL_0045:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:73>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_9, (0.5f), NULL);
+		V_1 = L_10;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:74>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = __this->___sunTransform;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_12;
+		L_12 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_11, NULL);
+		if (!L_12)
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:75>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_13;
+		L_13 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(__this, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = __this->___sunTransform;
+		NullCheck(L_14);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_14, NULL);
+		NullCheck(L_13);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		L_16 = Camera_WorldToViewportPoint_m285523443225EDA79BBEF9C9EDD76B99CFED054B(L_13, L_15, NULL);
+		V_1 = L_16;
+		goto IL_0091;
+	}
+
+IL_007b:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:77>
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_1), (0.5f), (0.5f), (0.0f), NULL);
+	}
+
+IL_0091:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:79>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_17 = ___0_source;
+		NullCheck(L_17);
+		int32_t L_18;
+		L_18 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_17);
+		int32_t L_19 = V_0;
+		V_2 = ((int32_t)(L_18/L_19));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:80>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_20 = ___0_source;
+		NullCheck(L_20);
+		int32_t L_21;
+		L_21 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_20);
+		int32_t L_22 = V_0;
+		V_3 = ((int32_t)(L_21/L_22));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:83>
+		int32_t L_23 = V_2;
+		int32_t L_24 = V_3;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_25;
+		L_25 = RenderTexture_GetTemporary_m5B16E03FC6142149BDC336285A5C18D5152CA2C3(L_23, L_24, 0, NULL);
+		V_5 = L_25;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:88>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_26 = __this->___sunShaftsMaterial;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_27;
+		memset((&L_27), 0, sizeof(L_27));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_27), (1.0f), (1.0f), (0.0f), (0.0f), NULL);
+		float L_28 = __this->___sunShaftBlurRadius;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_29;
+		L_29 = Vector4_op_Multiply_m02FE150FD7366546FC19A36B6928512376BF64E8_inline(L_27, L_28, NULL);
+		NullCheck(L_26);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_26, _stringLiteralCC6DC72C8AD9ACA85E92D38AA3DC649C6AC591BB, L_29, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:89>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_30 = __this->___sunShaftsMaterial;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = V_1;
+		float L_32 = L_31.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_1;
+		float L_34 = L_33.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = V_1;
+		float L_36 = L_35.___z;
+		float L_37 = __this->___maxRadius;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_38;
+		memset((&L_38), 0, sizeof(L_38));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_38), L_32, L_34, L_36, L_37, NULL);
+		NullCheck(L_30);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_30, _stringLiteralB9695E91A6E8DF407F4DDDDAD91C688E54E31D04, L_38, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:90>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_39 = __this->___sunShaftsMaterial;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_40 = __this->___sunThreshold;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_41;
+		L_41 = Color_op_Implicit_m9B3228DAFA8DC57A75DE00CBBF13ED4F1E7B01FF_inline(L_40, NULL);
+		NullCheck(L_39);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_39, _stringLiteralA467D3C6168371D0FACC829AA2255312BFD50ABA, L_41, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:92>
+		bool L_42 = __this->___useDepthTexture;
+		if (L_42)
+		{
+			goto IL_0198;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:93>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_43;
+		L_43 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(__this, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		NullCheck(L_43);
+		bool L_44;
+		L_44 = Camera_get_allowHDR_m3187E9118CB52D5D7F0658D7ECF5E2B00E296A67(L_43, NULL);
+		if (L_44)
+		{
+			goto IL_0141;
+		}
+	}
+	{
+		G_B15_0 = 7;
+		goto IL_0143;
+	}
+
+IL_0141:
+	{
+		G_B15_0 = ((int32_t)9);
+	}
+
+IL_0143:
+	{
+		V_7 = G_B15_0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:94>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_45 = ___0_source;
+		NullCheck(L_45);
+		int32_t L_46;
+		L_46 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_45);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_47 = ___0_source;
+		NullCheck(L_47);
+		int32_t L_48;
+		L_48 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_47);
+		int32_t L_49 = V_7;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_50;
+		L_50 = RenderTexture_GetTemporary_mDAD0D2A673F07BEC3B1A9555863E24A479E9BB11(L_46, L_48, 0, L_49, NULL);
+		V_8 = L_50;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:95>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_51 = V_8;
+		RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_51, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:96>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_52;
+		L_52 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(__this, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		GL_ClearWithSkybox_mA5C6A1899483E0EF88601E543CF0EDB84F186731((bool)0, L_52, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:98>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_53 = __this->___sunShaftsMaterial;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_54 = V_8;
+		NullCheck(L_53);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_53, _stringLiteral0CC36A0ACE18A1CFE0ECAF14C22D5B28FAF563BE, L_54, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:99>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_55 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_56 = V_5;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_57 = __this->___sunShaftsMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_55, L_56, L_57, 3, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:100>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_58 = V_8;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_58, NULL);
+		goto IL_01a7;
+	}
+
+IL_0198:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:103>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_59 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_60 = V_5;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_61 = __this->___sunShaftsMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_59, L_60, L_61, 2, NULL);
+	}
+
+IL_01a7:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:107>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_62 = V_5;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_63 = __this->___simpleClearMaterial;
+		PostEffectsBase_DrawBorder_mA19B9794EF79DE361BFFBAA78AA84FA6F1AE4BF0(__this, L_62, L_63, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:111>
+		int32_t L_64 = __this->___radialBlurIterations;
+		int32_t L_65;
+		L_65 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_64, 1, 4, NULL);
+		__this->___radialBlurIterations = L_65;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:113>
+		float L_66 = __this->___sunShaftBlurRadius;
+		V_6 = ((float)il2cpp_codegen_multiply(L_66, (0.00130208337f)));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:115>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_67 = __this->___sunShaftsMaterial;
+		float L_68 = V_6;
+		float L_69 = V_6;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_70;
+		memset((&L_70), 0, sizeof(L_70));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_70), L_68, L_69, (0.0f), (0.0f), NULL);
+		NullCheck(L_67);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_67, _stringLiteralCC6DC72C8AD9ACA85E92D38AA3DC649C6AC591BB, L_70, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:116>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_71 = __this->___sunShaftsMaterial;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_72 = V_1;
+		float L_73 = L_72.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_74 = V_1;
+		float L_75 = L_74.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_76 = V_1;
+		float L_77 = L_76.___z;
+		float L_78 = __this->___maxRadius;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_79;
+		memset((&L_79), 0, sizeof(L_79));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_79), L_73, L_75, L_77, L_78, NULL);
+		NullCheck(L_71);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_71, _stringLiteralB9695E91A6E8DF407F4DDDDAD91C688E54E31D04, L_79, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:118>
+		V_9 = 0;
+		goto IL_0304;
+	}
+
+IL_022e:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:122>
+		int32_t L_80 = V_2;
+		int32_t L_81 = V_3;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_82;
+		L_82 = RenderTexture_GetTemporary_m5B16E03FC6142149BDC336285A5C18D5152CA2C3(L_80, L_81, 0, NULL);
+		V_4 = L_82;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:123>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_83 = V_5;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_84 = V_4;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_85 = __this->___sunShaftsMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_83, L_84, L_85, 1, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:124>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_86 = V_5;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_86, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:125>
+		float L_87 = __this->___sunShaftBlurRadius;
+		int32_t L_88 = V_9;
+		V_6 = ((float)(((float)il2cpp_codegen_multiply(L_87, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)L_88), (2.0f))), (1.0f))), (6.0f)))))/(768.0f)));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:126>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_89 = __this->___sunShaftsMaterial;
+		float L_90 = V_6;
+		float L_91 = V_6;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_92;
+		memset((&L_92), 0, sizeof(L_92));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_92), L_90, L_91, (0.0f), (0.0f), NULL);
+		NullCheck(L_89);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_89, _stringLiteralCC6DC72C8AD9ACA85E92D38AA3DC649C6AC591BB, L_92, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:128>
+		int32_t L_93 = V_2;
+		int32_t L_94 = V_3;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_95;
+		L_95 = RenderTexture_GetTemporary_m5B16E03FC6142149BDC336285A5C18D5152CA2C3(L_93, L_94, 0, NULL);
+		V_5 = L_95;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:129>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_96 = V_4;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_97 = V_5;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_98 = __this->___sunShaftsMaterial;
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_96, L_97, L_98, 1, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:130>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_99 = V_4;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_99, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:131>
+		float L_100 = __this->___sunShaftBlurRadius;
+		int32_t L_101 = V_9;
+		V_6 = ((float)(((float)il2cpp_codegen_multiply(L_100, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)L_101), (2.0f))), (2.0f))), (6.0f)))))/(768.0f)));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:132>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_102 = __this->___sunShaftsMaterial;
+		float L_103 = V_6;
+		float L_104 = V_6;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_105;
+		memset((&L_105), 0, sizeof(L_105));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_105), L_103, L_104, (0.0f), (0.0f), NULL);
+		NullCheck(L_102);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_102, _stringLiteralCC6DC72C8AD9ACA85E92D38AA3DC649C6AC591BB, L_105, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:118>
+		int32_t L_106 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_106, 1));
+	}
+
+IL_0304:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:118>
+		int32_t L_107 = V_9;
+		int32_t L_108 = __this->___radialBlurIterations;
+		if ((((int32_t)L_107) < ((int32_t)L_108)))
+		{
+			goto IL_022e;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:137>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_109 = V_1;
+		float L_110 = L_109.___z;
+		if ((!(((float)L_110) >= ((float)(0.0f)))))
+		{
+			goto IL_036c;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:138>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_111 = __this->___sunShaftsMaterial;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_112 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___sunColor);
+		float L_113 = L_112->___r;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_114 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___sunColor);
+		float L_115 = L_114->___g;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_116 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___sunColor);
+		float L_117 = L_116->___b;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_118 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___sunColor);
+		float L_119 = L_118->___a;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_120;
+		memset((&L_120), 0, sizeof(L_120));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_120), L_113, L_115, L_117, L_119, NULL);
+		float L_121 = __this->___sunShaftIntensity;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_122;
+		L_122 = Vector4_op_Multiply_m02FE150FD7366546FC19A36B6928512376BF64E8_inline(L_120, L_121, NULL);
+		NullCheck(L_111);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_111, _stringLiteral59E9A90ACEB12BE1578CBAE545691B1979987312, L_122, NULL);
+		goto IL_0381;
+	}
+
+IL_036c:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:140>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_123 = __this->___sunShaftsMaterial;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_124;
+		L_124 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
+		NullCheck(L_123);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_123, _stringLiteral59E9A90ACEB12BE1578CBAE545691B1979987312, L_124, NULL);
+	}
+
+IL_0381:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:141>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_125 = __this->___sunShaftsMaterial;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_126 = V_5;
+		NullCheck(L_125);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_125, _stringLiteral3F42ED00D84DBC7A3B4658065DEA62873778201F, L_126, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:142>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_127 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_128 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_129 = __this->___sunShaftsMaterial;
+		int32_t L_130 = __this->___screenBlendMode;
+		if (!L_130)
+		{
+			G_B25_0 = L_129;
+			G_B25_1 = L_128;
+			G_B25_2 = L_127;
+			goto IL_03a6;
+		}
+		G_B24_0 = L_129;
+		G_B24_1 = L_128;
+		G_B24_2 = L_127;
+	}
+	{
+		G_B26_0 = 4;
+		G_B26_1 = G_B24_0;
+		G_B26_2 = G_B24_1;
+		G_B26_3 = G_B24_2;
+		goto IL_03a7;
+	}
+
+IL_03a6:
+	{
+		G_B26_0 = 0;
+		G_B26_1 = G_B25_0;
+		G_B26_2 = G_B25_1;
+		G_B26_3 = G_B25_2;
+	}
+
+IL_03a7:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(G_B26_3, G_B26_2, G_B26_1, G_B26_0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:144>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_131 = V_5;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_131, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:145>
+		return;
+	}
+}
+// Method Definition Index: 44463
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SunShafts__ctor_m057FB0A63F5C022374041E1F825E513C50F23E22 (SunShafts_t9F34A1A3A457E55BA35670D373B6C2F4A741F399* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:25>
+		__this->___resolution = 1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:29>
+		__this->___radialBlurIterations = 2;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:30>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		L_0 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
+		__this->___sunColor = L_0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:31>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_1), (0.870000005f), (0.74000001f), (0.649999976f), NULL);
+		__this->___sunThreshold = L_1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:32>
+		__this->___sunShaftBlurRadius = (2.5f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:33>
+		__this->___sunShaftIntensity = (1.14999998f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:35>
+		__this->___maxRadius = (0.75f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs:37>
+		__this->___useDepthTexture = (bool)1;
+		PostEffectsBase__ctor_m4EE3CA780BAAFF694007DD15EDF5CFA7448DB7DF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44464
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TiltShift_CheckResources_m076FCAC749A204E2397100E41D779F96C913B4E9 (TiltShift_tE57B9D2E1D4F1F83D8C42180E4176E6518886BC4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:38>
+		bool L_0;
+		L_0 = PostEffectsBase_CheckSupport_mD35BCE12C19A6D60AC19A0189F1EB5CD71A1303E(__this, (bool)1, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:40>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_1 = __this->___tiltShiftShader;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->___tiltShiftMaterial;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3;
+		L_3 = PostEffectsBase_CheckShaderAndCreateMaterial_m9F3512FEF659B04E086E2EC154E789D67401D91A(__this, L_1, L_2, NULL);
+		__this->___tiltShiftMaterial = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___tiltShiftMaterial), (void*)L_3);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:42>
+		bool L_4 = ((PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24*)__this)->___isSupported;
+		if (L_4)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:43>
+		PostEffectsBase_ReportAutoDisable_mFBFE9B4AF859872DA6F4FCAE254F92912B9B6000(__this, NULL);
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:44>
+		bool L_5 = ((PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24*)__this)->___isSupported;
+		return L_5;
+	}
+}
+// Method Definition Index: 44465
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TiltShift_OnRenderImage_mD177D8B9C55D2BF521D208B9D4883E59B19B811F (TiltShift_tE57B9D2E1D4F1F83D8C42180E4176E6518886BC4* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_destination, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral02A45D17F0539963CCC2A73C7852303E4420C5D9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3BF9E690E5CE0ADC3936AAB09EF983C321F1052F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC2B21A27E1B513F7FA308B3AA95B27A5A9064A78);
+		s_Il2CppMethodInitialized = true;
+	}
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_0 = NULL;
+	int32_t V_1 = 0;
+	String_t* G_B4_0 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B4_1 = NULL;
+	String_t* G_B3_0 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B3_1 = NULL;
+	float G_B5_0 = 0.0f;
+	String_t* G_B5_1 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B5_2 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B9_0 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B9_1 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B9_2 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B8_0 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B8_1 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B8_2 = NULL;
+	int32_t G_B10_0 = 0;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B10_1 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B10_2 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B10_3 = NULL;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:48>
+		bool L_0;
+		L_0 = VirtualFuncInvoker0< bool >::Invoke(4, __this);
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:49>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = ___1_destination;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_1, L_2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:50>
+		return;
+	}
+
+IL_0010:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:53>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = __this->___tiltShiftMaterial;
+		float L_4 = __this->___maxBlurSize;
+		if ((((float)L_4) < ((float)(0.0f))))
+		{
+			G_B4_0 = _stringLiteral3BF9E690E5CE0ADC3936AAB09EF983C321F1052F;
+			G_B4_1 = L_3;
+			goto IL_0030;
+		}
+		G_B3_0 = _stringLiteral3BF9E690E5CE0ADC3936AAB09EF983C321F1052F;
+		G_B3_1 = L_3;
+	}
+	{
+		float L_5 = __this->___maxBlurSize;
+		G_B5_0 = L_5;
+		G_B5_1 = G_B3_0;
+		G_B5_2 = G_B3_1;
+		goto IL_0035;
+	}
+
+IL_0030:
+	{
+		G_B5_0 = (0.0f);
+		G_B5_1 = G_B4_0;
+		G_B5_2 = G_B4_1;
+	}
+
+IL_0035:
+	{
+		NullCheck(G_B5_2);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(G_B5_2, G_B5_1, G_B5_0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:54>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = __this->___tiltShiftMaterial;
+		float L_7 = __this->___blurArea;
+		NullCheck(L_6);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_6, _stringLiteralC2B21A27E1B513F7FA308B3AA95B27A5A9064A78, L_7, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:55>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_8 = ___0_source;
+		NullCheck(L_8);
+		Texture_set_filterMode_mE423E58C0C16D059EA62BA87AD70F44AEA50CCC9(L_8, 1, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:57>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_9 = ___1_destination;
+		V_0 = L_9;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:58>
+		int32_t L_10 = __this->___downsample;
+		if ((!(((float)((float)L_10)) > ((float)(0.0f)))))
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:59>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_11 = ___0_source;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_11);
+		int32_t L_13 = __this->___downsample;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_14 = ___0_source;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_14);
+		int32_t L_16 = __this->___downsample;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_17 = ___0_source;
+		NullCheck(L_17);
+		int32_t L_18;
+		L_18 = RenderTexture_get_format_m58556ABB91A1FADA8044BEEA2E8C55280768CF35(L_17, NULL);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_19;
+		L_19 = RenderTexture_GetTemporary_mDAD0D2A673F07BEC3B1A9555863E24A479E9BB11(((int32_t)(L_12>>((int32_t)(L_13&((int32_t)31))))), ((int32_t)(L_15>>((int32_t)(L_16&((int32_t)31))))), 0, L_18, NULL);
+		V_0 = L_19;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:60>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_20 = V_0;
+		NullCheck(L_20);
+		Texture_set_filterMode_mE423E58C0C16D059EA62BA87AD70F44AEA50CCC9(L_20, 1, NULL);
+	}
+
+IL_009b:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:63>
+		int32_t L_21 = __this->___quality;
+		V_1 = L_21;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:63>
+		int32_t L_22 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_multiply(L_22, 2));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:64>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_23 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_24 = V_0;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_25 = __this->___tiltShiftMaterial;
+		int32_t L_26 = __this->___mode;
+		if (!L_26)
+		{
+			G_B9_0 = L_25;
+			G_B9_1 = L_24;
+			G_B9_2 = L_23;
+			goto IL_00bb;
+		}
+		G_B8_0 = L_25;
+		G_B8_1 = L_24;
+		G_B8_2 = L_23;
+	}
+	{
+		int32_t L_27 = V_1;
+		G_B10_0 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+		G_B10_1 = G_B8_0;
+		G_B10_2 = G_B8_1;
+		G_B10_3 = G_B8_2;
+		goto IL_00bc;
+	}
+
+IL_00bb:
+	{
+		int32_t L_28 = V_1;
+		G_B10_0 = L_28;
+		G_B10_1 = G_B9_0;
+		G_B10_2 = G_B9_1;
+		G_B10_3 = G_B9_2;
+	}
+
+IL_00bc:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(G_B10_3, G_B10_2, G_B10_1, G_B10_0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:66>
+		int32_t L_29 = __this->___downsample;
+		if ((((int32_t)L_29) <= ((int32_t)0)))
+		{
+			goto IL_00e9;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:67>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_30 = __this->___tiltShiftMaterial;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_31 = V_0;
+		NullCheck(L_30);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_30, _stringLiteral02A45D17F0539963CCC2A73C7852303E4420C5D9, L_31, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:68>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_32 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_33 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_34 = __this->___tiltShiftMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_32, L_33, L_34, 6, NULL);
+	}
+
+IL_00e9:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:71>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_35 = V_0;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_36 = ___1_destination;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_37;
+		L_37 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_35, L_36, NULL);
+		if (!L_37)
+		{
+			goto IL_00f8;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:72>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_38 = V_0;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_38, NULL);
+	}
+
+IL_00f8:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:73>
+		return;
+	}
+}
+// Method Definition Index: 44466
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TiltShift__ctor_m7E5C21DCB2D1C954AC1657A493A0A64A71AC9550 (TiltShift_tE57B9D2E1D4F1F83D8C42180E4176E6518886BC4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:22>
+		__this->___quality = 1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:25>
+		__this->___blurArea = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs:28>
+		__this->___maxBlurSize = (5.0f);
+		PostEffectsBase__ctor_m4EE3CA780BAAFF694007DD15EDF5CFA7448DB7DF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44467
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tonemapping_CheckResources_m11334AC26A1AC5A032B4A31FFE24AAA37265CBE3 (Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:58>
+		bool L_0;
+		L_0 = PostEffectsBase_CheckSupport_m3EA640722B1862B4ECEC88C2939F783878055E6C(__this, (bool)0, (bool)1, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:60>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_1 = __this->___tonemapper;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->___tonemapMaterial;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3;
+		L_3 = PostEffectsBase_CheckShaderAndCreateMaterial_m9F3512FEF659B04E086E2EC154E789D67401D91A(__this, L_1, L_2, NULL);
+		__this->___tonemapMaterial = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___tonemapMaterial), (void*)L_3);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:61>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_4 = __this->___curveTex;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_4, NULL);
+		if (L_5)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		int32_t L_6 = __this->___type;
+		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:63>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_7 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
+		Texture2D__ctor_mC3F84195D1DCEFC0536B3FBD40A8F8E865A4F32A(L_7, ((int32_t)256), 1, 5, (bool)0, (bool)1, NULL);
+		__this->___curveTex = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___curveTex), (void*)L_7);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:64>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_8 = __this->___curveTex;
+		NullCheck(L_8);
+		Texture_set_filterMode_mE423E58C0C16D059EA62BA87AD70F44AEA50CCC9(L_8, 1, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:65>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_9 = __this->___curveTex;
+		NullCheck(L_9);
+		Texture_set_wrapMode_m1F74A690E3883EC9C5C371D502D09642F15D0F7E(L_9, 1, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:66>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_10 = __this->___curveTex;
+		NullCheck(L_10);
+		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_10, ((int32_t)52), NULL);
+	}
+
+IL_0070:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:69>
+		bool L_11 = ((PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24*)__this)->___isSupported;
+		if (L_11)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:70>
+		PostEffectsBase_ReportAutoDisable_mFBFE9B4AF859872DA6F4FCAE254F92912B9B6000(__this, NULL);
+	}
+
+IL_007e:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:71>
+		bool L_12 = ((PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24*)__this)->___isSupported;
+		return L_12;
+	}
+}
+// Method Definition Index: 44468
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tonemapping_UpdateCurve_mEB022A19BA8B068FF173957ACBA0DEDE8B99D7B0 (Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:77>
+		V_0 = (1.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:78>
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_0 = __this->___remapCurve;
+		NullCheck(L_0);
+		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_1;
+		L_1 = AnimationCurve_get_keys_m34452C69464AB459C04BFFEA4F541F06B419AC4E(L_0, NULL);
+		NullCheck(L_1);
+		if ((((int32_t)((int32_t)(((RuntimeArray*)L_1)->max_length))) >= ((int32_t)1)))
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:79>
+		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_2 = (KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3*)(KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3*)SZArrayNew(KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3_il2cpp_TypeInfo_var, (uint32_t)2);
+		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_3 = L_2;
+		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		Keyframe__ctor_mECF144086B28785BE911A22C06194A9E0FBF3C34((&L_4), (0.0f), (0.0f), NULL);
+		NullCheck(L_3);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0)L_4);
+		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_5 = L_3;
+		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		Keyframe__ctor_mECF144086B28785BE911A22C06194A9E0FBF3C34((&L_6), (2.0f), (1.0f), NULL);
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0)L_6);
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_7 = (AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354*)il2cpp_codegen_object_new(AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_il2cpp_TypeInfo_var);
+		AnimationCurve__ctor_mEABC98C03805713354D61E50D9340766BD5B717E(L_7, L_5, NULL);
+		__this->___remapCurve = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___remapCurve), (void*)L_7);
+	}
+
+IL_0053:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:80>
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_8 = __this->___remapCurve;
+		if (!L_8)
+		{
+			goto IL_00e6;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:82>
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_9 = __this->___remapCurve;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = AnimationCurve_get_length_m259A67BB0870D3A153F6FEDBB06CB0D24089CD81(L_9, NULL);
+		if ((((int32_t)L_10) <= ((int32_t)0)))
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:83>
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_11 = __this->___remapCurve;
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_12 = __this->___remapCurve;
+		NullCheck(L_12);
+		int32_t L_13;
+		L_13 = AnimationCurve_get_length_m259A67BB0870D3A153F6FEDBB06CB0D24089CD81(L_12, NULL);
+		NullCheck(L_11);
+		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_14;
+		L_14 = AnimationCurve_get_Item_mD4E73EE674F7A82673F1A9CEB8E5EF86BA47E64B(L_11, ((int32_t)il2cpp_codegen_subtract(L_13, 1)), NULL);
+		V_1 = L_14;
+		float L_15;
+		L_15 = Keyframe_get_time_mB8886F64CBB373936C0C25C4C68397C05779F661((&V_1), NULL);
+		V_0 = L_15;
+	}
+
+IL_008d:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:84>
+		V_2 = (0.0f);
+		goto IL_00d3;
+	}
+
+IL_0095:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:86>
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_16 = __this->___remapCurve;
+		float L_17 = V_2;
+		float L_18 = V_0;
+		NullCheck(L_16);
+		float L_19;
+		L_19 = AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C(L_16, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_17, (1.0f))), L_18)), NULL);
+		V_3 = L_19;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:87>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_20 = __this->___curveTex;
+		float L_21 = V_2;
+		float L_22;
+		L_22 = floorf(((float)il2cpp_codegen_multiply(L_21, (255.0f))));
+		float L_23 = V_3;
+		float L_24 = V_3;
+		float L_25 = V_3;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_26), L_23, L_24, L_25, NULL);
+		NullCheck(L_20);
+		Texture2D_SetPixel_m2CCFC5F729135D59DC4A697C2605A3FC5C8574DB(L_20, il2cpp_codegen_cast_double_to_int<int32_t>(L_22), 0, L_26, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:84>
+		float L_27 = V_2;
+		V_2 = ((float)il2cpp_codegen_add(L_27, (0.00392156886f)));
+	}
+
+IL_00d3:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:84>
+		float L_28 = V_2;
+		if ((((float)L_28) <= ((float)(1.0f))))
+		{
+			goto IL_0095;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:89>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_29 = __this->___curveTex;
+		NullCheck(L_29);
+		Texture2D_Apply_mA014182C9EE0BBF6EEE3B286854F29E50EB972DC(L_29, NULL);
+	}
+
+IL_00e6:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:91>
+		float L_30 = V_0;
+		return ((float)((1.0f)/L_30));
+	}
+}
+// Method Definition Index: 44469
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tonemapping_OnDisable_m5E5E1EBFE3FAE9FE69EFA92F9DF91B615FD12B54 (Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:97>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = __this->___rt;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:99>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = __this->___rt;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:100>
+		__this->___rt = (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___rt), (void*)(RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)NULL);
+	}
+
+IL_001f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:102>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = __this->___tonemapMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:104>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = __this->___tonemapMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_5, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:105>
+		__this->___tonemapMaterial = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___tonemapMaterial), (void*)(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL);
+	}
+
+IL_003e:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:107>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_6 = __this->___curveTex;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:109>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_8 = __this->___curveTex;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_8, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:110>
+		__this->___curveTex = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___curveTex), (void*)(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)NULL);
+	}
+
+IL_005d:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:112>
+		return;
+	}
+}
+// Method Definition Index: 44470
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tonemapping_CreateInternalRenderTexture_m824EAA020DFC9A7A7632091D25C3F18110910FC8 (Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* G_B4_0 = NULL;
+	Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* G_B3_0 = NULL;
+	int32_t G_B5_0 = 0;
+	Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* G_B5_1 = NULL;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:117>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = __this->___rt;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:119>
+		return (bool)0;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:121>
+		bool L_2;
+		L_2 = SystemInfo_SupportsRenderTextureFormat_mCCC3C69578A2C5B7367F73999E6938C315A98201(((int32_t)13), NULL);
+		if (L_2)
+		{
+			G_B4_0 = __this;
+			goto IL_001c;
+		}
+		G_B3_0 = __this;
+	}
+	{
+		G_B5_0 = 2;
+		G_B5_1 = G_B3_0;
+		goto IL_001e;
+	}
+
+IL_001c:
+	{
+		G_B5_0 = ((int32_t)13);
+		G_B5_1 = G_B4_0;
+	}
+
+IL_001e:
+	{
+		NullCheck(G_B5_1);
+		G_B5_1->___rtFormat = G_B5_0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:122>
+		int32_t L_3 = __this->___rtFormat;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_4 = (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)il2cpp_codegen_object_new(RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var);
+		RenderTexture__ctor_m53215A8EDDE262932758186108347685F6A512C4(L_4, 1, 1, 0, L_3, NULL);
+		__this->___rt = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___rt), (void*)L_4);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:123>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_5 = __this->___rt;
+		NullCheck(L_5);
+		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_5, ((int32_t)52), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:124>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 44471
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tonemapping_OnRenderImage_mB05AE3CAC0700D68EBE8691D949A6F31116162F9 (Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_destination, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0CB3105D1705C78EBC02C2DA0C3FD28BC6CD048E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2C3276B6EABA4BB4E3366F0EB502A5F578BE657F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6138D7298AF1D6DEEA54D5934095E08EEEBB8CE7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral87C43E0C533B5BE7D4EAEA9F762B4B033313B85F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC73E37BE554293C44E2A4E367137D91FC016C4D7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC85CED4FA3BF4FAFA2854F821A7498848B323CD4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEE666F21E0039F2BF222FB2B168055BD20FD930D);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* V_4 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_5 = NULL;
+	float V_6 = 0.0f;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* G_B4_0 = NULL;
+	Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* G_B3_0 = NULL;
+	float G_B5_0 = 0.0f;
+	Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* G_B5_1 = NULL;
+	Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* G_B29_0 = NULL;
+	Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* G_B28_0 = NULL;
+	float G_B30_0 = 0.0f;
+	Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* G_B30_1 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B32_0 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B32_1 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B32_2 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B31_0 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B31_1 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B31_2 = NULL;
+	int32_t G_B33_0 = 0;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B33_1 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B33_2 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B33_3 = NULL;
+	Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* G_B35_0 = NULL;
+	Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* G_B34_0 = NULL;
+	float G_B36_0 = 0.0f;
+	Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* G_B36_1 = NULL;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:132>
+		bool L_0;
+		L_0 = VirtualFuncInvoker0< bool >::Invoke(4, __this);
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:134>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = ___1_destination;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_1, L_2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:135>
+		return;
+	}
+
+IL_0010:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:148>
+		float L_3 = __this->___exposureAdjustment;
+		if ((((float)L_3) < ((float)(0.00100000005f))))
+		{
+			G_B4_0 = __this;
+			goto IL_0026;
+		}
+		G_B3_0 = __this;
+	}
+	{
+		float L_4 = __this->___exposureAdjustment;
+		G_B5_0 = L_4;
+		G_B5_1 = G_B3_0;
+		goto IL_002b;
+	}
+
+IL_0026:
+	{
+		G_B5_0 = (0.00100000005f);
+		G_B5_1 = G_B4_0;
+	}
+
+IL_002b:
+	{
+		NullCheck(G_B5_1);
+		G_B5_1->___exposureAdjustment = G_B5_0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:152>
+		int32_t L_5 = __this->___type;
+		if ((!(((uint32_t)L_5) == ((uint32_t)1))))
+		{
+			goto IL_0078;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:154>
+		float L_6;
+		L_6 = Tonemapping_UpdateCurve_mEB022A19BA8B068FF173957ACBA0DEDE8B99D7B0(__this, NULL);
+		V_6 = L_6;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:155>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = __this->___tonemapMaterial;
+		float L_8 = V_6;
+		NullCheck(L_7);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_7, _stringLiteralEE666F21E0039F2BF222FB2B168055BD20FD930D, L_8, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:156>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = __this->___tonemapMaterial;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_10 = __this->___curveTex;
+		NullCheck(L_9);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_9, _stringLiteral87C43E0C533B5BE7D4EAEA9F762B4B033313B85F, L_10, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:157>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_11 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_12 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_13 = __this->___tonemapMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_11, L_12, L_13, 4, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:158>
+		return;
+	}
+
+IL_0078:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:161>
+		int32_t L_14 = __this->___type;
+		if (L_14)
+		{
+			goto IL_00a5;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:163>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_15 = __this->___tonemapMaterial;
+		float L_16 = __this->___exposureAdjustment;
+		NullCheck(L_15);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_15, _stringLiteral6138D7298AF1D6DEEA54D5934095E08EEEBB8CE7, L_16, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:164>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_17 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_18 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_19 = __this->___tonemapMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_17, L_18, L_19, 6, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:165>
+		return;
+	}
+
+IL_00a5:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:168>
+		int32_t L_20 = __this->___type;
+		if ((!(((uint32_t)L_20) == ((uint32_t)2))))
+		{
+			goto IL_00d3;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:170>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_21 = __this->___tonemapMaterial;
+		float L_22 = __this->___exposureAdjustment;
+		NullCheck(L_21);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_21, _stringLiteral6138D7298AF1D6DEEA54D5934095E08EEEBB8CE7, L_22, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:171>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_23 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_24 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_25 = __this->___tonemapMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_23, L_24, L_25, 5, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:172>
+		return;
+	}
+
+IL_00d3:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:175>
+		int32_t L_26 = __this->___type;
+		if ((!(((uint32_t)L_26) == ((uint32_t)3))))
+		{
+			goto IL_0101;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:177>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_27 = __this->___tonemapMaterial;
+		float L_28 = __this->___exposureAdjustment;
+		NullCheck(L_27);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_27, _stringLiteral6138D7298AF1D6DEEA54D5934095E08EEEBB8CE7, L_28, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:178>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_29 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_30 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_31 = __this->___tonemapMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_29, L_30, L_31, 8, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:179>
+		return;
+	}
+
+IL_0101:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:182>
+		int32_t L_32 = __this->___type;
+		if ((!(((uint32_t)L_32) == ((uint32_t)4))))
+		{
+			goto IL_0135;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:184>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_33 = __this->___tonemapMaterial;
+		float L_34 = __this->___exposureAdjustment;
+		NullCheck(L_33);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_33, _stringLiteral6138D7298AF1D6DEEA54D5934095E08EEEBB8CE7, ((float)il2cpp_codegen_multiply((0.5f), L_34)), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:185>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_35 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_36 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_37 = __this->___tonemapMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_35, L_36, L_37, 7, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:186>
+		return;
+	}
+
+IL_0135:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:196>
+		bool L_38;
+		L_38 = Tonemapping_CreateInternalRenderTexture_m824EAA020DFC9A7A7632091D25C3F18110910FC8(__this, NULL);
+		V_0 = L_38;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:198>
+		int32_t L_39 = __this->___adaptiveTextureSize;
+		int32_t L_40 = __this->___adaptiveTextureSize;
+		int32_t L_41 = __this->___rtFormat;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_42;
+		L_42 = RenderTexture_GetTemporary_mDAD0D2A673F07BEC3B1A9555863E24A479E9BB11(L_39, L_40, 0, L_41, NULL);
+		V_1 = L_42;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:199>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_43 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_44 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_43, L_44, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:201>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_45 = V_1;
+		NullCheck(L_45);
+		int32_t L_46;
+		L_46 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_45);
+		float L_47;
+		L_47 = Mathf_Log_m116F062EEBF1C53EC8D18C9B1748E999EF9424EF_inline(((float)il2cpp_codegen_multiply(((float)L_46), (1.0f))), (2.0f), NULL);
+		V_2 = il2cpp_codegen_cast_double_to_int<int32_t>(L_47);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:203>
+		V_3 = 2;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:204>
+		int32_t L_48 = V_2;
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_49 = (RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6*)(RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6*)SZArrayNew(RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6_il2cpp_TypeInfo_var, (uint32_t)L_48);
+		V_4 = L_49;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:205>
+		V_7 = 0;
+		goto IL_01af;
+	}
+
+IL_0184:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:207>
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_50 = V_4;
+		int32_t L_51 = V_7;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_52 = V_1;
+		NullCheck(L_52);
+		int32_t L_53;
+		L_53 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_52);
+		int32_t L_54 = V_3;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_55 = V_1;
+		NullCheck(L_55);
+		int32_t L_56;
+		L_56 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_55);
+		int32_t L_57 = V_3;
+		int32_t L_58 = __this->___rtFormat;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_59;
+		L_59 = RenderTexture_GetTemporary_mDAD0D2A673F07BEC3B1A9555863E24A479E9BB11(((int32_t)(L_53/L_54)), ((int32_t)(L_56/L_57)), 0, L_58, NULL);
+		NullCheck(L_50);
+		ArrayElementTypeCheck (L_50, L_59);
+		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(L_51), (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)L_59);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:208>
+		int32_t L_60 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_multiply(L_60, 2));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:205>
+		int32_t L_61 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_61, 1));
+	}
+
+IL_01af:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:205>
+		int32_t L_62 = V_7;
+		int32_t L_63 = V_2;
+		if ((((int32_t)L_62) < ((int32_t)L_63)))
+		{
+			goto IL_0184;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:213>
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_64 = V_4;
+		int32_t L_65 = V_2;
+		NullCheck(L_64);
+		int32_t L_66 = ((int32_t)il2cpp_codegen_subtract(L_65, 1));
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_67 = (L_64)->GetAt(static_cast<il2cpp_array_size_t>(L_66));
+		V_5 = L_67;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:214>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_68 = V_1;
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_69 = V_4;
+		NullCheck(L_69);
+		int32_t L_70 = 0;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_71 = (L_69)->GetAt(static_cast<il2cpp_array_size_t>(L_70));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_72 = __this->___tonemapMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_68, L_71, L_72, 1, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:215>
+		int32_t L_73 = __this->___type;
+		if ((!(((uint32_t)L_73) == ((uint32_t)6))))
+		{
+			goto IL_020c;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:217>
+		V_8 = 0;
+		goto IL_0203;
+	}
+
+IL_01db:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:219>
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_74 = V_4;
+		int32_t L_75 = V_8;
+		NullCheck(L_74);
+		int32_t L_76 = L_75;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_77 = (L_74)->GetAt(static_cast<il2cpp_array_size_t>(L_76));
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_78 = V_4;
+		int32_t L_79 = V_8;
+		NullCheck(L_78);
+		int32_t L_80 = ((int32_t)il2cpp_codegen_add(L_79, 1));
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_81 = (L_78)->GetAt(static_cast<il2cpp_array_size_t>(L_80));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_82 = __this->___tonemapMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_77, L_81, L_82, ((int32_t)9), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:220>
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_83 = V_4;
+		int32_t L_84 = V_8;
+		NullCheck(L_83);
+		int32_t L_85 = ((int32_t)il2cpp_codegen_add(L_84, 1));
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_86 = (L_83)->GetAt(static_cast<il2cpp_array_size_t>(L_85));
+		V_5 = L_86;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:217>
+		int32_t L_87 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_87, 1));
+	}
+
+IL_0203:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:217>
+		int32_t L_88 = V_8;
+		int32_t L_89 = V_2;
+		if ((((int32_t)L_88) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_89, 1)))))
+		{
+			goto IL_01db;
+		}
+	}
+	{
+		goto IL_0241;
+	}
+
+IL_020c:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:223>
+		int32_t L_90 = __this->___type;
+		if ((!(((uint32_t)L_90) == ((uint32_t)5))))
+		{
+			goto IL_0241;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:225>
+		V_9 = 0;
+		goto IL_023a;
+	}
+
+IL_021a:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:227>
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_91 = V_4;
+		int32_t L_92 = V_9;
+		NullCheck(L_91);
+		int32_t L_93 = L_92;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_94 = (L_91)->GetAt(static_cast<il2cpp_array_size_t>(L_93));
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_95 = V_4;
+		int32_t L_96 = V_9;
+		NullCheck(L_95);
+		int32_t L_97 = ((int32_t)il2cpp_codegen_add(L_96, 1));
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_98 = (L_95)->GetAt(static_cast<il2cpp_array_size_t>(L_97));
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_94, L_98, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:228>
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_99 = V_4;
+		int32_t L_100 = V_9;
+		NullCheck(L_99);
+		int32_t L_101 = ((int32_t)il2cpp_codegen_add(L_100, 1));
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_102 = (L_99)->GetAt(static_cast<il2cpp_array_size_t>(L_101));
+		V_5 = L_102;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:225>
+		int32_t L_103 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_103, 1));
+	}
+
+IL_023a:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:225>
+		int32_t L_104 = V_9;
+		int32_t L_105 = V_2;
+		if ((((int32_t)L_104) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_105, 1)))))
+		{
+			goto IL_021a;
+		}
+	}
+
+IL_0241:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:234>
+		float L_106 = __this->___adaptionSpeed;
+		if ((((float)L_106) < ((float)(0.00100000005f))))
+		{
+			G_B29_0 = __this;
+			goto IL_0257;
+		}
+		G_B28_0 = __this;
+	}
+	{
+		float L_107 = __this->___adaptionSpeed;
+		G_B30_0 = L_107;
+		G_B30_1 = G_B28_0;
+		goto IL_025c;
+	}
+
+IL_0257:
+	{
+		G_B30_0 = (0.00100000005f);
+		G_B30_1 = G_B29_0;
+	}
+
+IL_025c:
+	{
+		NullCheck(G_B30_1);
+		G_B30_1->___adaptionSpeed = G_B30_0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:235>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_108 = __this->___tonemapMaterial;
+		float L_109 = __this->___adaptionSpeed;
+		NullCheck(L_108);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_108, _stringLiteralC85CED4FA3BF4FAFA2854F821A7498848B323CD4, L_109, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:237>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_110 = __this->___rt;
+		NullCheck(L_110);
+		RenderTexture_MarkRestoreExpected_m185BFFD02FE7149590A252527B18F25A7D4AD830(L_110, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:245>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_111 = V_5;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_112 = __this->___rt;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_113 = __this->___tonemapMaterial;
+		bool L_114 = V_0;
+		if (L_114)
+		{
+			G_B32_0 = L_113;
+			G_B32_1 = L_112;
+			G_B32_2 = L_111;
+			goto IL_0296;
+		}
+		G_B31_0 = L_113;
+		G_B31_1 = L_112;
+		G_B31_2 = L_111;
+	}
+	{
+		G_B33_0 = 2;
+		G_B33_1 = G_B31_0;
+		G_B33_2 = G_B31_1;
+		G_B33_3 = G_B31_2;
+		goto IL_0297;
+	}
+
+IL_0296:
+	{
+		G_B33_0 = 3;
+		G_B33_1 = G_B32_0;
+		G_B33_2 = G_B32_1;
+		G_B33_3 = G_B32_2;
+	}
+
+IL_0297:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(G_B33_3, G_B33_2, G_B33_1, G_B33_0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:248>
+		float L_115 = __this->___middleGrey;
+		if ((((float)L_115) < ((float)(0.00100000005f))))
+		{
+			G_B35_0 = __this;
+			goto IL_02b2;
+		}
+		G_B34_0 = __this;
+	}
+	{
+		float L_116 = __this->___middleGrey;
+		G_B36_0 = L_116;
+		G_B36_1 = G_B34_0;
+		goto IL_02b7;
+	}
+
+IL_02b2:
+	{
+		G_B36_0 = (0.00100000005f);
+		G_B36_1 = G_B35_0;
+	}
+
+IL_02b7:
+	{
+		NullCheck(G_B36_1);
+		G_B36_1->___middleGrey = G_B36_0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:249>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_117 = __this->___tonemapMaterial;
+		float L_118 = __this->___middleGrey;
+		float L_119 = __this->___middleGrey;
+		float L_120 = __this->___middleGrey;
+		float L_121 = __this->___white;
+		float L_122 = __this->___white;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_123;
+		memset((&L_123), 0, sizeof(L_123));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_123), L_118, L_119, L_120, ((float)il2cpp_codegen_multiply(L_121, L_122)), NULL);
+		NullCheck(L_117);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_117, _stringLiteral0CB3105D1705C78EBC02C2DA0C3FD28BC6CD048E, L_123, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:250>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_124 = __this->___tonemapMaterial;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_125 = __this->___rt;
+		NullCheck(L_124);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_124, _stringLiteralC73E37BE554293C44E2A4E367137D91FC016C4D7, L_125, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:251>
+		int32_t L_126 = __this->___type;
+		if ((!(((uint32_t)L_126) == ((uint32_t)5))))
+		{
+			goto IL_031f;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:253>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_127 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_128 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_129 = __this->___tonemapMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_127, L_128, L_129, 0, NULL);
+		goto IL_034a;
+	}
+
+IL_031f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:255>
+		int32_t L_130 = __this->___type;
+		if ((!(((uint32_t)L_130) == ((uint32_t)6))))
+		{
+			goto IL_0339;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:257>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_131 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_132 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_133 = __this->___tonemapMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_131, L_132, L_133, ((int32_t)10), NULL);
+		goto IL_034a;
+	}
+
+IL_0339:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:261>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral2C3276B6EABA4BB4E3366F0EB502A5F578BE657F, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:262>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_134 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_135 = ___1_destination;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_134, L_135, NULL);
+	}
+
+IL_034a:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:267>
+		V_10 = 0;
+		goto IL_035f;
+	}
+
+IL_034f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:269>
+		RenderTextureU5BU5D_t9C963C4B9AAD862BBE402147E82F7BEBF699F6A6* L_136 = V_4;
+		int32_t L_137 = V_10;
+		NullCheck(L_136);
+		int32_t L_138 = L_137;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_139 = (L_136)->GetAt(static_cast<il2cpp_array_size_t>(L_138));
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_139, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:267>
+		int32_t L_140 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_140, 1));
+	}
+
+IL_035f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:267>
+		int32_t L_141 = V_10;
+		int32_t L_142 = V_2;
+		if ((((int32_t)L_141) < ((int32_t)L_142)))
+		{
+			goto IL_034f;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:271>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_143 = V_1;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_143, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:272>
+		return;
+	}
+}
+// Method Definition Index: 44472
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tonemapping__ctor_m771E396E9C2CB6A2E5879EC0C723C76687998FC8 (Tonemapping_t19A5C2E75F8C636F6C2EA64C07EB301F4240AFA0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:33>
+		__this->___type = 3;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:34>
+		__this->___adaptiveTextureSize = ((int32_t)256);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:41>
+		__this->___exposureAdjustment = (1.5f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:44>
+		__this->___middleGrey = (0.400000006f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:45>
+		__this->___white = (2.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:46>
+		__this->___adaptionSpeed = (1.5f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:50>
+		__this->___validRenderTextureFormat = (bool)1;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs:53>
+		__this->___rtFormat = 2;
+		PostEffectsBase__ctor_m4EE3CA780BAAFF694007DD15EDF5CFA7448DB7DF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44473
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Triangles_HasMeshes_mF5BF30E4450E1ECBC6C9BDD462261751B5E4C4BF (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:14>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_0 = ((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___meshes;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:15>
+		return (bool)0;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:16>
+		V_0 = 0;
+		goto IL_0022;
+	}
+
+IL_000d:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:17>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_1 = ((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___meshes;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, L_4, NULL);
+		if (!L_5)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:18>
+		return (bool)0;
+	}
+
+IL_001e:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:16>
+		int32_t L_6 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:16>
+		int32_t L_7 = V_0;
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_8 = ((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___meshes;
+		NullCheck(L_8);
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)(((RuntimeArray*)L_8)->max_length)))))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:20>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 44474
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Triangles_Cleanup_m209D4090A5BE4AEF6FB44D4587CFC5F82C0EC37B (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:25>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_0 = ((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___meshes;
+		if (L_0)
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:26>
+		return;
+	}
+
+IL_0008:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:28>
+		V_0 = 0;
+		goto IL_0033;
+	}
+
+IL_000c:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:30>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_1 = ((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___meshes;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, L_4, NULL);
+		if (!L_5)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:32>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_6 = ((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___meshes;
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_9, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:33>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_10 = ((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___meshes;
+		int32_t L_11 = V_0;
+		NullCheck(L_10);
+		ArrayElementTypeCheck (L_10, NULL);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL);
+	}
+
+IL_002f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:28>
+		int32_t L_12 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0033:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:28>
+		int32_t L_13 = V_0;
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_14 = ((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___meshes;
+		NullCheck(L_14);
+		if ((((int32_t)L_13) < ((int32_t)((int32_t)(((RuntimeArray*)L_14)->max_length)))))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:36>
+		((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___meshes = (MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___meshes), (void*)(MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689*)NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:37>
+		return;
+	}
+}
+// Method Definition Index: 44475
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* Triangles_GetMeshes_mB7EA359A5BA7342C79F00CA50FF64BC92906493D (int32_t ___0_totalWidth, int32_t ___1_totalHeight, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:41>
+		bool L_0;
+		L_0 = Triangles_HasMeshes_mF5BF30E4450E1ECBC6C9BDD462261751B5E4C4BF(NULL);
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_1 = ((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___currentTris;
+		int32_t L_2 = ___0_totalWidth;
+		int32_t L_3 = ___1_totalHeight;
+		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)il2cpp_codegen_multiply(L_2, L_3))))))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:43>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_4 = ((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___meshes;
+		return L_4;
+	}
+
+IL_0017:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:46>
+		V_0 = ((int32_t)21666);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:47>
+		int32_t L_5 = ___0_totalWidth;
+		int32_t L_6 = ___1_totalHeight;
+		V_1 = ((int32_t)il2cpp_codegen_multiply(L_5, L_6));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:48>
+		int32_t L_7 = V_1;
+		((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___currentTris = L_7;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:50>
+		int32_t L_8 = V_1;
+		int32_t L_9 = V_0;
+		int32_t L_10;
+		L_10 = Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline(((float)(((float)il2cpp_codegen_multiply((1.0f), ((float)L_8)))/((float)il2cpp_codegen_multiply((1.0f), ((float)L_9))))), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:52>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_11 = (MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689*)(MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689*)SZArrayNew(MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689_il2cpp_TypeInfo_var, (uint32_t)L_10);
+		((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___meshes = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___meshes), (void*)L_11);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:54>
+		V_2 = 0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:55>
+		V_3 = 0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:56>
+		V_2 = 0;
+		goto IL_007a;
+	}
+
+IL_004f:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:58>
+		int32_t L_12 = V_1;
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_0;
+		int32_t L_15;
+		L_15 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(((int32_t)il2cpp_codegen_subtract(L_12, L_13)), 0, L_14, NULL);
+		int32_t L_16;
+		L_16 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)L_15), NULL);
+		V_4 = L_16;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:60>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_17 = ((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___meshes;
+		int32_t L_18 = V_3;
+		int32_t L_19 = V_4;
+		int32_t L_20 = V_2;
+		int32_t L_21 = ___0_totalWidth;
+		int32_t L_22 = ___1_totalHeight;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_23;
+		L_23 = Triangles_GetMesh_m0BD4D01E1013F4C6B334C5F825223866CC413734(L_19, L_20, L_21, L_22, NULL);
+		NullCheck(L_17);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(L_18), (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)L_23);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:61>
+		int32_t L_24 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_24, 1));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:56>
+		int32_t L_25 = V_2;
+		int32_t L_26 = V_0;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_25, L_26));
+	}
+
+IL_007a:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:56>
+		int32_t L_27 = V_2;
+		int32_t L_28 = V_1;
+		if ((((int32_t)L_27) < ((int32_t)L_28)))
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:64>
+		MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* L_29 = ((Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_StaticFields*)il2cpp_codegen_static_fields_for(Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675_il2cpp_TypeInfo_var))->___meshes;
+		return L_29;
+	}
+}
+// Method Definition Index: 44476
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* Triangles_GetMesh_m0BD4D01E1013F4C6B334C5F825223866CC413734 (int32_t ___0_triCount, int32_t ___1_triOffset, int32_t ___2_totalWidth, int32_t ___3_totalHeight, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* V_0 = NULL;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* V_1 = NULL;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* V_2 = NULL;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* V_3 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_4 = NULL;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:69>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
+		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_0, NULL);
+		V_0 = L_0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:70>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_1 = V_0;
+		NullCheck(L_1);
+		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_1, ((int32_t)52), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:72>
+		int32_t L_2 = ___0_triCount;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_3 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_2, 3)));
+		V_1 = L_3;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:73>
+		int32_t L_4 = ___0_triCount;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_5 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_4, 3)));
+		V_2 = L_5;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:74>
+		int32_t L_6 = ___0_triCount;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_7 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_6, 3)));
+		V_3 = L_7;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:75>
+		int32_t L_8 = ___0_triCount;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_8, 3)));
+		V_4 = L_9;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:77>
+		V_5 = 0;
+		goto IL_014d;
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:79>
+		int32_t L_10 = V_5;
+		V_6 = ((int32_t)il2cpp_codegen_multiply(L_10, 3));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:80>
+		int32_t L_11 = ___1_triOffset;
+		int32_t L_12 = V_5;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:82>
+		int32_t L_13 = ((int32_t)il2cpp_codegen_add(L_11, L_12));
+		int32_t L_14 = ___2_totalWidth;
+		float L_15;
+		L_15 = floorf(((float)((int32_t)(L_13%L_14))));
+		int32_t L_16 = ___2_totalWidth;
+		V_7 = ((float)(L_15/((float)L_16)));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:83>
+		int32_t L_17 = ___2_totalWidth;
+		float L_18;
+		L_18 = floorf(((float)((int32_t)(L_13/L_17))));
+		int32_t L_19 = ___3_totalHeight;
+		V_8 = ((float)(L_18/((float)L_19)));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:85>
+		float L_20 = V_7;
+		float L_21 = V_8;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_9), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_20, (2.0f))), (1.0f))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_21, (2.0f))), (1.0f))), (1.0f), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:87>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_22 = V_1;
+		int32_t L_23 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_9;
+		NullCheck(L_22);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(L_23), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_24);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:88>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_25 = V_1;
+		int32_t L_26 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = V_9;
+		NullCheck(L_25);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_26, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_27);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:89>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_28 = V_1;
+		int32_t L_29 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = V_9;
+		NullCheck(L_28);
+		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_29, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_30);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:91>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_31 = V_2;
+		int32_t L_32 = V_6;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33;
+		memset((&L_33), 0, sizeof(L_33));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_33), (0.0f), (0.0f), NULL);
+		NullCheck(L_31);
+		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(L_32), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_33);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:92>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_34 = V_2;
+		int32_t L_35 = V_6;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_36;
+		memset((&L_36), 0, sizeof(L_36));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_36), (1.0f), (0.0f), NULL);
+		NullCheck(L_34);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_35, 1))), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_36);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:93>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_37 = V_2;
+		int32_t L_38 = V_6;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_39;
+		memset((&L_39), 0, sizeof(L_39));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_39), (0.0f), (1.0f), NULL);
+		NullCheck(L_37);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_38, 2))), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_39);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:95>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_40 = V_3;
+		int32_t L_41 = V_6;
+		float L_42 = V_7;
+		float L_43 = V_8;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_44;
+		memset((&L_44), 0, sizeof(L_44));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_44), L_42, L_43, NULL);
+		NullCheck(L_40);
+		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(L_41), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_44);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:96>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_45 = V_3;
+		int32_t L_46 = V_6;
+		float L_47 = V_7;
+		float L_48 = V_8;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_49;
+		memset((&L_49), 0, sizeof(L_49));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_49), L_47, L_48, NULL);
+		NullCheck(L_45);
+		(L_45)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_46, 1))), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_49);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:97>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_50 = V_3;
+		int32_t L_51 = V_6;
+		float L_52 = V_7;
+		float L_53 = V_8;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_54;
+		memset((&L_54), 0, sizeof(L_54));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_54), L_52, L_53, NULL);
+		NullCheck(L_50);
+		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_51, 2))), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_54);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:99>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_55 = V_4;
+		int32_t L_56 = V_6;
+		int32_t L_57 = V_6;
+		NullCheck(L_55);
+		(L_55)->SetAt(static_cast<il2cpp_array_size_t>(L_56), (int32_t)L_57);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:100>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_58 = V_4;
+		int32_t L_59 = V_6;
+		int32_t L_60 = V_6;
+		NullCheck(L_58);
+		(L_58)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_59, 1))), (int32_t)((int32_t)il2cpp_codegen_add(L_60, 1)));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:101>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_61 = V_4;
+		int32_t L_62 = V_6;
+		int32_t L_63 = V_6;
+		NullCheck(L_61);
+		(L_61)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_62, 2))), (int32_t)((int32_t)il2cpp_codegen_add(L_63, 2)));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:77>
+		int32_t L_64 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_64, 1));
+	}
+
+IL_014d:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:77>
+		int32_t L_65 = V_5;
+		int32_t L_66 = ___0_triCount;
+		if ((((int32_t)L_65) < ((int32_t)L_66)))
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:104>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_67 = V_0;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_68 = V_1;
+		NullCheck(L_67);
+		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_67, L_68, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:105>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_69 = V_0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_70 = V_4;
+		NullCheck(L_69);
+		Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B(L_69, L_70, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:106>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_71 = V_0;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_72 = V_2;
+		NullCheck(L_71);
+		Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617(L_71, L_72, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:107>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_73 = V_0;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_74 = V_3;
+		NullCheck(L_73);
+		Mesh_set_uv2_m37B442C04EBB029C0AD9545C54F95D9BDAD8E9B5(L_73, L_74, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs:109>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_75 = V_0;
+		return L_75;
+	}
+}
+// Method Definition Index: 44477
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Triangles__ctor_m399A59B75BAFFEA85BD58874AFFCCC6FB0436327 (Triangles_tFD5749AF06549107A23FC3EDC0288FB117AE2675* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44478
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Twirl_OnRenderImage_m0D5798C8258E5DDBC6A596841DE716E0AD8D25B3 (Twirl_tB98C5D9A963F521D11830F98F642C71EE75A0DB4* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_destination, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs:18>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
+		L_0 = ImageEffectBase_get_material_m6B95881F5E91DDE2489D96668E6ED1247CB4B2D7(__this, NULL);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = ___1_destination;
+		float L_3 = __this->___angle;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = __this->___center;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = __this->___radius;
+		ImageEffects_RenderDistortion_m169377AC69ED0177AAA6E4310C102D9240656EF8(L_0, L_1, L_2, L_3, L_4, L_5, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs:19>
+		return;
+	}
+}
+// Method Definition Index: 44479
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Twirl__ctor_m37591692614319A5F6DA04FD9FF9B2CBDCECCD91 (Twirl_tB98C5D9A963F521D11830F98F642C71EE75A0DB4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs:10>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_0), (0.300000012f), (0.300000012f), NULL);
+		__this->___radius = L_0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs:11>
+		__this->___angle = (50.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs:12>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_1), (0.5f), (0.5f), NULL);
+		__this->___center = L_1;
+		ImageEffectBase__ctor_mEFB34E7312EAA70648BCA4606836A5E4314AFD0D(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44480
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VignetteAndChromaticAberration_CheckResources_m6D41DE51634DD6C5CE015C89AF24A12E2212D7A2 (VignetteAndChromaticAberration_tD4CBD84358850D7C49DE5716AB3E98D997C6CC88* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:38>
+		bool L_0;
+		L_0 = PostEffectsBase_CheckSupport_mD35BCE12C19A6D60AC19A0189F1EB5CD71A1303E(__this, (bool)0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:40>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_1 = __this->___vignetteShader;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->___m_VignetteMaterial;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3;
+		L_3 = PostEffectsBase_CheckShaderAndCreateMaterial_m9F3512FEF659B04E086E2EC154E789D67401D91A(__this, L_1, L_2, NULL);
+		__this->___m_VignetteMaterial = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_VignetteMaterial), (void*)L_3);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:41>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_4 = __this->___separableBlurShader;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = __this->___m_SeparableBlurMaterial;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6;
+		L_6 = PostEffectsBase_CheckShaderAndCreateMaterial_m9F3512FEF659B04E086E2EC154E789D67401D91A(__this, L_4, L_5, NULL);
+		__this->___m_SeparableBlurMaterial = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SeparableBlurMaterial), (void*)L_6);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:42>
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_7 = __this->___chromAberrationShader;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8 = __this->___m_ChromAberrationMaterial;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9;
+		L_9 = PostEffectsBase_CheckShaderAndCreateMaterial_m9F3512FEF659B04E086E2EC154E789D67401D91A(__this, L_7, L_8, NULL);
+		__this->___m_ChromAberrationMaterial = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ChromAberrationMaterial), (void*)L_9);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:44>
+		bool L_10 = ((PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24*)__this)->___isSupported;
+		if (L_10)
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:45>
+		PostEffectsBase_ReportAutoDisable_mFBFE9B4AF859872DA6F4FCAE254F92912B9B6000(__this, NULL);
+	}
+
+IL_005e:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:46>
+		bool L_11 = ((PostEffectsBase_t68F9A09F9CCB0B3DF158A27640081D0DFB22FD24*)__this)->___isSupported;
+		return L_11;
+	}
+}
+// Method Definition Index: 44481
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VignetteAndChromaticAberration_OnRenderImage_m211ED22C6832FAD6FC6D94C0DCD508553DA4D848 (VignetteAndChromaticAberration_tD4CBD84358850D7C49DE5716AB3E98D997C6CC88* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_destination, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral322836504097FF5183FA9B195361CABCA3C9F347);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3D45EDE1CD4AD589B6CD45E1ED026A9C161DE69B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4E207A1E776F6188653FF9228A95BFD3A17B492E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA621DB6632C8DC8F2861D67FDB77D1DB44D2C0B5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC17A0B7C5A6724EB8EBCAE232CF6B2E0974F0F64);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD1EC77B5584E15E3EF84D1B53BDA4765F04D8B0C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEEC595EDFCB3DB85E564F4079769C6E189C1810A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEF8206FEC2F38BBF1FE70987DEC5173251678277);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	float V_3 = 0.0f;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_4 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_5 = NULL;
+	int32_t V_6 = 0;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_7 = NULL;
+	int32_t G_B5_0 = 0;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B17_0 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B19_0 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B19_1 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B19_2 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B18_0 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B18_1 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B18_2 = NULL;
+	int32_t G_B20_0 = 0;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B20_1 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B20_2 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B20_3 = NULL;
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:52>
+		bool L_0;
+		L_0 = VirtualFuncInvoker0< bool >::Invoke(4, __this);
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:54>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = ___1_destination;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_1, L_2, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:55>
+		return;
+	}
+
+IL_0010:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:58>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_3 = ___0_source;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_3);
+		V_0 = L_4;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:59>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_5 = ___0_source;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_5);
+		V_1 = L_6;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:61>
+		float L_7 = __this->___blur;
+		float L_8;
+		L_8 = fabsf(L_7);
+		if ((((float)L_8) > ((float)(0.0f))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		float L_9 = __this->___intensity;
+		float L_10;
+		L_10 = fabsf(L_9);
+		G_B5_0 = ((((float)L_10) > ((float)(0.0f)))? 1 : 0);
+		goto IL_0045;
+	}
+
+IL_0044:
+	{
+		G_B5_0 = 1;
+	}
+
+IL_0045:
+	{
+		V_2 = (bool)G_B5_0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:63>
+		int32_t L_11 = V_0;
+		int32_t L_12 = V_1;
+		V_3 = ((float)(((float)il2cpp_codegen_multiply((1.0f), ((float)L_11)))/((float)il2cpp_codegen_multiply((1.0f), ((float)L_12)))));
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:66>
+		V_4 = (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)NULL;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:67>
+		V_5 = (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)NULL;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:69>
+		bool L_13 = V_2;
+		if (!L_13)
+		{
+			goto IL_01c5;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:71>
+		int32_t L_14 = V_0;
+		int32_t L_15 = V_1;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_16 = ___0_source;
+		NullCheck(L_16);
+		int32_t L_17;
+		L_17 = RenderTexture_get_format_m58556ABB91A1FADA8044BEEA2E8C55280768CF35(L_16, NULL);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_18;
+		L_18 = RenderTexture_GetTemporary_mDAD0D2A673F07BEC3B1A9555863E24A479E9BB11(L_14, L_15, 0, L_17, NULL);
+		V_4 = L_18;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:74>
+		float L_19 = __this->___blur;
+		float L_20;
+		L_20 = fabsf(L_19);
+		if ((!(((float)L_20) > ((float)(0.0f)))))
+		{
+			goto IL_0178;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:76>
+		int32_t L_21 = V_0;
+		int32_t L_22 = V_1;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_23 = ___0_source;
+		NullCheck(L_23);
+		int32_t L_24;
+		L_24 = RenderTexture_get_format_m58556ABB91A1FADA8044BEEA2E8C55280768CF35(L_23, NULL);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_25;
+		L_25 = RenderTexture_GetTemporary_mDAD0D2A673F07BEC3B1A9555863E24A479E9BB11(((int32_t)(L_21/2)), ((int32_t)(L_22/2)), 0, L_24, NULL);
+		V_5 = L_25;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:78>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_26 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_27 = V_5;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_28 = __this->___m_ChromAberrationMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_26, L_27, L_28, 0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:80>
+		V_6 = 0;
+		goto IL_0170;
+	}
+
+IL_00b4:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:82>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_29 = __this->___m_SeparableBlurMaterial;
+		float L_30 = __this->___blurSpread;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_31;
+		memset((&L_31), 0, sizeof(L_31));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_31), (0.0f), ((float)il2cpp_codegen_multiply(L_30, (0.001953125f))), (0.0f), (0.0f), NULL);
+		NullCheck(L_29);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_29, _stringLiteralEF8206FEC2F38BBF1FE70987DEC5173251678277, L_31, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:83>
+		int32_t L_32 = V_0;
+		int32_t L_33 = V_1;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_34 = ___0_source;
+		NullCheck(L_34);
+		int32_t L_35;
+		L_35 = RenderTexture_get_format_m58556ABB91A1FADA8044BEEA2E8C55280768CF35(L_34, NULL);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_36;
+		L_36 = RenderTexture_GetTemporary_mDAD0D2A673F07BEC3B1A9555863E24A479E9BB11(((int32_t)(L_32/2)), ((int32_t)(L_33/2)), 0, L_35, NULL);
+		V_7 = L_36;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:84>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_37 = V_5;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_38 = V_7;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_39 = __this->___m_SeparableBlurMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8DFE1C855FA028398E5072592582721D5DA6253F(L_37, L_38, L_39, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:85>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_40 = V_5;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_40, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:87>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_41 = __this->___m_SeparableBlurMaterial;
+		float L_42 = __this->___blurSpread;
+		float L_43 = V_3;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_44;
+		memset((&L_44), 0, sizeof(L_44));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_44), ((float)(((float)il2cpp_codegen_multiply(L_42, (0.001953125f)))/L_43)), (0.0f), (0.0f), (0.0f), NULL);
+		NullCheck(L_41);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_41, _stringLiteralEF8206FEC2F38BBF1FE70987DEC5173251678277, L_44, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:88>
+		int32_t L_45 = V_0;
+		int32_t L_46 = V_1;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_47 = ___0_source;
+		NullCheck(L_47);
+		int32_t L_48;
+		L_48 = RenderTexture_get_format_m58556ABB91A1FADA8044BEEA2E8C55280768CF35(L_47, NULL);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_49;
+		L_49 = RenderTexture_GetTemporary_mDAD0D2A673F07BEC3B1A9555863E24A479E9BB11(((int32_t)(L_45/2)), ((int32_t)(L_46/2)), 0, L_48, NULL);
+		V_5 = L_49;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:89>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_50 = V_7;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_51 = V_5;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_52 = __this->___m_SeparableBlurMaterial;
+		Graphics_Blit_m8DFE1C855FA028398E5072592582721D5DA6253F(L_50, L_51, L_52, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:90>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_53 = V_7;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_53, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:80>
+		int32_t L_54 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_54, 1));
+	}
+
+IL_0170:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:80>
+		int32_t L_55 = V_6;
+		if ((((int32_t)L_55) < ((int32_t)2)))
+		{
+			goto IL_00b4;
+		}
+	}
+
+IL_0178:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:94>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_56 = __this->___m_VignetteMaterial;
+		float L_57 = __this->___intensity;
+		NullCheck(L_56);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_56, _stringLiteral4E207A1E776F6188653FF9228A95BFD3A17B492E, L_57, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:95>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_58 = __this->___m_VignetteMaterial;
+		float L_59 = __this->___blur;
+		NullCheck(L_58);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_58, _stringLiteralA621DB6632C8DC8F2861D67FDB77D1DB44D2C0B5, L_59, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:96>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_60 = __this->___m_VignetteMaterial;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_61 = V_5;
+		NullCheck(L_60);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_60, _stringLiteral322836504097FF5183FA9B195361CABCA3C9F347, L_61, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:98>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_62 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_63 = V_4;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_64 = __this->___m_VignetteMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(L_62, L_63, L_64, 0, NULL);
+	}
+
+IL_01c5:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:101>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_65 = __this->___m_ChromAberrationMaterial;
+		float L_66 = __this->___chromaticAberration;
+		NullCheck(L_65);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_65, _stringLiteralD1EC77B5584E15E3EF84D1B53BDA4765F04D8B0C, L_66, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:102>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_67 = __this->___m_ChromAberrationMaterial;
+		float L_68 = __this->___axialAberration;
+		NullCheck(L_67);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_67, _stringLiteralEEC595EDFCB3DB85E564F4079769C6E189C1810A, L_68, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:103>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_69 = __this->___m_ChromAberrationMaterial;
+		float L_70 = __this->___blurDistance;
+		float L_71 = __this->___blurDistance;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_72;
+		memset((&L_72), 0, sizeof(L_72));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_72), ((-L_70)), L_71, NULL);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_73;
+		L_73 = Vector4_op_Implicit_mB193CD8DA20DEB9E9F95CFEB5A2B1B9B3B7ECFEB_inline(L_72, NULL);
+		NullCheck(L_69);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_69, _stringLiteralC17A0B7C5A6724EB8EBCAE232CF6B2E0974F0F64, L_73, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:104>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_74 = __this->___m_ChromAberrationMaterial;
+		float L_75 = ((Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields*)il2cpp_codegen_static_fields_for(Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var))->___Epsilon;
+		float L_76 = __this->___luminanceDependency;
+		float L_77;
+		L_77 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_75, L_76, NULL);
+		NullCheck(L_74);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_74, _stringLiteral3D45EDE1CD4AD589B6CD45E1ED026A9C161DE69B, ((float)((1.0f)/L_77)), NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:106>
+		bool L_78 = V_2;
+		if (!L_78)
+		{
+			goto IL_024b;
+		}
+	}
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:106>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_79 = V_4;
+		NullCheck(L_79);
+		Texture_set_wrapMode_m1F74A690E3883EC9C5C371D502D09642F15D0F7E(L_79, 1, NULL);
+		goto IL_0252;
+	}
+
+IL_024b:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:107>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_80 = ___0_source;
+		NullCheck(L_80);
+		Texture_set_wrapMode_m1F74A690E3883EC9C5C371D502D09642F15D0F7E(L_80, 1, NULL);
+	}
+
+IL_0252:
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:108>
+		bool L_81 = V_2;
+		if (L_81)
+		{
+			goto IL_0258;
+		}
+	}
+	{
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_82 = ___0_source;
+		G_B17_0 = L_82;
+		goto IL_025a;
+	}
+
+IL_0258:
+	{
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_83 = V_4;
+		G_B17_0 = L_83;
+	}
+
+IL_025a:
+	{
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_84 = ___1_destination;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_85 = __this->___m_ChromAberrationMaterial;
+		int32_t L_86 = __this->___mode;
+		if ((((int32_t)L_86) == ((int32_t)1)))
+		{
+			G_B19_0 = L_85;
+			G_B19_1 = L_84;
+			G_B19_2 = G_B17_0;
+			goto IL_026d;
+		}
+		G_B18_0 = L_85;
+		G_B18_1 = L_84;
+		G_B18_2 = G_B17_0;
+	}
+	{
+		G_B20_0 = 1;
+		G_B20_1 = G_B18_0;
+		G_B20_2 = G_B18_1;
+		G_B20_3 = G_B18_2;
+		goto IL_026e;
+	}
+
+IL_026d:
+	{
+		G_B20_0 = 2;
+		G_B20_1 = G_B19_0;
+		G_B20_2 = G_B19_1;
+		G_B20_3 = G_B19_2;
+	}
+
+IL_026e:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m1875691D6AAA8CF8EDE8508538714CF895E36779(G_B20_3, G_B20_2, G_B20_1, G_B20_0, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:110>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_87 = V_4;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_87, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:111>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_88 = V_5;
+		RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_88, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:112>
+		return;
+	}
+}
+// Method Definition Index: 44482
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VignetteAndChromaticAberration__ctor_m453DB9A1747A4052EAF93B46EA5E66EAB75B8917 (VignetteAndChromaticAberration_tD4CBD84358850D7C49DE5716AB3E98D997C6CC88* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:19>
+		__this->___intensity = (0.375f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:20>
+		__this->___chromaticAberration = (0.200000003f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:21>
+		__this->___axialAberration = (0.5f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:23>
+		__this->___blurSpread = (0.75f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:24>
+		__this->___luminanceDependency = (0.25f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs:25>
+		__this->___blurDistance = (2.5f);
+		PostEffectsBase__ctor_m4EE3CA780BAAFF694007DD15EDF5CFA7448DB7DF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 44483
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vortex_OnRenderImage_mA524C71B48CBB9AA450380AC58C5199E37D08890 (Vortex_tE53145EEE4CE6E54EA3322ABDD90D8E8639678EE* __this, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_destination, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs:17>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0;
+		L_0 = ImageEffectBase_get_material_m6B95881F5E91DDE2489D96668E6ED1247CB4B2D7(__this, NULL);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = ___0_source;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = ___1_destination;
+		float L_3 = __this->___angle;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = __this->___center;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = __this->___radius;
+		ImageEffects_RenderDistortion_m169377AC69ED0177AAA6E4310C102D9240656EF8(L_0, L_1, L_2, L_3, L_4, L_5, NULL);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 44484
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vortex__ctor_m8CBEBAEBF713151F639C2513FA052943008FA44F (Vortex_tE53145EEE4CE6E54EA3322ABDD90D8E8639678EE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs:10>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_0), (0.400000006f), (0.400000006f), NULL);
+		__this->___radius = L_0;
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs:11>
+		__this->___angle = (50.0f);
+		//<source_info:C:/Users/GaB/Documents/GitRepos/Defender.GitHub/DefenderTribute_2018_41/Assets/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs:12>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_1), (0.5f), (0.5f), NULL);
+		__this->___center = L_1;
+		ImageEffectBase__ctor_mEFB34E7312EAA70648BCA4606836A5E4314AFD0D(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 40091
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 40121
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		float L_0 = ___0_x;
+		float L_1 = ___1_y;
+		float L_2 = ___2_z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_3), L_0, L_1, L_2, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_3, (0.0174532924f), NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
+		L_5 = Quaternion_Internal_FromEulerRad_m66D4475341F53949471E6870FB5C5E4A5E9BA93E(L_4, NULL);
+		V_0 = L_5;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 40092
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___oneVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 40243
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		float L_3 = ___3_w;
+		__this->___w = L_3;
+		return;
+	}
+}
+// Method Definition Index: 40160
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	{
+		float L_0 = ___0_value;
+		float L_1 = ___1_min;
+		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		float L_3 = ___1_min;
+		___0_value = L_3;
+		goto IL_0019;
+	}
+
+IL_000e:
+	{
+		float L_4 = ___0_value;
+		float L_5 = ___2_max;
+		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		float L_7 = ___2_max;
+		___0_value = L_7;
+	}
+
+IL_0019:
+	{
+		float L_8 = ___0_value;
+		V_2 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		float L_9 = V_2;
+		return L_9;
+	}
+}
+// Method Definition Index: 40256
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_op_Implicit_m2ECA73F345A7AD84144133E9E51657204002B12D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v, const RuntimeMethod* method) 
+{
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_v;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_v;
+		float L_3 = L_2.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_v;
+		float L_5 = L_4.___z;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_6), L_1, L_3, L_5, (0.0f), NULL);
+		V_0 = L_6;
+		goto IL_0020;
+	}
+
+IL_0020:
+	{
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_7 = V_0;
+		return L_7;
+	}
+}
+// Method Definition Index: 40074
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 40102
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), NULL);
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		return L_10;
+	}
+}
+// Method Definition Index: 40156
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		float L_0 = ___0_f;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = ceil(((double)L_0));
+		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+// Method Definition Index: 40161
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = ___0_value;
+		int32_t L_1 = ___1_min;
+		V_0 = (bool)((((int32_t)L_0) < ((int32_t)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		int32_t L_3 = ___1_min;
+		___0_value = L_3;
+		goto IL_0019;
+	}
+
+IL_000e:
+	{
+		int32_t L_4 = ___0_value;
+		int32_t L_5 = ___2_max;
+		V_1 = (bool)((((int32_t)L_4) > ((int32_t)L_5))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		int32_t L_7 = ___2_max;
+		___0_value = L_7;
+	}
+
+IL_0019:
+	{
+		int32_t L_8 = ___0_value;
+		V_2 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		int32_t L_9 = V_2;
+		return L_9;
+	}
+}
+// Method Definition Index: 40157
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		float L_0 = ___0_f;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = floor(((double)L_0));
+		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+// Method Definition Index: 40179
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		return;
+	}
+}
+// Method Definition Index: 40257
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_op_Implicit_mB193CD8DA20DEB9E9F95CFEB5A2B1B9B3B7ECFEB_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) 
+{
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_v;
+		float L_1 = L_0.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_v;
+		float L_3 = L_2.___y;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_4), L_1, L_3, (0.0f), (0.0f), NULL);
+		V_0 = L_4;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 40251
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_op_Multiply_m02FE150FD7366546FC19A36B6928512376BF64E8_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_9 = ___0_a;
+		float L_10 = L_9.___w;
+		float L_11 = ___1_d;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_12), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), ((float)il2cpp_codegen_multiply(L_10, L_11)), NULL);
+		V_0 = L_12;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_13 = V_0;
+		return L_13;
+	}
+}
+// Method Definition Index: 40026
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Color_op_Implicit_m9B3228DAFA8DC57A75DE00CBBF13ED4F1E7B01FF_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_c, const RuntimeMethod* method) 
+{
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_c;
+		float L_1 = L_0.___r;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2 = ___0_c;
+		float L_3 = L_2.___g;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ___0_c;
+		float L_5 = L_4.___b;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = ___0_c;
+		float L_7 = L_6.___a;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_8), L_1, L_3, L_5, L_7, NULL);
+		V_0 = L_8;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 40249
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0 = ((Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields*)il2cpp_codegen_static_fields_for(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_il2cpp_TypeInfo_var))->___zeroVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 40019
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (1.0f), (1.0f), (1.0f), (1.0f), NULL);
+		V_0 = L_0;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 40002
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_r;
+		__this->___r = L_0;
+		float L_1 = ___1_g;
+		__this->___g = L_1;
+		float L_2 = ___2_b;
+		__this->___b = L_2;
+		__this->___a = (1.0f);
+		return;
+	}
+}
+// Method Definition Index: 40151
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Log_m116F062EEBF1C53EC8D18C9B1748E999EF9424EF_inline (float ___0_f, float ___1_p, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___0_f;
+		float L_1 = ___1_p;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_2;
+		L_2 = Math_Log_m5A3BBBF06AB82F25C885812E07D27B473CF43054(((double)L_0), ((double)L_1), NULL);
+		V_0 = ((float)L_2);
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		float L_3 = V_0;
+		return L_3;
+	}
+}
+// Method Definition Index: 40148
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		if ((((float)L_0) > ((float)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		float L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		float L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 40001
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_r;
+		__this->___r = L_0;
+		float L_1 = ___1_g;
+		__this->___g = L_1;
+		float L_2 = ___2_b;
+		__this->___b = L_2;
+		float L_3 = ___3_a;
+		__this->___a = L_3;
+		return;
+	}
+}
